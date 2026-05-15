@@ -1,0 +1,25 @@
+appId: host.exp.exponent
+---
+# Buyer flow template (StoryBrand bytes smoke)
+# Assumes Mode A: already signed in with a pre-verified user so onboarding (KYC/biometrics) is not required.
+# If your device is NOT signed in, these text asserts will fail.
+- launchApp:
+    clearState: false
+
+- assertVisible:
+    text: "Start Buying Verified Minerals"
+
+- tapOn:
+    text: "Start Buying Verified Minerals"
+
+- assertVisible:
+    text: "Buy in 3 steps: Select mineral, Secure allocation, Get delivered."
+
+# Select any mineral card (update BUY_MINERAL_NAME to an actual mineral name from your device/app).
+- tapOn:
+    text: "${BUY_MINERAL_NAME}"
+
+# CTA byte (Plan/Action)
+- assertVisible:
+    text: "Secure Allocation"
+

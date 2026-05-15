@@ -1,0 +1,6916 @@
+  AO: {
+    'Bengo': [
+        'Ambriz',
+        'Bula Atumba',
+        'Dande Municipality',
+        'Dembos',
+        'Município Pango Aluquém',
+        'Nambuangongo Municipality'
+      ],
+    'Benguela': [
+        'Baía Farta',
+        'Benguela',
+        'Bocoio',
+        'Caimbambo',
+        'Catumbela',
+        'Chongoroi',
+        'Cubal',
+        'Ganda',
+        'Lobito',
+        'Município Balombo'
+      ],
+    'Bíe': [
+        'Andulo',
+        'Barkeol',
+        'Camacupa',
+        'Catabola',
+        'Chinguar',
+        'Chitembo',
+        'Cuemba',
+        'Cuito',
+        'Cunhinga',
+        'Município Camacupa',
+        'Nharea'
+      ],
+    'Cabinda': [
+        'Belize',
+        'Buco Zau',
+        'Cabinda',
+        'Cacongo'
+      ],
+    'Cuando Cobango': [
+        'Calai',
+        'Cuangar',
+        'Cuchi',
+        'Cuito Cuanavale',
+        'Dirico',
+        'Mavinga',
+        'Menongue',
+        'Nancova',
+        'Rivungo'
+      ],
+    'Cuanza Norte': [
+        'Ambaca',
+        'Banga',
+        'Bolongongo',
+        'Cambambe',
+        'Cazengo Municipality',
+        'Golungo Alto',
+        'Lucala',
+        'Ngonguembo',
+        'Quiculungo',
+        'Samba Cajú'
+      ],
+    'Cunene': [
+        'Cahama',
+        'Cuanhama',
+        'Curoca',
+        'Cuvelai',
+        'Namacunde',
+        'Ombadja'
+      ],
+    'Huambo': [
+        'Bailundo',
+        'Caála',
+        'Cachiungo',
+        'Chicala-Choloanga',
+        'Chinjenje',
+        'Ecunha',
+        'Huambo',
+        'Londuimbali',
+        'Longonjo',
+        'Mungo',
+        'Ucuma'
+      ],
+    'Huíla': [
+        'Caconda',
+        'Cacula',
+        'Caluquembe',
+        'Chibia',
+        'Chicomba',
+        'Chipindo',
+        'Cuvango',
+        'Gambos',
+        'Humpata',
+        'Jamba',
+        'Lubango',
+        'Matala',
+        'Quilengues',
+        'Quipungo'
+      ],
+    'Kwanza Sul': [
+        'Amboim',
+        'Cassongue',
+        'Cela',
+        'Conda',
+        'Ebo',
+        'Libolo',
+        'Mussende',
+        'Porto Amboim',
+        'Quibala',
+        'Quilenda',
+        'Seles',
+        'Sumbe'
+      ],
+    'Luanda': [
+        'Belas',
+        'Cacuaco Municipality',
+        'Icolo e Bengo',
+        'Luanda Municipality',
+        'Município Cazenga',
+        'Quissama',
+        'Viana'
+      ],
+    'Luanda Norte': [
+        'Cambulo',
+        'Capenda Camulemba',
+        'Caungula',
+        'Chitato',
+        'Cuango',
+        'Cuilo',
+        'Lubalo',
+        'Lucapa',
+        'Xá-Muteba'
+      ],
+    'Lunda Sul': [
+        'Cacolo',
+        'Dala',
+        'Muconda',
+        'Saurimo'
+      ],
+    'Malanje': [
+        'Caculama',
+        'Cacuso',
+        'Cahombo',
+        'Calandula',
+        'Cambundi-Catembo',
+        'Cangandala',
+        'Cunda-Dia-Baze',
+        'Kiwaba Nzoji',
+        'Luquembo',
+        'Malanje Municipality',
+        'Marimba',
+        'Massango',
+        'Quela',
+        'Quirima'
+      ],
+    'Moxico': [
+        'Alto Zambeze',
+        'Bundas',
+        'Camanongue',
+        'Cameia',
+        'Léua',
+        'Luacano',
+        'Luau',
+        'Luena'
+      ],
+    'Namibe': [
+        'Bibala',
+        'Camucuio',
+        'Namibe',
+        'Tômbwa',
+        'Virei'
+      ],
+    'Uíge': [
+        'Ambuila Municipality',
+        'Buengas',
+        'Bungo',
+        'Cangola',
+        'Damba',
+        'Maquela do Zombo',
+        'Mucaba',
+        'Município Bembe',
+        'Negage Municipality',
+        'Puri',
+        'Quimbele',
+        'Quitexe Municipality',
+        'Santa Cruz',
+        'Sanza Pombo',
+        'Songo',
+        'Uige Municipality'
+      ],
+    'Zaire': [
+        'Cuimba',
+        'Mbanza Congo',
+        'Nóqui',
+        'Nzeto',
+        'Soyo',
+        'Tomboco'
+      ],
+  },
+  BF: {
+    'Boucle du Mouhoun': [
+        'Province de la Koosin',
+        'Province des Balé',
+        'Province des Banwa',
+        'Province du Mouhoun',
+        'Province du Nayala',
+        'Province du Sourou'
+      ],
+    'Cascades Region': [
+        'Province de la Comoé',
+        'Province de la Léraba'
+      ],
+    'Centre': [
+        'Kadiogo Province'
+      ],
+    'Centre-Est': [
+        'Kouritenga Province',
+        'Province du Boulgou',
+        'Province du Koulpelogo'
+      ],
+    'Centre-Nord': [
+        'Province du Bam',
+        'Province du Namentenga',
+        'Sandbondtenga'
+      ],
+    'Centre-Ouest': [
+        'Province de la Sissili',
+        'Province du Boulkiemdé',
+        'Province du Sanguié',
+        'Province du Ziro'
+      ],
+    'Centre-Sud': [
+        'Bazega Province',
+        'Nahouri Province',
+        'Zoundweogo Province'
+      ],
+    'Est': [
+        'Gnagna Province',
+        'Province de la Komandjoari',
+        'Province de la Kompienga',
+        'Province du Gobnangou',
+        'Province du Gourma'
+      ],
+    'Hauts-Bassins': [
+        'Province du Houet',
+        'Province du Kénédougou',
+        'Province du Tuy'
+      ],
+    'Nord': [
+        'Province du Lorum',
+        'Province du Passoré',
+        'Province du Yatenga',
+        'Province du Zondoma'
+      ],
+    'Plateau-Central': [
+        'Province du Bassitenga',
+        'Province du Ganzourgou',
+        'Province du Kourwéogo'
+      ],
+    'Sahel': [
+        'Oudalan',
+        'Province du Djelgodji',
+        'Province du Séno',
+        'Province du Yagha'
+      ],
+    'Sud-Ouest': [
+        'Province de la Bougouriba',
+        'Province du Ioba',
+        'Province du Noumbièl',
+        'Province du Poni'
+      ],
+  },
+  BI: {
+    'Bubanza': [
+        'Bubanza',
+        'Commune of Gihanga',
+        'Commune of Mpanda',
+        'Commune of Musigati',
+        'Rugazi'
+      ],
+    'Bujumbura Mairie': [
+        'Muha',
+        'Mukaza',
+        'Ntahangwa'
+      ],
+    'Bujumbura Rural': [
+        'Commune of Mutimbuzi',
+        'Isale',
+        'Kabezi',
+        'Kanyosha1',
+        'Mubimbi',
+        'Mugongomanga',
+        'Mukike',
+        'Mutambu',
+        'Nyabiraba'
+      ],
+    'Bururi': [
+        'Bururi',
+        'Commune of Matana',
+        'Mugamba',
+        'Rutovu',
+        'Songa',
+        'Vyanda'
+      ],
+    'Cankuzo': [
+        'Cendajuru',
+        'Commune of Cankuzo',
+        'Gisagara',
+        'Kigamba',
+        'Mishiha'
+      ],
+    'Cibitoke': [
+        'Bukinanyana',
+        'Commune of Buganda',
+        'Commune of Mugina',
+        'Commune of Rugombo',
+        'Mabayi',
+        'Murwi'
+      ],
+    'Gitega': [
+        'Bisoro',
+        'Bugendana',
+        'Bugenyuzi',
+        'Buhiga',
+        'Bukirasazi',
+        'Buraza',
+        'Commune of Itaba',
+        'Giheta',
+        'Gihogazi',
+        'Gishubi',
+        'Gisozi',
+        'Gitaramuka',
+        'Gitega',
+        'Kayokwe',
+        'Makebuko',
+        'Mutaho',
+        'Mutumba',
+        'Ndava',
+        'Nyabihanga',
+        'Nyabikere',
+        'Nyarusange',
+        'Rusaka',
+        'Ryansoro',
+        'Shombo'
+      ],
+    'Kayanza': [
+        'Butaganzwa',
+        'Commune of Matongo',
+        'Gahombo',
+        'Gatara',
+        'Kabarore',
+        'Kayanza',
+        'Muhanga',
+        'Muruta',
+        'Rango'
+      ],
+    'Kirundo': [
+        'Bugabira',
+        'Busoni',
+        'Commune of Bwambarangwe',
+        'Commune of Kirundo',
+        'Gitobe',
+        'Ntega',
+        'Vumbi'
+      ],
+    'Makamba': [
+        'Commune of Makamba',
+        'Kayogoro',
+        'Kibago',
+        'Mabanda',
+        'Nyanza-Lac',
+        'Vugizo'
+      ],
+    'Muramvya': [
+        'Bukeye',
+        'Kiganda',
+        'Mbuye',
+        'Muramvya',
+        'Rutegama'
+      ],
+    'Muyinga': [
+        'Buhinyuza',
+        'Butihinda',
+        'Gashoho',
+        'Gasorwe',
+        'Giteranyi',
+        'Muyinga',
+        'Mwakiro'
+      ],
+    'Ngozi': [
+        'Busiga',
+        'Gashikanwa',
+        'Kiremba',
+        'Marangara',
+        'Mwumba',
+        'Ngozi',
+        'Nyamurenza',
+        'Ruhororo',
+        'Tangara'
+      ],
+    'Rumonge': [
+        'Bugarama',
+        'Buyengero',
+        'Commune of Burambi',
+        'Commune of Rumonge',
+        'Muhuta'
+      ],
+    'Rutana': [
+        'Bukemba',
+        'Commune of Rutana',
+        'Giharo',
+        'Gitanga',
+        'Mpinga-Kayove',
+        'Musongati'
+      ],
+    'Ruyigi': [
+        'Butaganzwa',
+        'Butezi',
+        'Bweru',
+        'Gisuru',
+        'Kinyinya',
+        'Nyabitsinda',
+        'Ruyigi'
+      ],
+  },
+  BJ: {
+    'Alibori': [
+        'Commune of Banikoara',
+        'Gogounou',
+        'Kandi',
+        'Karimama',
+        'Malanville',
+        'Ségbana'
+      ],
+    'Atakora': [
+        'Boukoumbé',
+        'Cobly',
+        'Kerou',
+        'Kouande',
+        'Materi',
+        'Natitingou',
+        'Pehonko',
+        'Tanguieta',
+        'Toucountouna'
+      ],
+    'Atlantique': [
+        'Commune of Abomey-Calavi',
+        'Commune of Allada',
+        'Commune of Kpomasse',
+        'Commune of Ouidah',
+        'Commune of So-Ava',
+        'Commune of Toffo',
+        'Commune of Tori-Bossito',
+        'Commune of Ze'
+      ],
+    'Borgou': [
+        'Bembereke',
+        'Commune of Parakou',
+        'Commune of Tchaourou',
+        'Kalalè',
+        'Ndali',
+        'Nikki',
+        'Pèrèrè',
+        'Sinendé'
+      ],
+    'Collines': [
+        'Commune of Bante',
+        'Commune of Dassa-Zoume',
+        'Commune of Glazoue',
+        'Commune of Ouesse',
+        'Commune of Savalou',
+        'Commune of Save'
+      ],
+    'Donga': [
+        'Bassila',
+        'Commune of Djougou',
+        'Copargo',
+        'Ouake'
+      ],
+    'Kouffo': [
+        'Aplahoué',
+        'Djakotomey',
+        'Dogbo Tota',
+        'Klouékanmè',
+        'Lalo',
+        'Toviklin'
+      ],
+    'Littoral': [
+        'Cotonou'
+      ],
+    'Mono': [
+        'Comé',
+        'Commune of Athieme',
+        'Commune of Bopa',
+        'Commune of Houeyogbe',
+        'Grand-Popo',
+        'Lokossa'
+      ],
+    'Ouémé': [
+        'Adjara',
+        'Aguégués',
+        'Akpro-Misserete',
+        'Avrankou',
+        'Bonou',
+        'Commune of Adjohoun',
+        'Dangbo',
+        'Porto-Novo',
+        'Seme-Kpodji'
+      ],
+    'Plateau': [
+        'Adjaouere',
+        'Commune of Ketou',
+        'Commune of Pobe',
+        'Commune of Sakete',
+        'Ifangni'
+      ],
+    'Zou': [
+        'Commune of Abomey',
+        'Commune of Agbangnizoun',
+        'Commune of Bohicon',
+        'Commune of Cove',
+        'Commune of Djidja',
+        'Commune of Ouinhi',
+        'Commune of Za-Kpota',
+        'Commune of Zangnanado',
+        'Commune of Zogbodome'
+      ],
+  },
+  BW: {
+    'Central': [
+        'Bobonong',
+        'Lethlakane',
+        'Machaneng',
+        'Mahalapye',
+        'Palapye',
+        'Serowe',
+        'Tuli',
+        'Tutume'
+      ],
+    'Chobe': [
+        'Chobe'
+      ],
+    'City of Francistown': [
+        
+      ],
+    'Gaborone': [
+        
+      ],
+    'Ghanzi': [
+        'Ghanzi'
+      ],
+    'Jwaneng': [
+        
+      ],
+    'Kgalagadi': [
+        'Gemsbok',
+        'Hukunsti',
+        'Tshabong'
+      ],
+    'Kgatleng': [
+        'Kgatleng'
+      ],
+    'Kweneng': [
+        'Kweneng North',
+        'Kweneng South'
+      ],
+    'Lobatse': [
+        
+      ],
+    'Ngwaketsi': [
+        'Barolong',
+        'Ngwaketse Central',
+        'Ngwaketse North',
+        'Ngwaketse South'
+      ],
+    'North-East': [
+        'Masungu'
+      ],
+    'North-West': [
+        'Ngamiland East',
+        'Ngamiland West'
+      ],
+    'Selibe Phikwe': [
+        
+      ],
+    'South-East': [
+        'Gaborone',
+        'South East'
+      ],
+    'Sowa Town': [
+        
+      ],
+  },
+  CD: {
+    'Bas-Congo': [
+        'Bangu',
+        'Boma (city)',
+        'Inkisi',
+        'Kasangulu',
+        'Kimvula',
+        'Lukula',
+        'Luozi',
+        'Madimba',
+        'Matadi',
+        'Mbanza-Ngungu',
+        'Moanda',
+        'Seke-Banza',
+        'Songololo',
+        'Tshela'
+      ],
+    'Bas-Uele': [
+        'Aketi',
+        'Ango',
+        'Bambesa',
+        'Bondo',
+        'Buta',
+        'Dingila',
+        'Poko'
+      ],
+    'East Kasai': [
+        'Kabeya-Kamwanga',
+        'Katanda',
+        'Lukalaba',
+        'Lupatapata',
+        'Mbuji-Mayi City',
+        'Miabi',
+        'Tshilenge'
+      ],
+    'Équateur': [
+        'Basankusu',
+        'Bikoro',
+        'Bolomba',
+        'Bomongo',
+        'Ingende',
+        'Lukolela',
+        'Makanza',
+        'Mbandaka'
+      ],
+    'Haut-Katanga': [
+        'Kambove Ville',
+        'Kasenga',
+        'Kipushi Ville',
+        'Likasi',
+        'Lubumbashi (city)',
+        'Mitwaba',
+        'Pweto',
+        'Sakania'
+      ],
+    'Haut-Lomami': [
+        'Bukama',
+        'Kabongo',
+        'Kamina',
+        'Kaniama',
+        'Malemba-Nkulu'
+      ],
+    'Haut-Uele': [
+        'Aba',
+        'Dungu',
+        'Faradje',
+        'Isiro',
+        'Niangara',
+        'Rungu',
+        'Wamba',
+        'Watsa'
+      ],
+    'Ituri': [
+        'Ariwara',
+        'Aru',
+        'Bunia',
+        'Djugu',
+        'Ingbokolo',
+        'Irumu',
+        'Mahagi',
+        'Mambasa',
+        'Mongwalu'
+      ],
+    'Kasai': [
+        'Dekese',
+        'Ilebo',
+        'Kamonia',
+        'Luebo',
+        'Mweka',
+        'Tshikapa City'
+      ],
+    'Kasai-Central': [
+        'Demba',
+        'Dibaya',
+        'Dimbelenge',
+        'Kananga City',
+        'Kazumba',
+        'Luiza',
+        'Tshimbulu'
+      ],
+    'Kinshasa': [
+        'Funa',
+        'Kinshasa',
+        'Kinshasa rural',
+        'Kinshasa Urban',
+        'Lukunga District',
+        'Mont Amba District',
+        'Tshangu District'
+      ],
+    'Kwango': [
+        'Feshi',
+        'Kahemba',
+        'Kasongo-Lunda',
+        'Kenge',
+        'Popokabaka'
+      ],
+    'Kwilu': [
+        'Bagata',
+        'Bandundu',
+        'Bulungu',
+        'Dibaya-Lubwe',
+        'Gungu',
+        'Idiofa',
+        'Kikwit',
+        'Mangai',
+        'Masi-Manimba'
+      ],
+    'Lomami': [
+        'Kabinda',
+        'Kamiji',
+        'Lubao',
+        'Luilu',
+        'Mwene-Ditu',
+        'Ngandajika'
+      ],
+    'Lualaba': [
+        'Dilolo',
+        'Kapanga',
+        'Kasaji',
+        'Kolwezi',
+        'Lubudi',
+        'Mutshatsha',
+        'Sandoa'
+      ],
+    'Mai-Ndombe': [
+        'Bolobo',
+        'Inongo',
+        'Kiri',
+        'Kutu',
+        'Kwamouth',
+        'Mushie',
+        'Nioki',
+        'Oshwe',
+        'Yumbi'
+      ],
+    'Maniema': [
+        'Kabambare',
+        'Kailo',
+        'Kalima',
+        'Kasongo',
+        'Kibombo',
+        'Kindu',
+        'Lubutu',
+        'Namoya',
+        'Pangi',
+        'Punia'
+      ],
+    'Mongala': [
+        'Bongandanga',
+        'Bumba',
+        'Lisala'
+      ],
+    'Nord-Ubangi': [
+        'Bosobolo',
+        'Businga',
+        'Gbadolite',
+        'Mobayi-Mbongo',
+        'Yakoma'
+      ],
+    'North Kivu': [
+        'Beni',
+        'Butembo',
+        'Goma',
+        'Lubero',
+        'Masisi Territory',
+        'Nyirangongo',
+        'Oicha',
+        'Rutshuru Territory',
+        'Walikale'
+      ],
+    'Sankuru': [
+        'Bena-Dibele',
+        'Katako-Kombe',
+        'Kole',
+        'Lodja',
+        'Lomela',
+        'Lubefu',
+        'Lusambo',
+        'Tshumbe'
+      ],
+    'South Kivu': [
+        'Baraka',
+        'Bukavu',
+        'Fizi',
+        'Idjwi',
+        'Kabare',
+        'Kalehe',
+        'Kamituga',
+        'Mwenga',
+        'Shabunda',
+        'Uvira',
+        'Walungu'
+      ],
+    'Sud-Ubangi': [
+        'Budjala',
+        'Gemena',
+        'Kungu',
+        'Libenge',
+        'Ville de Zongo'
+      ],
+    'Tanganyika': [
+        'Kabalo',
+        'Kalemie Ville',
+        'Kaoze',
+        'Kongolo Ville',
+        'Manono',
+        'Moba',
+        'Nyunzu'
+      ],
+    'Tshopo': [
+        'Bafwasende',
+        'Banalia',
+        'Basoko',
+        'Isangi',
+        'Opala',
+        'Ubundu',
+        'Ville de Kisangani',
+        'Yahuma',
+        'Yangambi'
+      ],
+    'Tshuapa': [
+        'Befale',
+        'Boende',
+        'Bokungu',
+        'Djolu',
+        'Ikela',
+        'Monkoto'
+      ],
+  },
+  CF: {
+    'Bamingui-Bangoran': [
+        'Bamingui',
+        'Ndélé'
+      ],
+    'Bangui': [
+        'Bangui Sub-Prefecture'
+      ],
+    'Basse-Kotto': [
+        'Alindao',
+        'Kembe',
+        'Mingala',
+        'Mobaye',
+        'Zangba'
+      ],
+    'Haut-Mbomou': [
+        'Bambouti',
+        'Djéma',
+        'Obo',
+        'Zémio'
+      ],
+    'Haute-Kotto': [
+        'Bria',
+        'Ouadda',
+        'Yalinga'
+      ],
+    'Kémo': [
+        'Dékoa',
+        'Mala',
+        'Ndjoukou',
+        'Sibut'
+      ],
+    'Lim-Pendé': [
+        'Ngaoundaye',
+        'Paoua'
+      ],
+    'Lobaye': [
+        'Boda',
+        'Boganangone',
+        'Boganda',
+        'Mbaiki',
+        'Mongoumba'
+      ],
+    'Mambéré': [
+        'Amada-Gaza',
+        'Carnot',
+        'Gadzi'
+      ],
+    'Mambéré-Kadéï': [
+        'Berberati',
+        'Dédé-Mokouba',
+        'Gamboula',
+        'Sosso-Nakombo'
+      ],
+    'Mbomou': [
+        'Bakouma',
+        'Bangassou',
+        'Gambo',
+        'Ouango',
+        'Rafai'
+      ],
+    'Nana-Grébizi': [
+        'Kaga-Bandoro',
+        'Mbrès'
+      ],
+    'Nana-Mambéré': [
+        'Abba',
+        'Baboua Sub-Prefecture',
+        'Baoro Sub-Prefecture',
+        'Bouar Sub-Prefecture'
+      ],
+    'Ombella-M\'Poko': [
+        'Bimbo Sub-Prefecture',
+        'Boali Sub-Prefecture',
+        'Bogangolo',
+        'Bossembele Sub-Prefecture',
+        'Damara',
+        'Yaloke Sub-Prefecture'
+      ],
+    'Ouaka': [
+        'Bakala',
+        'Bambari',
+        'Grimari',
+        'Ippy',
+        'Kouango'
+      ],
+    'Ouham': [
+        'Bossangoa',
+        'Markounda',
+        'Nana-Bakassa',
+        'Nangha Boguila'
+      ],
+    'Ouham-Fafa': [
+        'Batangafo',
+        'Bouca',
+        'Kabo'
+      ],
+    'Ouham-Pendé': [
+        'Bocaranga',
+        'Bossemtélé',
+        'Bozoum Sub-Prefecture',
+        'Koui'
+      ],
+    'Sangha-Mbaéré': [
+        'Bambio',
+        'Bayanga',
+        'Nola'
+      ],
+    'Vakaga': [
+        'Birao',
+        'Ouanda-Djallé'
+      ],
+  },
+  CG: {
+    'Bouenza': [
+        'Boko-Songho',
+        'Kingoue',
+        'Loudima',
+        'Mabombo',
+        'Madingou',
+        'Mfouati',
+        'Mouyondzi',
+        'Nkayi',
+        'Tsiaki',
+        'Yamba'
+      ],
+    'Brazzaville': [
+        'Commune de Brazzaville'
+      ],
+    'Cuvette': [
+        'Boundji',
+        'Loukolela',
+        'Makoua',
+        'Mossaka',
+        'Ngoko',
+        'Ntokou',
+        'Owando',
+        'Oyo',
+        'Tchikapika'
+      ],
+    'Cuvette-Ouest': [
+        'Etoumbi',
+        'Ewo',
+        'Kelle',
+        'Mbama',
+        'Mbomo',
+        'Okoyo'
+      ],
+    'Kouilou': [
+        'Hinda',
+        'Kakamoeka',
+        'Madingo-Kayes',
+        'Mvouti',
+        'Nzambi',
+        'Tchiamba-Nzassi'
+      ],
+    'Lékoumou': [
+        'Bambama',
+        'Komono',
+        'Mayeye',
+        'Sibiti',
+        'Zanaga'
+      ],
+    'Likouala': [
+        'Betou',
+        'Bouanila',
+        'Dongou',
+        'Enyelle',
+        'Epena',
+        'Impfondo',
+        'Liranga'
+      ],
+    'Niari': [
+        'Banba',
+        'Divenie',
+        'Kibangou',
+        'Kimongo',
+        'Londela-Kayes',
+        'Louvakou',
+        'Makabana',
+        'Mayoko',
+        'Mbinda',
+        'Moungoundou-Nord',
+        'Moungoundou-Sud',
+        'Moutamba',
+        'Nyanga',
+        'Yaya'
+      ],
+    'Plateaux': [
+        'Abala',
+        'Allembe',
+        'Djambala',
+        'Gamboma',
+        'Lekana',
+        'Makotimpoko',
+        'Mbon',
+        'Mpouya',
+        'Ngo',
+        'Ollombo',
+        'Ongogni'
+      ],
+    'Pointe-Noire': [
+        'Pointe-Noire'
+      ],
+    'Pool': [
+        'Boko',
+        'Goma-Tsetse',
+        'Ignie',
+        'Kimba',
+        'Kindamba',
+        'Kinkala',
+        'Louingui',
+        'Loumo',
+        'Mayama',
+        'Mbandza-Ndounga',
+        'Mindouli',
+        'Ngabe',
+        'Vindza'
+      ],
+    'Sangha': [
+        'Mokeko',
+        'Ngbala',
+        'Ouesso',
+        'Pikounda',
+        'Sembe',
+        'Souanke'
+      ],
+  },
+  CI: {
+    'Abidjan Autonomous District': [
+        'Abidjan'
+      ],
+    'Bas-Sassandra District': [
+        'Gbôklé',
+        'Nawa',
+        'San-Pédro'
+      ],
+    'Comoé District': [
+        'Indénié-Djuablin',
+        'Sud-Comoé'
+      ],
+    'Denguélé District': [
+        'Folon',
+        'Kabadougou'
+      ],
+    'Gôh-Djiboua': [
+        'Gôh',
+        'Lôh-Djiboua'
+      ],
+    'Lacs District': [
+        'Bélier',
+        'Iffou',
+        'Moronou',
+        'N\'Zi'
+      ],
+    'Lagunes District': [
+        'Agnéby-Tiassa',
+        'Grands-Ponts',
+        'Région de La Mé'
+      ],
+    'Montagnes': [
+        'Cavally',
+        'Guémon',
+        'Tonkpi'
+      ],
+    'Sassandra-Marahoué': [
+        'Haut-Sassandra',
+        'Marahoué'
+      ],
+    'Savanes District': [
+        'Bagoué',
+        'Poro',
+        'Tchologo'
+      ],
+    'Vallée du Bandama District': [
+        'Gbêkê',
+        'Hambol'
+      ],
+    'Woroba': [
+        'Bafing',
+        'Béré',
+        'Worodougou'
+      ],
+    'Yamoussoukro': [
+        'Yamoussoukro'
+      ],
+    'Zanzan District': [
+        'Bounkani',
+        'Gontougo'
+      ],
+  },
+  CM: {
+    'Adamaoua': [
+        'Djerem',
+        'Faro-et-Deo',
+        'Mayo-Banyo',
+        'Mbere Department',
+        'Vina'
+      ],
+    'Centre': [
+        'Département de la Lékié',
+        'Département du Nyong-et-Kéllé',
+        'Haute-Sanaga',
+        'Mbam-Et-Inoubou',
+        'Mbam-et-Kim',
+        'Méfou-et-Afamba',
+        'Mefou-et-Akono',
+        'Mfoundi',
+        'Nyong-et-Mfoumou',
+        'Nyong-et-Soo'
+      ],
+    'East': [
+        'Boumba-Ngoko',
+        'Département de la Kadeï',
+        'Departement du Haut-Nyong',
+        'Département du Lom-et-Djérem'
+      ],
+    'Far North': [
+        'Département du Diamaré',
+        'Département du Mayo Danaï',
+        'Departement du Mayo-Kani',
+        'Logone-et-Chari',
+        'Mayo-Sava',
+        'Mayo-Tsanaga'
+      ],
+    'Littoral': [
+        'Département du Mungo',
+        'Nkam',
+        'Sanaga-Maritime',
+        'Wouri'
+      ],
+    'North': [
+        'Département de la Bénoué',
+        'Faro Department',
+        'Mayo-Louti',
+        'Mayo-Rey'
+      ],
+    'North-West': [
+        'Boyo',
+        'Bui Division',
+        'Donga and Mantung Division',
+        'Metchum Division',
+        'Mezam Division',
+        'Momo Division',
+        'Ngo-Ketunjia'
+      ],
+    'South': [
+        'Département de l\'Océan',
+        'Dja-et-Lobo',
+        'Mvila',
+        'Vallée-du-Ntem'
+      ],
+    'South-West': [
+        'Fako Division',
+        'Koupé-Manengouba',
+        'Lebialem',
+        'Manyu Division',
+        'Meme Division',
+        'Ndian Division'
+      ],
+    'West': [
+        'Bamboutos',
+        'Département de la Ménoua',
+        'Département du Ndé',
+        'Haut-Nkam',
+        'Hauts-Plateaux',
+        'Koung-Khi',
+        'Mifi',
+        'Noun'
+      ],
+  },
+  CV: {
+    'Boa Vista': [
+        'Santa Isabel',
+        'Sao Joao Baptista'
+      ],
+    'Brava': [
+        'Nossa Senhora do Monte',
+        'São João Baptista'
+      ],
+    'Maio': [
+        'Nossa Senhora da Luz'
+      ],
+    'Mosteiros': [
+        'Nossa Senhora da Ajuda'
+      ],
+    'Paul': [
+        'Santo Antonio das Pombas'
+      ],
+    'Porto Novo': [
+        'Santo Andre',
+        'Sao Joao Baptista'
+      ],
+    'Praia': [
+        'Nossa Senhora da Graca'
+      ],
+    'Ribeira Brava': [
+        'Nossa Senhora da Lapa',
+        'Nossa Senhora do Rosario'
+      ],
+    'Ribeira Grande': [
+        'Nossa Senhora do Livramento',
+        'Nossa Senhora do Rosário',
+        'Santo Crucifixo',
+        'Sao Pedro Apostolo'
+      ],
+    'Ribeira Grande de Santiago': [
+        'Santissimo Nome de Jesus',
+        'Sao Joao Baptista'
+      ],
+    'Sal': [
+        'Nossa Senhora das Dores'
+      ],
+    'Santa Catarina': [
+        'Santa Catarina'
+      ],
+    'Santa Catarina do Fogo': [
+        'Santa Catarina do Fogo'
+      ],
+    'Santa Cruz': [
+        'Santiago Maior'
+      ],
+    'São Domingos': [
+        'Nossa Senhora da Luz',
+        'Sao Nicolau Tolentino'
+      ],
+    'São Filipe': [
+        'Nossa Senhora da Conceicao',
+        'Sao Lourenco'
+      ],
+    'São Lourenço dos Órgãos': [
+        'Sao Lourenco Dos Orgaos'
+      ],
+    'São Miguel': [
+        'Sao Miguel Arcanjo'
+      ],
+    'São Salvador do Mundo': [
+        'Sao Salvador do Mundo'
+      ],
+    'São Vicente': [
+        'Nossa Senhora da Luz'
+      ],
+    'Tarrafal': [
+        'Santo Amaro Abade'
+      ],
+    'Tarrafal de São Nicolau': [
+        'Sao Francisco de Assis'
+      ],
+  },
+  DJ: {
+    'Ali Sabieh': [
+        
+      ],
+    'Arta': [
+        
+      ],
+    'Dikhil': [
+        'As Eyla',
+        'Yoboki'
+      ],
+    'Djibouti': [
+        
+      ],
+    'Obock': [
+        'Obock'
+      ],
+    'Tadjourah': [
+        
+      ],
+  },
+  DZ: {
+    'Adrar': [
+        'Aoulef',
+        'Daïra d’Adrar',
+        'Fenoughil',
+        'Reggane',
+        'Tsabit',
+        'Zaouiat Kounta'
+      ],
+    'Aïn Defla': [
+        'Ain Defla',
+        'Ain Lechiakh',
+        'Bathia',
+        'Bordj El Emir Khaled',
+        'Boumedfaa',
+        'Daïra de Miliana',
+        'Djelida',
+        'Djendel',
+        'El Abadia',
+        'El Amra',
+        'El Attaf',
+        'Hammam Righa',
+        'Khemis',
+        'Rouina'
+      ],
+    'Aïn Témouchent': [
+        'Ain Kihel',
+        'Aïn Larbaâ',
+        'Ain Temouchent',
+        'Daïra de Beni Saf',
+        'El Amria',
+        'El Maleh',
+        'Hammam Bou Hadjar',
+        'Oulhassa Gheraba'
+      ],
+    'Algiers': [
+        'Bab El Oued',
+        'Baraki',
+        'Bir Mourad Rais',
+        'Birtouta',
+        'Bouzareah',
+        'Cheraga',
+        'Daïra de Dar el Beïda',
+        'Draria',
+        'El Harrach',
+        'Hussein Dey',
+        'Rouiba',
+        'Sidi M\'hamed',
+        'Zeralda'
+      ],
+    'Annaba': [
+        'Ain El Berda',
+        'Annaba District',
+        'Berrahal',
+        'Chetaibi',
+        'El Bouni',
+        'El Hadjar'
+      ],
+    'Batna': [
+        'Ain Djasser',
+        'Ain Touta',
+        'Bouzina',
+        'Chemora',
+        'Daïra d’Arris',
+        'Daïra de Barika',
+        'Daïra de Batna',
+        'Daïra de Merouana',
+        'Djezzar',
+        'El Madher',
+        'Ichemoul',
+        'Menaa',
+        'N\'gaous',
+        'Ouled Si Slimane',
+        'Ras El Aioun',
+        'Seggana',
+        'Seriana',
+        'Tazoult',
+        'Theniet El Abed',
+        'Timgad',
+        'Tkout'
+      ],
+    'Béchar': [
+        'Abadla',
+        'Beni Ounif',
+        'Daïra de Béchar',
+        'Kenadsa',
+        'Lahmar',
+        'Tabelbala',
+        'Taghit'
+      ],
+    'Béjaïa': [
+        'Adekar',
+        'Amizour',
+        'Aokas',
+        'Barbacha',
+        'Beni Maouche',
+        'Chemini',
+        'Daïra d’Akbou',
+        'Daïra de Bejaïa',
+        'Daïra de Sidi Aïch',
+        'Darguina',
+        'El Kseur',
+        'Ifri Ouzellaguene',
+        'Ighil Ali',
+        'Kherrata',
+        'Seddouk',
+        'Souk El Tenine',
+        'Tazmalt',
+        'Tichy',
+        'Timezrit'
+      ],
+    'Beni Abbes': [
+        'Daïra de Beni Abbes',
+        'El Ouata',
+        'Igli',
+        'Kerzaz',
+        'Ouled Khodeir'
+      ],
+    'Biskra': [
+        'Daïra de Biskra',
+        'Djemorah',
+        'El Kantara',
+        'El Outaya',
+        'Foughala',
+        'Mechouneche',
+        'Ourlal',
+        'Sidi Okba',
+        'Tolga',
+        'Zeribet El Oued'
+      ],
+    'Blida': [
+        'Boufarik',
+        'Bougara',
+        'Bouinan',
+        'Daïra de Blida',
+        'El Affroun',
+        'Larbaa',
+        'Meftah',
+        'Mouzaia',
+        'Oued El Alleug',
+        'Ouled Yaich'
+      ],
+    'Bordj Badji Mokhtar': [
+        'Bordj Badji Mokhtar'
+      ],
+    'Bordj Bou Arréridj': [
+        'Ain Taghrout',
+        'Bir Kasdali',
+        'Bordj Bou Arreridj',
+        'Bordj Ghedir',
+        'Bordj Zemmoura',
+        'Djaafra',
+        'El Hamadia',
+        'Mansourah',
+        'Medjana',
+        'Ras El Oued'
+      ],
+    'Bouira': [
+        'Ain Bessem',
+        'Bechloul',
+        'Bir Ghbalou',
+        'Bordj Okhriss',
+        'Daïra de Bouira',
+        'Daïra de Lakhdaria',
+        'Daïra de Sour el Ghozlane',
+        'El Hachimia',
+        'Haizer',
+        'Kadiria',
+        'M\'chedallah',
+        'Souk El Khemis'
+      ],
+    'Boumerdes': [
+        'Baghlia',
+        'Boudouaou',
+        'Boumerdes',
+        'Daïra de Bordj Menaïel',
+        'Dellys',
+        'Isser',
+        'Khemis El Khechna',
+        'Naciria',
+        'Thenia'
+      ],
+    'Chlef': [
+        'Abou El Hassane',
+        'Ain Merane',
+        'Beni Haoua',
+        'Boukadir',
+        'Chlef',
+        'Daïra de Ténès',
+        'El Karimia',
+        'El Marsa',
+        'Oued Fodda',
+        'Ouled Ben Abdelkader',
+        'Ouled Fares',
+        'Taougrit',
+        'Zeboudja'
+      ],
+    'Constantine': [
+        'Ain Abid',
+        'Daïra de Constantine',
+        'El Khroub',
+        'Hamma Bouziane',
+        'Ibn Ziad',
+        'Zighoud Youcef'
+      ],
+    'Djanet': [
+        'Daïra de Djanet'
+      ],
+    'Djelfa': [
+        'Ain El Ibel',
+        'Birine',
+        'Charef',
+        'Daïra d’‘Aïn Oussera',
+        'Daïra de Djelfa',
+        'Dar Chioukh',
+        'El Idrissia',
+        'Faidh El Botma',
+        'Had Sahary',
+        'Hassi Bahbah',
+        'Messaad',
+        'Sidi Laadjel'
+      ],
+    'El Bayadh': [
+        'Boualem',
+        'Bougtoub',
+        'Boussemghoun',
+        'Brezina',
+        'Chellala',
+        'El Bayadh',
+        'Labiodh Sidi Cheikh',
+        'Rogassa'
+      ],
+    'El Menia': [
+        'El Ménia District',
+        'Mansourah'
+      ],
+    'El Mghair': [
+        'Djamaa',
+        'El M\'Ghair District'
+      ],
+    'El Oued': [
+        'Bayadha',
+        'Debila',
+        'El Oued',
+        'Guemar',
+        'Hassi Khalifa',
+        'Magrane',
+        'Mih Ouensa',
+        'Reguiba',
+        'Robbah',
+        'Taleb Larbi'
+      ],
+    'El Tarf': [
+        'Ben M\'hidi',
+        'Besbes',
+        'Bouhadjar',
+        'Bouteldja',
+        'Daïra d’El Kala',
+        'Dréan District',
+        'El Tarf'
+      ],
+    'Ghardaia': [
+        'Berriane',
+        'Bounoura',
+        'Dhayet Ben Dhahoua',
+        'El Guerrara',
+        'Ghardaia',
+        'Mansourah',
+        'Metlili',
+        'Zelfana'
+      ],
+    'Guelma': [
+        'Ain Hessainia',
+        'Ain Makhlouf',
+        'Bouchegouf',
+        'Daïra de Guelma',
+        'Guelaat Bousbaa',
+        'Hammam Debagh',
+        'Hammam N\'bails',
+        'Heliopolis',
+        'Khezaras',
+        'Oued Zenati'
+      ],
+    'Illizi': [
+        'Illizi',
+        'In Amenas'
+      ],
+    'In Guezzam': [
+        'In Guezzam',
+        'Tin Zouatine'
+      ],
+    'In Salah': [
+        'In Ghar',
+        'In Salah District'
+      ],
+    'Jijel': [
+        'Chekfa',
+        'Daïra de Jijel',
+        'Daïra d’El Milia',
+        'Djimla',
+        'El Ancer',
+        'El Aouana',
+        'Settara',
+        'Sidi Marouf',
+        'Taher',
+        'Texenna',
+        'Ziamah Mansouriah'
+      ],
+    'Khenchela': [
+        'Ain Touila',
+        'Babar',
+        'Bouhmama',
+        'Chechar',
+        'El Hamma',
+        'Kais',
+        'Khenchela',
+        'Ouled Rechache'
+      ],
+    'Laghouat': [
+        'Ain Madhi',
+        'Brida',
+        'Daïra d’Aflou',
+        'Daïra de Laghouat',
+        'El Ghicha',
+        'Gueltat Sidi Saad',
+        'Hassi R\'mel',
+        'Ksar El Hirane',
+        'Oued Morra',
+        'Sidi Makhlouf'
+      ],
+    'M\'Sila': [
+        'Ain El Hadjel',
+        'Ain El Melh',
+        'Ben Srour',
+        'Chellal',
+        'Daïra de Bou Saâda',
+        'Daïra de M’Sila',
+        'Djebel Messaad',
+        'Hammam Dalaa',
+        'Khoubana',
+        'Magra',
+        'Medjedel',
+        'Ouled Derradj',
+        'Ouled Sidi Brahim',
+        'Sidi Aissa',
+        'Sidi Ameur'
+      ],
+    'Mascara': [
+        'Ain Fares',
+        'Ain Fekan',
+        'Aouf',
+        'Bouhanifia',
+        'Daïra de Mascara',
+        'Daïra de Mohammadia',
+        'Daïra de Tighennif',
+        'El Bordj',
+        'Ghriss',
+        'Hachem',
+        'Oggaz',
+        'Oued El Abtal',
+        'Oued Taria',
+        'Sig',
+        'Tizi',
+        'Zahana'
+      ],
+    'Medea': [
+        'Ain Boucif',
+        'Aziz',
+        'Beni Slimane',
+        'Berrouaghia',
+        'Chahbounia',
+        'Chellalat El Adhaoura',
+        'Daïra de Ksar el Boukhari',
+        'Daïra de Tablat',
+        'El Azizia',
+        'El Omaria',
+        'Guelb El Kebir',
+        'Medea',
+        'Ouamri',
+        'Ouled Antar',
+        'Ouzera',
+        'Seghouane',
+        'Si Mahdjoub',
+        'Sidi Naamane',
+        'Souaghi'
+      ],
+    'Mila': [
+        'Ain Beida Harriche',
+        'Bouhatem',
+        'Chelghoum Laïd District',
+        'Ferdjioua',
+        'Grarem Gouga',
+        'Mila',
+        'Oued Endja',
+        'Rouached',
+        'Sidi Merouane',
+        'Tadjenanet',
+        'Tassadane Haddada',
+        'Teleghma',
+        'Terrai Bainen'
+      ],
+    'Mostaganem': [
+        'Achaacha',
+        'Ain Nouicy',
+        'Ain Tedeles',
+        'Bouguirat',
+        'Daïra de Mostaganem',
+        'Daïra de Sidi Ali',
+        'Hassi Mameche',
+        'Kheir Eddine',
+        'Mesra',
+        'Sidi Lakhdar'
+      ],
+    'Naama': [
+        'Asla',
+        'Daïra d’‘Aïn Sefra',
+        'Daïra de Mecheria',
+        'Mekmen Ben Amar',
+        'Moghrar',
+        'Naama',
+        'Sfissifa'
+      ],
+    'Oran': [
+        'Ain Turk',
+        'Arzew',
+        'Bethioua',
+        'Bir El Djir',
+        'Boutlelis',
+        'Daïra d’Oran',
+        'Es Senia',
+        'Gdyel',
+        'Oued Tlelat'
+      ],
+    'Ouargla': [
+        'Daïra d’Ouargla',
+        'El Borma',
+        'Hassi Messaoud',
+        'N\'goussa',
+        'Sidi Khouiled'
+      ],
+    'Ouled Djellal': [
+        'Ouled Djellal',
+        'Sidi Khaled'
+      ],
+    'Oum el Bouaghi': [
+        'Ain Babouche',
+        'Ain Fekroun',
+        'Ain Kercha',
+        'Daïra d’‘Aïn Beïda',
+        'Daïra d’Aïn M’lila',
+        'Dhalaa',
+        'F\'kirina',
+        'Ksar Sbahi',
+        'Meskiana',
+        'Oum El Bouaghi',
+        'Sigus',
+        'Souk Naamane'
+      ],
+    'Relizane': [
+        'Ain Tarek',
+        'Ammi Moussa',
+        'Daïra d’Oued Ghiou',
+        'Djidiouia',
+        'El H\'madna',
+        'El Matmar',
+        'Mazouna',
+        'Mendes',
+        'Ramka',
+        'Relizane',
+        'Sidi M\'hamed Ben Ali',
+        'Yellel',
+        'Zemmoura'
+      ],
+    'Saida': [
+        'Ain El Hadjar',
+        'Daïra de Saïda',
+        'El Hassasna',
+        'Ouled Brahim',
+        'Sidi Boubekeur',
+        'Youb'
+      ],
+    'Sétif': [
+        'Ain Arnat',
+        'Ain Azel',
+        'Aïn Oulmene',
+        'Amoucha',
+        'Babor',
+        'Beni Aziz',
+        'Beni Ourtilane',
+        'Bir El Arch',
+        'Bouandas',
+        'Daïra d’‘Aïn el Kebira',
+        'Daïra de Bougaa',
+        'Daïra de Sétif',
+        'Daïra d’El Eulma',
+        'Djemila',
+        'Guenzet',
+        'Guidjel',
+        'Hammam Guergour',
+        'Hammam Sokhna',
+        'Maoklane',
+        'Salah Bey'
+      ],
+    'Sidi Bel Abbès': [
+        'Ain El Berd',
+        'Ben Badis District',
+        'Daïra de Sidi Bel Abbès',
+        'Daïra de Télagh',
+        'Marhoum',
+        'Merine',
+        'Mostefa  Ben Brahim',
+        'Moulay Slissen',
+        'Ras El Ma',
+        'Sfisef',
+        'Sidi Ali Ben Youb',
+        'Sidi Ali Boussidi',
+        'Sidi Lahcene',
+        'Tenira',
+        'Tessala'
+      ],
+    'Skikda': [
+        'Ain Kechra',
+        'Azzaba',
+        'Ben Azzouz',
+        'Daïra de Collo',
+        'Daïra de Skikda',
+        'El Hadaiek',
+        'El Harrouch',
+        'Ouled Attia',
+        'Oum Toub',
+        'Ramdane Djamel',
+        'Sidi Mezghiche',
+        'Tamalous',
+        'Zitouna'
+      ],
+    'Souk Ahras': [
+        'Bir Bouhouche',
+        'Haddada',
+        'M\'daourouche',
+        'Mechroha',
+        'Merahna',
+        'Ouled Driss',
+        'Oum El Adhaim',
+        'Sedrata',
+        'Souk Ahras',
+        'Taoura'
+      ],
+    'Tamanrasset': [
+        'Daïra de Tamanrasset',
+        'Silet',
+        'Tazrouk'
+      ],
+    'Tébessa': [
+        'Bir El Ater',
+        'Bir Mokadem',
+        'Cheria',
+        'Daïra de Tébessa',
+        'Daïra d’El Aouinet',
+        'El Kouif',
+        'El Malabiod',
+        'El Ogla',
+        'Morsott',
+        'Negrine',
+        'Ouenza',
+        'Oum Ali'
+      ],
+    'Tiaret': [
+        'Ain Deheb',
+        'Ain Kermes',
+        'Dahmouni',
+        'Daïra de Frenda',
+        'Daïra de Tiaret daira de meghila',
+        'Hamadia',
+        'Ksar Chellala',
+        'Mahdia',
+        'Mechraa Sfa',
+        'Medroussa',
+        'Oued Lili',
+        'Rahouia',
+        'Sougueur',
+        'Tiaret'
+      ],
+    'Timimoun': [
+        'Aougrout',
+        'Charouine',
+        'Daïra de Timimoun',
+        'Tinerkouk'
+      ],
+    'Tindouf': [
+        'Tindouf'
+      ],
+    'Tipaza': [
+        'Ahmar El Ain',
+        'Bou Ismail',
+        'Daïra de Cherchell',
+        'Damous',
+        'Fouka',
+        'Gouraya',
+        'Hadjout',
+        'Kolea',
+        'Sidi Amar',
+        'Tipaza'
+      ],
+    'Tissemsilt': [
+        'Ammari',
+        'Bordj Bounaama',
+        'Bordj Emir Abdelkader',
+        'Daïra de Theniet el Had',
+        'Khemisti',
+        'Lardjem',
+        'Lazharia',
+        'Tissemsilt'
+      ],
+    'Tizi Ouzou': [
+        'Ain El Hammam',
+        'Azeffoun',
+        'Beni Douala',
+        'Benni Yenni',
+        'Boghni',
+        'Bouzeguene',
+        'Daïra d’Azazga',
+        'Daïra de Draa el Mizan',
+        'Daïra de L’Arbaa Naït Irathen',
+        'Daïra de Tizi Ouzou',
+        'Draa Ben Khedda',
+        'Iferhounene',
+        'Maatkas',
+        'Makouda',
+        'Mekla',
+        'Ouacif',
+        'Ouadhias',
+        'Ouaguenoun',
+        'Tigzirt',
+        'Tizi-Ghenif',
+        'Tizi Rached'
+      ],
+    'Tlemcen': [
+        'Ain Tellout',
+        'Bab El Assa',
+        'Beni Boussaid',
+        'Beni Snous',
+        'Bensekrane',
+        'Chetouane',
+        'Daïra de Ghazaouet',
+        'Daïra de Maghnia',
+        'Daïra de Sebdou',
+        'Daïra de Tlemcen',
+        'Fellaoucene',
+        'Hennaya',
+        'Honnaine',
+        'Mansourah',
+        'Marsa Ben Mehdi',
+        'Nedroma',
+        'Ouled Mimoun',
+        'Remchi',
+        'Sabra',
+        'Sidi Djillali'
+      ],
+    'Touggourt': [
+        'Daïra de Touggourt',
+        'El-Hadjira',
+        'Megarine',
+        'Taibet',
+        'Temacine'
+      ],
+  },
+  EG: {
+    'Alexandria': [
+        'Al Ajami',
+        'Al Muntazah',
+        'Borg El Arab',
+        'Karmūs',
+        'Markaz Maryūţ'
+      ],
+    'Aswan': [
+        'Markaz Aswān',
+        'Markaz Idfū',
+        'Markaz ‘Unaybah'
+      ],
+    'Asyut': [
+        'Markaz Abū Tīj',
+        'Markaz al Badārī',
+        'Markaz al Fatḩ',
+        'Markaz al Ghanāyim',
+        'Markaz al Qūşīyah',
+        'Markaz as Sāḩil',
+        'Markaz Asyūţ',
+        'Markaz Dayrūţ'
+      ],
+    'Beheira': [
+        'Markaz Abū al Maţāmīr',
+        'Markaz Abū Ḩummuş',
+        'Markaz ad Dilinjāt',
+        'Markaz al Maḩmūdīyah',
+        'Markaz ar Raḩmānīyah',
+        'Markaz Damanhūr',
+        'Markaz Ḩawsh ‘Īsá',
+        'Markaz Idkū',
+        'Markaz Ītāy al Bārūd',
+        'Markaz Kafr ad Dawwār',
+        'Markaz Rashīd'
+      ],
+    'Beni Suweif': [
+        'Markaz al Fashn',
+        'Markaz al Wāsiţá',
+        'Markaz Banī Suwayf',
+        'Markaz Bibā',
+        'Markaz Būsh',
+        'Markaz Ihnāsiyā al Madīnah',
+        'Markaz Nāşir',
+        'Markaz Sumusţā al Waqf'
+      ],
+    'Cairo': [
+        'Al Marj',
+        'Markaz al Khānkah',
+        'Markaz aş Şaff',
+        'Mostafa El Serwy'
+      ],
+    'Dakahlia': [
+        'Bahr El Bakr',
+        'Markaz Ajā',
+        'Markaz al Manşūrah',
+        'Markaz al Manzilah',
+        'Markaz Bilqās',
+        'Markaz Dikirnis',
+        'Markaz Minyat An Naşr',
+        'Markaz Mīt Ghamr',
+        'Mit Yazid'
+      ],
+    'Damietta': [
+        'Markaz az Zarqā',
+        'Markaz Dumyāţ',
+        'Markaz Fāriskūr',
+        'Markaz Kafr Sa‘d'
+      ],
+    'Faiyum': [
+        'Markaz al Fayyūm',
+        'Markaz Ibshawāy',
+        'Markaz Iţsā',
+        'Markaz Ţāmiyah'
+      ],
+    'Gharbia': [
+        'Markaz al Maḩallah al Kubrá',
+        'Markaz as Sanţah',
+        'Markaz Basyūn',
+        'Markaz Quţūr',
+        'Markaz Sammanūd',
+        'Markaz Ţanţā',
+        'Markaz Ziftá'
+      ],
+    'Giza': [
+        'Markaz al ‘Ayyāţ',
+        'Markaz al Badrashayn',
+        'Markaz al Jīzah',
+        'Markaz al Wāḩāt al Baḩrīyah',
+        'Markaz Awsīm',
+        'Markaz Imbābah',
+        'Walikale'
+      ],
+    'Ismailia': [
+        'Markaz al Ismā‘īlīyah',
+        'Markaz al Qanţarah Gharb',
+        'Markaz al Qanţarah Sharq',
+        'Markaz Fāyid'
+      ],
+    'Kafr el-Sheikh': [
+        'Kafr El Sheikh',
+        'Markaz al Burullus',
+        'Markaz al Ḩāmūl',
+        'Markaz ar Riyāḑ',
+        'Markaz Biyalā',
+        'Markaz Disūq',
+        'Markaz Fuwwah',
+        'Markaz Kafr ash Shaykh',
+        'Markaz Muţūbas',
+        'Markaz Qallīn',
+        'Markaz Sīdī Sālim'
+      ],
+    'Luxor': [
+        'Markaz al Uqşur'
+      ],
+    'Matruh': [
+        'Markaz Maţrūḩ'
+      ],
+    'Minya': [
+        'Markaz al ‘Idwah',
+        'Markaz al Minyā',
+        'Markaz Banī Mazār',
+        'Markaz Dayr Mawās',
+        'Markaz Mallawī',
+        'Markaz Maţāy',
+        'Markaz Qurqāş',
+        'Markaz Samālūţ'
+      ],
+    'Monufia': [
+        'Markaz al Bājūr',
+        'Markaz ash Shuhadā’',
+        'Markaz Ashmūn',
+        'Markaz Birkat as Sab‘',
+        'Markaz Quwaysinā'
+      ],
+    'New Valley': [
+        'Baris Shurtah',
+        'Markaz al Wāḩāt ad Dākhilah',
+        'Markaz al Wāḩāt al Khārijah',
+        'Shurtah al-Farafirah'
+      ],
+    'North Sinai': [
+        'Markaz al ‘Arīsh',
+        'Markaz ash Shaykh Zuwayd',
+        'Markaz Bi’r al ‘Abd',
+        'Markaz Rafaḩ'
+      ],
+    'Port Said': [
+        
+      ],
+    'Qalyubia': [
+        'Markaz Banhā',
+        'Markaz Kafr Shukr',
+        'Markaz Qalyūb',
+        'Mostorod'
+      ],
+    'Qena': [
+        'Markaz Abū Tisht',
+        'Markaz Armant',
+        'Markaz Dishnā',
+        'Markaz Isnā',
+        'Markaz Naj‘ Ḩammādī',
+        'Markaz Qinā'
+      ],
+    'Red Sea': [
+        
+      ],
+    'Sharqia': [
+        'Bahr El Bakar',
+        'Markaz Abū Ḩammād',
+        'Markaz Abū Kabīr',
+        'Markaz al Ḩusaynīyah',
+        'Markaz at Tall al Kabīr',
+        'Markaz az Zaqāzīq',
+        'Markaz Bilbays',
+        'Markaz Diyarb Najm',
+        'Markaz Hihyā',
+        'Markaz Minyā al Qamḩ'
+      ],
+    'Sohag': [
+        'Markaz Akhmīm',
+        'Markaz al Balyanā',
+        'Markaz al Marāghah',
+        'Markaz al Munsha’ah',
+        'Markaz Awlād Ţawq Sharq',
+        'Markaz Dār as Salām',
+        'Markaz Jirjā',
+        'Markaz Juhaynah al Gharbīyah',
+        'Markaz Sūhāj'
+      ],
+    'South Sinai': [
+        'Markaz Aţfīḩ'
+      ],
+    'Suez': [
+        
+      ],
+  },
+  ER: {
+    'Anseba': [
+        'Adi Tekelezan Subregion',
+        'Asmat',
+        'Elabered Subregion',
+        'Geleb Subregion',
+        'Habero Subregion',
+        'Hagaz Subregion',
+        'Halhal Subregion',
+        'Hamelmalo',
+        'Keren Subregion',
+        'Kerkebet',
+        'Sela Subregion'
+      ],
+    'Debub': [
+        'Adi Keyh',
+        'Adi Quala',
+        'Areza Subregion',
+        'Dbarwa',
+        'Dekemhare Subregion',
+        'Emni Haili',
+        'Mai-Mne Subregion',
+        'May Aini',
+        'Mendefera Subregion',
+        'Segeneity',
+        'Senafe Subregion',
+        'Tsorona'
+      ],
+    'Gash-Barka': [
+        'Akurdet Subregion',
+        'Barentu Subregion',
+        'Dghe',
+        'Forto',
+        'Gogne Subregion',
+        'Haykota Subregion',
+        'Lalay Gash',
+        'Logo Anseba',
+        'Mensura Subregion',
+        'Mogolo Subregion',
+        'Molqi',
+        'Omhajer',
+        'Shambuko Subregion',
+        'Teseney Subregion'
+      ],
+    'Maekel': [
+        'Berikh',
+        'Ghala Nefhi',
+        'North Eastern Subregion',
+        'Semienawi Mibrak',
+        'Serejaka',
+        'South Eastern Subregion',
+        'South Western Subregion'
+      ],
+    'Northern Red Sea': [
+        'Adobha',
+        'Af\'abet',
+        'Dahlak Subregion',
+        'Foro Subregion',
+        'Ghelaelo',
+        'Ghinda Subregion',
+        'Karura',
+        'Massawa Subregion',
+        'Nakfa Subregion',
+        'Shieb'
+      ],
+    'Southern Red Sea': [
+        'Araeta',
+        'Asseb',
+        'Central Denkalya Subregion',
+        'Southern Denkalya Subregion'
+      ],
+  },
+  ET: {
+    'Addis Ababa': [
+        'Addis Ababa Zone 1',
+        'Addis Ababa Zone 2',
+        'Addis Ababa Zone 3',
+        'Addis Ababa Zone 5',
+        'Addis Ababa Zone 6',
+        'Addis Ketema',
+        'Akaki Kaliti',
+        'Arada',
+        'Bole',
+        'Gullele',
+        'Kirkos',
+        'Kolife Keraniyo',
+        'Lemi Kura Sub-City',
+        'Lideta',
+        'Nifas Silk Lafto',
+        'Yeka'
+      ],
+    'Āfar': [
+        'Administrative Zone 1',
+        'Administrative Zone 2',
+        'Administrative Zone 3',
+        'Administrative Zone 4',
+        'Administrative Zone 5',
+        'Pemba District',
+        'Zone 1',
+        'Zone 2',
+        'Zone 4',
+        'Zone 5'
+      ],
+    'Amhara': [
+        'Awi',
+        'East Gojjam Zone',
+        'North Gondar Zone',
+        'North Shewa Zone',
+        'North Wollo Zone',
+        'Oromia Zone',
+        'Oromiya',
+        'South Gondar Zone',
+        'South Wollo Zone',
+        'Wag Hemra Zone',
+        'West Gojjam Zone'
+      ],
+    'Bīnshangul Gumuz': [
+        'Asosa',
+        'Kamashi Zone',
+        'Kemashi',
+        'Metekel',
+        'Metekel Āwraja'
+      ],
+    'Central Ethiopia Regional State': [
+        'Alaba Special Wereda',
+        'Guraghe Zone',
+        'Hadiya Zone',
+        'Kembata Alaba Tembaro Zone',
+        'Selti',
+        'Siltie Zone',
+        'Yem'
+      ],
+    'Dire Dawa': [
+        'Dire Dawa Zone'
+      ],
+    'Gambela': [
+        'Administrative Zone 1',
+        'Anywaa Zone',
+        'Majang Zone',
+        'Nuer Zone'
+      ],
+    'Harari': [
+        'Harari'
+      ],
+    'Oromiya': [
+        'Arsi',
+        'Arsi Zone',
+        'Bale',
+        'Borena',
+        'Borena Zone',
+        'East Harerghe Zone',
+        'East Shewa',
+        'East Shewa Zone',
+        'East Wellega',
+        'East Wellega Zone',
+        'Gimbichu',
+        'Guji Zone',
+        'Horo Guduru',
+        'Illubabor Zone',
+        'Ilubabor',
+        'Jimma Zone',
+        'Kellem Wellega',
+        'Misraq Shewa',
+        'North Shewa Zone',
+        'South West Shewa',
+        'West Arsi',
+        'West Harerghe Zone',
+        'West Shewa Zone',
+        'West Wellega',
+        'West Wellega Zone'
+      ],
+    'Sidama Region': [
+        'Awasa Zuria'
+      ],
+    'Somali': [
+        'Afder',
+        'Afder Zone',
+        'Degehabur Zone',
+        'Dollo',
+        'Fafan',
+        'Gode Zone',
+        'Jarar',
+        'Korahe',
+        'Liben',
+        'Liben zone',
+        'Nogob',
+        'Shabelle',
+        'Shinile Zone',
+        'Siti'
+      ],
+    'South Ethiopia Regional State': [
+        'Amaro Special Woreda',
+        'Basketo Special Woreda',
+        'Burji Special Woreda',
+        'Dirashe Special Woreda',
+        'Gamo Gofa Zone',
+        'Gedeo Zone',
+        'Konso Special Woreda',
+        'Segen Peoples',
+        'South Omo',
+        'South Omo Zone',
+        'Wolayita Zone'
+      ],
+    'South West Ethiopia Peoples\' Region': [
+        'Bench Maji Zone',
+        'Dawro',
+        'Dawuro',
+        'Kaffa Zone',
+        'Keficho Shekicho Zone',
+        'Konta',
+        'Sheka Zone'
+      ],
+    'Tigray': [
+        'Central Tigray Zone',
+        'Eastern Tigray Zone',
+        'Mekelle',
+        'Mi\'irabawi Zone',
+        'North Western',
+        'North Western Tigray',
+        'Southeastern Tigray Zone',
+        'Southern Tigray Zone',
+        'Western'
+      ],
+  },
+  GA: {
+    'Estuaire': [
+        'Commune of Libreville',
+        'Komo Department',
+        'Komo-Mondah Department',
+        'Noya'
+      ],
+    'Haut-Ogooué': [
+        'Bayi-Brikolo',
+        'Djoue',
+        'Djouori-Agnili',
+        'Leboumbi-Leyou Department',
+        'Lekabi-Lewolo',
+        'Lekoko Department',
+        'Lekoni-Lekori',
+        'Mpassa Department',
+        'Ogooue-Letili',
+        'Plateaux Department',
+        'Sebe-Brikolo'
+      ],
+    'Moyen-Ogooué': [
+        'Abanga-Bigné Department',
+        'Ogooue et des Lacs'
+      ],
+    'Ngouni': [
+        'Boumi-Louetsi',
+        'Dola Department',
+        'Douya-Onoye Department',
+        'Louetsi-Bibaka',
+        'Louetsi-Wano Department',
+        'Mougalaba',
+        'Ndolou Department',
+        'Ogoulou Department',
+        'Tsamba-Magotsi Department'
+      ],
+    'Nyanga': [
+        'Basse-Banio Department',
+        'Douigni',
+        'Doutsila',
+        'Haute-Banio Department',
+        'Mongo',
+        'Mougoutsi Department'
+      ],
+    'Ogooué-Ivindo': [
+        'Ivindo',
+        'Lope Department',
+        'Mvoung',
+        'Zadie'
+      ],
+    'Ogooué-Lolo': [
+        'Lolo Bouenguidi Department',
+        'Lombo-Bouenguidi',
+        'Mouloundou Department',
+        'Offoue-Onoye'
+      ],
+    'Ogooué-Maritime': [
+        'Bendje',
+        'Étimboué Department',
+        'Ndougou Department'
+      ],
+    'Woleu-Ntem': [
+        'Haut-Komo',
+        'Haut-Ntem',
+        'Ntem Department',
+        'Okano Department',
+        'Woleu'
+      ],
+  },
+  GH: {
+    'Ahafo': [
+        'Asunafo North',
+        'Asunafo South',
+        'Asutifi',
+        'Asutifi South',
+        'Tano North',
+        'Tano South'
+      ],
+    'Ashanti': [
+        'Adansi North',
+        'Adansi South',
+        'Afigya-Kwabre District',
+        'Ahafo Ano North',
+        'Ahafo Ano South',
+        'Amansie Central',
+        'Amansie West',
+        'Asante Akim Central Municipal',
+        'Asante Akim North',
+        'Asante Akim South District',
+        'Asokore Mampong Municipal',
+        'Atwima Kwanwoma',
+        'Atwima Mponua',
+        'Atwima Nwabiagya',
+        'Bekwai',
+        'Bosome Freho',
+        'Bosomtwe',
+        'Ejisu Juaben',
+        'Ejura Sekyedumase',
+        'Kumasi',
+        'Kwabre District',
+        'Mampong',
+        'Obuasi',
+        'Offinso Municipal District',
+        'Offinso North',
+        'Sekyere Afram Plains',
+        'Sekyere Afram Plains North',
+        'Sekyere Central',
+        'Sekyere East',
+        'Sekyere South'
+      ],
+    'Bono': [
+        'Banda',
+        'Berekum',
+        'Dormaa',
+        'Dormaa East',
+        'Dormaa West',
+        'Jaman North',
+        'Jaman South',
+        'Sunyani',
+        'Sunyani West',
+        'Tain',
+        'Wenchi'
+      ],
+    'Bono East': [
+        'Atebubu-Amantin District',
+        'Kintampo North Municipal District',
+        'Kintampo South District',
+        'Nkoranza North District',
+        'Nkoranza South',
+        'Pru',
+        'Sene',
+        'Sene East',
+        'Techiman Municipal',
+        'Techiman Municipal District'
+      ],
+    'Central': [
+        'Abura/Asebu/Kwamankese',
+        'Agona East',
+        'Agona West',
+        'Ajumako/Enyan/Essiam',
+        'Asikuma/Odoben/Brakwa',
+        'Assin North',
+        'Assin South',
+        'Awutu Senya',
+        'Awutu Senya East Municipal',
+        'Cape Coast',
+        'Effutu',
+        'Ekumfi',
+        'Gomoa East',
+        'Gomoa West',
+        'Komenda/Edina/Eguafo/Abirem',
+        'Mfatseman',
+        'Twifo Ati-Morkwa',
+        'Twifo Hemang Lower Denkyira',
+        'Upper Denkyira East',
+        'Upper Denkyira West'
+      ],
+    'Eastern': [
+        'Akuapim North',
+        'Akuapim South',
+        'Akyemansa',
+        'Asuogyaman',
+        'Atiwa',
+        'Ayensuano',
+        'Birim Central',
+        'Birim North',
+        'Birim South',
+        'Denkyembour',
+        'East Akim',
+        'Fanteakwa',
+        'Kwaebibirem',
+        'Kwahu Afram Plains South',
+        'Kwahu East',
+        'Kwahu North',
+        'Kwahu South',
+        'Kwahu West',
+        'Lower Manya Krobo',
+        'New Juaben',
+        'Nsawam Adoagyiri',
+        'Suhum/Kraboa/Coaltar',
+        'Upper Manya Krobo',
+        'Upper West Akim',
+        'West Akim',
+        'Yilo Krobo'
+      ],
+    'Greater Accra': [
+        'Accra',
+        'Ada East',
+        'Ada West',
+        'Adenta',
+        'Ashaiman',
+        'Ga Central Municipal Assembly',
+        'Ga East',
+        'Ga South',
+        'Ga West',
+        'Kpone Katamanso',
+        'La Dade Kotopon',
+        'La Nkwantanang Madina',
+        'Ledzekuku-Krowor',
+        'Ningo Prampram',
+        'Shai Osudoku District',
+        'Tema Metropolitan District'
+      ],
+    'North East': [
+        'Bunkpurugu-Yunyoo',
+        'Chereponi',
+        'East Mamprusi',
+        'Mamprugo Moaduri District',
+        'West Mamprusi'
+      ],
+    'Northern': [
+        'Gushiegu',
+        'Karaga',
+        'Kpandai',
+        'Kumbumgu',
+        'Mion',
+        'Nanumba North',
+        'Nanumba South',
+        'Saboba',
+        'Sagnerigu',
+        'Savelugu/Nanton',
+        'Tamale',
+        'Tatale',
+        'Tolon/Kumbungu',
+        'Yendi',
+        'Zabzugu/Tatale'
+      ],
+    'Oti': [
+        'Biakoye',
+        'Jasikan',
+        'Kadjebi',
+        'Krachi East',
+        'Krachi Nchumuru',
+        'Krachi West',
+        'Nkwanta North',
+        'Nkwanta South'
+      ],
+    'Savannah': [
+        'Bole',
+        'Central Gonja',
+        'East Gonja',
+        'North Gonja',
+        'Sawla-Tuna-Kalba',
+        'West Gonja'
+      ],
+    'Upper East': [
+        'Bawku Municipal District',
+        'Bawku West',
+        'Binduri District',
+        'Bolgatanga Municipal District',
+        'Bongo District',
+        'Builsa South',
+        'Garu-Tempane',
+        'Kassena Nankana',
+        'Kassena Nankana West',
+        'Nabdam',
+        'North Builsa District',
+        'Pusiga',
+        'Talensi-Nabdam'
+      ],
+    'Upper West': [
+        'Daffiama Bussie Issa District',
+        'Jirapa',
+        'Lambussie Karni',
+        'Lawra',
+        'Nadowli',
+        'Nandom',
+        'Sissala East',
+        'Sissala West',
+        'Wa',
+        'Wa East',
+        'Wa West'
+      ],
+    'Volta': [
+        'Adaklu',
+        'Afadzato South',
+        'Agotime Ziope',
+        'Akatsi District',
+        'Akatsi South',
+        'Central Tongu',
+        'Ho',
+        'Ho West',
+        'Hohoe',
+        'Keta',
+        'Ketu North District',
+        'Ketu South District',
+        'Kpando',
+        'North Dayi',
+        'North Tongu',
+        'South Dayi',
+        'South Tongu District'
+      ],
+    'Western': [
+        'Ahanta West',
+        'Ellembelle',
+        'Jomoro',
+        'Mpohor',
+        'Mpohor/Wassa East',
+        'Nzema East',
+        'Prestea-Huni Valley',
+        'Secondi Takoradi',
+        'Shama',
+        'Tarkwa Nsuaem',
+        'Wassa Amenfi Central',
+        'Wassa Amenfi East',
+        'Wassa Amenfi West'
+      ],
+    'Western North': [
+        'Aowin/Suaman',
+        'Bia',
+        'Bia East',
+        'Bibiani/Ahwiaso/Bekwai',
+        'Bodi',
+        'Juaboso',
+        'Sefwi Akontobra',
+        'Sefwi-Wiawso',
+        'Suaman'
+      ],
+  },
+  GM: {
+    'Banjul': [
+        'Kanifing',
+        'Kombo Saint Mary District'
+      ],
+    'Central River': [
+        'Fulladu West',
+        'Janjanbureh',
+        'Lower Saloum',
+        'Niamina Dankunku District',
+        'Niamina East District',
+        'Niamina West District',
+        'Niani',
+        'Nianija District',
+        'Sami District',
+        'Upper Saloum'
+      ],
+    'Lower River': [
+        'Jarra Central',
+        'Jarra East',
+        'Jarra West',
+        'Kiang Central',
+        'Kiang East',
+        'Kiang West District'
+      ],
+    'North Bank': [
+        'Central Baddibu',
+        'Jokadu',
+        'Lower Baddibu District',
+        'Lower Niumi District',
+        'Upper Baddibu',
+        'Upper Niumi District'
+      ],
+    'Upper River': [
+        'Fulladu East',
+        'Kantora',
+        'Sandu',
+        'Wuli'
+      ],
+    'Western': [
+        'Foni Bintang-Karenai',
+        'Foni Bondali',
+        'Foni Brefet',
+        'Foni Jarrol',
+        'Foni Kansala',
+        'Kombo Central District',
+        'Kombo East District',
+        'Kombo North District',
+        'Kombo South District'
+      ],
+  },
+  GN: {
+    'Boké Region': [
+        'Boffa',
+        'Boke Prefecture',
+        'Fria',
+        'Gaoual Prefecture',
+        'Koundara Prefecture'
+      ],
+    'Conakry': [
+        'Conakry Special Zone'
+      ],
+    'Faranah': [
+        'Dabola',
+        'Dinguiraye Prefecture',
+        'Faranah Prefecture',
+        'Kissidougou'
+      ],
+    'Kankan Region': [
+        'Kankan Prefecture',
+        'Kerouane Prefecture',
+        'Kouroussa',
+        'Mandiana Prefecture',
+        'Siguiri Prefecture'
+      ],
+    'Kindia': [
+        'Coyah',
+        'Kindia',
+        'Préfecture de Dubréka',
+        'Préfecture de Forécariah',
+        'Telimele Prefecture'
+      ],
+    'Labé Region': [
+        'Koubia',
+        'Labe Prefecture',
+        'Lelouma Prefecture',
+        'Mali Prefecture',
+        'Tougue Prefecture'
+      ],
+    'Mamou Region': [
+        'Dalaba',
+        'Mamou Prefecture',
+        'Pita'
+      ],
+    'Nzérékoré Region': [
+        'Beyla Prefecture',
+        'Lola',
+        'Macenta',
+        'Nzerekore Prefecture',
+        'Préfecture de Guékédou',
+        'Yomou'
+      ],
+  },
+  GQ: {
+    'Annobon': [
+        'Annobón',
+        'Mabana',
+        'San Antonio de Palé'
+      ],
+    'Bioko Norte': [
+        'Baney',
+        'Malabo',
+        'Rebola'
+      ],
+    'Bioko Sur': [
+        'Luba',
+        'Riaba'
+      ],
+    'Centro Sur': [
+        'Acurenam',
+        'Bicurga',
+        'Evinayong',
+        'Niefang',
+        'Nkimi'
+      ],
+    'Djibloho': [
+        
+      ],
+    'Kié-Ntem': [
+        'Bidjabidjan',
+        'Distrito de Ebebiyin',
+        'Micomiseng',
+        'Ncue',
+        'Nsang',
+        'Nsok-Nsomo'
+      ],
+    'Litoral': [
+        'Bata',
+        'Bitica',
+        'Cogo',
+        'Corisco',
+        'Distrito de Mbini',
+        'Machinda',
+        'Río Campo'
+      ],
+    'Wele-Nzas': [
+        'Aconibe',
+        'Añisoc',
+        'Ayene',
+        'Distrito de Nsork',
+        'Mengomeyén',
+        'Mongomo'
+      ],
+  },
+  GW: {
+    'Bafatá': [
+        'Bafata Sector',
+        'Bambadinca',
+        'Contuboel Sector',
+        'Galomaro Sector',
+        'Gamamundo Sector',
+        'Xitole Sector'
+      ],
+    'Biombo': [
+        'Prabis Sector',
+        'Quinhamel Sector',
+        'Safim'
+      ],
+    'Bissau': [
+        'Sector Autonomo de Bissau'
+      ],
+    'Bolama': [
+        'Bolama',
+        'Bubaque',
+        'Caravela',
+        'Uno'
+      ],
+    'Cacheu': [
+        'Bigene Sector',
+        'Bula',
+        'Cacheu Sector',
+        'Caio Sector',
+        'Canchungo Sector',
+        'Sao Domingos'
+      ],
+    'Gabú': [
+        'Boe',
+        'Gabu Sector',
+        'Pirada',
+        'Pitche',
+        'Sonaco Sector'
+      ],
+    'Oio': [
+        'Bissora Sector',
+        'Farim Sector',
+        'Mansaba Sector',
+        'Mansoa',
+        'Nhacra Sector'
+      ],
+    'Quinara': [
+        'Buba',
+        'Empada',
+        'Fulacunda',
+        'Tite'
+      ],
+    'Tombali': [
+        'Bedanda',
+        'Cacine',
+        'Catio',
+        'Komo',
+        'Quebo'
+      ],
+  },
+  KE: {
+    'Baringo': [
+        
+      ],
+    'Bomet County': [
+        
+      ],
+    'Bungoma County': [
+        
+      ],
+    'Busia County': [
+        'Teso District'
+      ],
+    'Elegeyo-Marakwet': [
+        
+      ],
+    'Embu County': [
+        'Mbeere District'
+      ],
+    'Garissa County': [
+        'Ijara District'
+      ],
+    'Homa Bay County': [
+        'Rachuonyo District',
+        'Suba District'
+      ],
+    'Isiolo County': [
+        'Meru North District'
+      ],
+    'Kajiado County': [
+        'Rarieda'
+      ],
+    'Kakamega County': [
+        'Butere/Mumias District',
+        'Lugari District'
+      ],
+    'Kericho County': [
+        
+      ],
+    'Kiambu County': [
+        'Kiambu County',
+        'Thika District'
+      ],
+    'Kilifi County': [
+        'Kisii Central',
+        'Malindi District'
+      ],
+    'Kirinyaga County': [
+        
+      ],
+    'Kisii County': [
+        'Central Kisii',
+        'Gucha District'
+      ],
+    'Kisumu County': [
+        'Nyando District'
+      ],
+    'Kitui County': [
+        'Kyuso sub-county',
+        'Mwingi'
+      ],
+    'Kwale County': [
+        
+      ],
+    'Laikipia': [
+        
+      ],
+    'Lamu': [
+        'Lamu District'
+      ],
+    'Machakos County': [
+        'Matungulu Location'
+      ],
+    'Makueni County': [
+        
+      ],
+    'Mandera County': [
+        
+      ],
+    'Marsabit County': [
+        'Moyale District',
+        'Oloitokitok District'
+      ],
+    'Meru County': [
+        'Meru County',
+        'South Imenti'
+      ],
+    'Migori County': [
+        'Kuria'
+      ],
+    'Mombasa County': [
+        
+      ],
+    'Murang\'A': [
+        'Maragua District'
+      ],
+    'Nairobi County': [
+        'Nairobi District'
+      ],
+    'Nakuru County': [
+        
+      ],
+    'Nandi': [
+        'Nandi North District'
+      ],
+    'Narok County': [
+        'Trans Mara District'
+      ],
+    'Nyamira county': [
+        
+      ],
+    'Nyandarua County': [
+        
+      ],
+    'Nyeri County': [
+        
+      ],
+    'Samburu County': [
+        
+      ],
+    'Siaya County': [
+        
+      ],
+    'Taita Taveta': [
+        
+      ],
+    'Tana River County': [
+        
+      ],
+    'Tharaka - Nithi': [
+        'Meru South District'
+      ],
+    'Trans Nzoia': [
+        
+      ],
+    'Turkana County': [
+        
+      ],
+    'Uasin Gishu County': [
+        
+      ],
+    'Vihiga County': [
+        'Emuhaya'
+      ],
+    'Wajir County': [
+        
+      ],
+    'West Pokot County': [
+        'West Potok'
+      ],
+  },
+  KM: {
+    'Anjouan': [
+        
+      ],
+    'Grande Comore': [
+        
+      ],
+    'Mohéli': [
+        
+      ],
+  },
+  LR: {
+    'Bomi County': [
+        'Dei',
+        'Dowein District',
+        'Gola',
+        'Klay District',
+        'Senjeh District',
+        'Suehn Mecca District'
+      ],
+    'Bong County': [
+        'Boinsen District',
+        'Fuamah',
+        'Jorquelleh',
+        'Kokoyah',
+        'Kpaai District',
+        'Nyafokole',
+        'Panta',
+        'Salala',
+        'Sanoyeah',
+        'Suakoko',
+        'Tukpahblee District',
+        'Yeallequelleh District',
+        'Zota'
+      ],
+    'Gbarpolu County': [
+        'Belleh',
+        'Bokomu',
+        'Bopolu',
+        'Gbarma District',
+        'Goije',
+        'Gounwolaila District',
+        'Kongba District'
+      ],
+    'Grand Bassa County': [
+        'Campwood',
+        'Commonwealth District',
+        'District #1',
+        'District #2',
+        'District #3',
+        'District Number Four',
+        'District Number One',
+        'District Number Three',
+        'District Number Two',
+        'Five A',
+        'Glarkon',
+        'Jayah',
+        'Neekreen District',
+        'Owensgrove District',
+        'Saint John River City District',
+        'Tenor',
+        'Three A',
+        'Three B',
+        'Trade Town'
+      ],
+    'Grand Cape Mount County': [
+        'Commonwealth District',
+        'Garwula',
+        'Gola Konneh',
+        'Kone',
+        'Porkpa District',
+        'Robertsport District',
+        'Tewor',
+        'Tombe'
+      ],
+    'Grand Gedeh County': [
+        'B’hai District',
+        'Cavala District',
+        'Gbao District',
+        'Gbazohn',
+        'Gbobo',
+        'Gboe-Ploe District',
+        'Glio-Twarbo',
+        'Konobo',
+        'Niabo',
+        'Putu',
+        'Tchien'
+      ],
+    'Grand Kru County': [
+        'Barclayville',
+        'Bleebo District',
+        'Bolloh District',
+        'Buah',
+        'Dorbor District',
+        'Dweh District',
+        'Felo-Jekwi District',
+        'Fenetoe District',
+        'Forpoh District',
+        'Garraway',
+        'Gee District',
+        'Grand Cess Wedabo',
+        'Kpi District',
+        'Lower Jloh',
+        'Nrokwia-Wesldow District',
+        'Sasstown',
+        'Trenbo District',
+        'Upper Jloh District',
+        'Webado',
+        'Wlogba District'
+      ],
+    'Lofa County': [
+        'Bonde-Wubomai',
+        'Foya District',
+        'Gbalein Faala',
+        'Gbandi',
+        'Gizima-Ziema',
+        'Guma',
+        'Guma-Mendi',
+        'Kambo Hills',
+        'Kisi',
+        'Kolahun District',
+        'Quardu Gboni District',
+        'Salayea District',
+        'Vahun District',
+        'Voinjama District',
+        'Waiglomai-Woniglomai',
+        'Zorzor District'
+      ],
+    'Margibi County': [
+        'Firestone',
+        'Gibi',
+        'Mambah Kaba'
+      ],
+    'Maryland County': [
+        'Barobo',
+        'Bolobo',
+        'Cavalla',
+        'Dedabo',
+        'Dorobo',
+        'Firestone',
+        'Flenipo',
+        'Gbarlobo',
+        'Gbelakpo',
+        'Gbeta Klepo',
+        'Gedabo',
+        'Gedetarbo',
+        'Glebo',
+        'Grawa',
+        'Gwelekpoken District',
+        'Karluway Number One District',
+        'Karluway Number Two District',
+        'Little Wrebo',
+        'Nemea',
+        'Nyanbo',
+        'Nyorken District',
+        'Pate',
+        'Picnicess',
+        'Pleebo/Sodeken District',
+        'Pleebo/Sodoken',
+        'Po River',
+        'Rock Town',
+        'Sodoke',
+        'Tuobo',
+        'Whojah District',
+        'Yederabo'
+      ],
+    'Montserrado County': [
+        'Careysburg',
+        'Commonwealth District',
+        'Ding',
+        'Greater Monrovia',
+        'Kakata',
+        'Mambah-Kaba',
+        'Saint Paul River District',
+        'St. Paul River',
+        'Todee',
+        'Topee'
+      ],
+    'Nimba': [
+        'Boe and Quilla District',
+        'Buu-Yao District',
+        'Doe',
+        'Garr-Bain District',
+        'Gbehlay-Geh',
+        'Gbi and Doru',
+        'Gbokole',
+        'Gbor District',
+        'Keaple',
+        'Kparblee District',
+        'Leewehpea-Mahn District',
+        'Meinpea-Mahn District',
+        'Saclepea-Mah',
+        'Sagleipie-Ma',
+        'Sanniquelleh- Mahn',
+        'Sanniquellie Mahn',
+        'Tappita',
+        'Twan River District',
+        'Wee-Gbehy-Mahn',
+        'Yarmein District',
+        'Yarpea Mahn District',
+        'Yarwein Mehnsonnoh',
+        'Zo-Ge',
+        'Zoe-Gbao District'
+      ],
+    'River Cess County': [
+        'Beawor District',
+        'Central River Cess District',
+        'Doedain District',
+        'Fen River District',
+        'Jo River District',
+        'Mowe',
+        'Norwein District',
+        'Rock Cess',
+        'Sam Gbalor District',
+        'Zarflahn District'
+      ],
+    'River Gee County': [
+        'Chedepo',
+        'Gbeapo District',
+        'Glaro',
+        'Karforh District',
+        'Kitabo',
+        'Nanee District',
+        'Nyenawliken District',
+        'Nyenebo District',
+        'Palipo',
+        'Potupo District',
+        'Sarbo',
+        'Tienpo',
+        'Tuobo',
+        'Webbo District'
+      ],
+    'Sinoe County': [
+        'Bodae District',
+        'Bokon District',
+        'Butaw',
+        'Dugbe River District',
+        'Greenville District',
+        'Jaedae District',
+        'Jeadepo',
+        'Jeetrah',
+        'Juarzon District',
+        'Kabor',
+        'Kpayan District',
+        'Kulu',
+        'Kulu Shaw Boe District',
+        'Matro',
+        'Nake',
+        'Nana Kru',
+        'Numo',
+        'Nuohn Point',
+        'Plahn Nyarn District',
+        'Pynes Town District',
+        'Pyneston District',
+        'Sanquin District Number One',
+        'Sanquin District Number Three',
+        'Sanquin District Number Two',
+        'Seedor',
+        'Seekon',
+        'Tarjuazon',
+        'Tasu',
+        'Topo',
+        'Toto',
+        'Wedjah-Cabade',
+        'Wedjah District'
+      ],
+  },
+  LS: {
+    'Berea': [
+        'Makhoroana',
+        'Mamathe',
+        'Mapoteng',
+        'Mokhachane',
+        'Mokomahatsi',
+        'Urban'
+      ],
+    'Butha-Buthe': [
+        'Motete',
+        'Qalo'
+      ],
+    'Leribe': [
+        'Hleoheng',
+        'Khomokhoana Community',
+        'Urban'
+      ],
+    'Mafeteng District': [
+        
+      ],
+    'Maseru District': [
+        'Makhaleng Constituency',
+        'Maseru Central',
+        'Qiloane Community',
+        'Rothe'
+      ],
+    'Mohale\'s Hoek District': [
+        
+      ],
+    'Mokhotlong District': [
+        
+      ],
+    'Qacha\'s Nek District': [
+        
+      ],
+    'Quthing': [
+        
+      ],
+    'Thaba-Tseka': [
+        
+      ],
+  },
+  LY: {
+    'Al Buţnān': [
+        
+      ],
+    'Al Jabal al Akhḑar': [
+        
+      ],
+    'Al Jafārah': [
+        
+      ],
+    'Al Jufrah': [
+        
+      ],
+    'Al Kufrah': [
+        
+      ],
+    'Al Marj': [
+        
+      ],
+    'Al Marqab': [
+        
+      ],
+    'Al Wāḩāt': [
+        
+      ],
+    'An Nuqāţ al Khams': [
+        
+      ],
+    'Ash Shāţiʼ': [
+        
+      ],
+    'Az Zāwiyah': [
+        
+      ],
+    'Banghāzī': [
+        
+      ],
+    'Darnah': [
+        
+      ],
+    'Ghāt': [
+        
+      ],
+    'Jabal al Gharbi': [
+        
+      ],
+    'Mişrātah': [
+        
+      ],
+    'Murzuq District': [
+        
+      ],
+    'Nālūt': [
+        'Mutuşarrifīyat Ghadāmis'
+      ],
+    'Sabha District': [
+        
+      ],
+    'Surt': [
+        
+      ],
+    'Tripoli': [
+        
+      ],
+    'Wādī al Ḩayāt': [
+        
+      ],
+  },
+  MA: {
+    'Béni Mellal-Khénifra': [
+        'Azilal Province',
+        'Beni-Mellal',
+        'Fquih Ben Salah Province',
+        'Khenifra',
+        'Khouribga Province'
+      ],
+    'Casablanca-Settat': [
+        'Benslimane',
+        'Berrechid Province',
+        'Casablanca',
+        'El-Jadida',
+        'Mediouna',
+        'Mohammedia',
+        'Nouaceur',
+        'Settat Province',
+        'Sidi Bennour'
+      ],
+    'Dakhla-Oued Ed-Dahab': [
+        'Aousserd',
+        'Oued-Ed-Dahab'
+      ],
+    'Drâa-Tafilalet': [
+        'Errachidia',
+        'Midelt',
+        'Ouarzazate',
+        'Tinghir Province',
+        'Zagora'
+      ],
+    'Fès-Meknès': [
+        'Boulemane',
+        'El-Hajeb',
+        'Fes',
+        'Ifrane',
+        'Meknes',
+        'Moulay-Yacoub',
+        'Sefrou',
+        'Taounate',
+        'Taza'
+      ],
+    'Guelmim-Oued Noun': [
+        'Assa-Zag',
+        'Guelmim',
+        'Sidi Ifni',
+        'Tan-Tan'
+      ],
+    'Laâyoune-Sakia El Hamra': [
+        'Boujdour',
+        'Es-Semara',
+        'Laayoune',
+        'Tarfaya'
+      ],
+    'Marrakesh-Safi': [
+        'Al-Haouz',
+        'Chichaoua',
+        'Essaouira',
+        'Kelaa-Des-Sraghna',
+        'Marrakech',
+        'Rehamna',
+        'Safi',
+        'Youssoufia'
+      ],
+    'Oriental': [
+        'Berkane',
+        'Driouch Province',
+        'Figuig',
+        'Guercif Province',
+        'Jerada',
+        'Nador',
+        'Oujda-Angad',
+        'Taourirt'
+      ],
+    'Rabat-Salé-Kénitra': [
+        'Kenitra Province',
+        'Khemisset',
+        'Rabat',
+        'Sale',
+        'Sidi-Kacem',
+        'Sidi Slimane',
+        'Skhirate-Temara'
+      ],
+    'Souss-Massa': [
+        'Agadir-Ida-ou-Tnan',
+        'Chtouka-Ait-Baha',
+        'Inezgane-Ait Melloul',
+        'Taroudannt',
+        'Tata',
+        'Tiznit'
+      ],
+    'Tanger-Tetouan-Al Hoceima': [
+        'Al-Hoceima',
+        'Chefchaouen Province',
+        'Fahs-Anjra',
+        'Larache',
+        'M\'Diq-Fnideq',
+        'Ouezzane Province',
+        'Tanger-Assilah',
+        'Tetouan'
+      ],
+  },
+  MG: {
+    'Alaotra Mangoro': [
+        'Ambatondrazaka District',
+        'Amparafaravola District',
+        'Andilamena District',
+        'Anosibe An\'ala District',
+        'Moramanga District'
+      ],
+    'Amoron\'i Mania': [
+        'Ambatofinandrahana District',
+        'Ambositra District',
+        'Fandriana District',
+        'Manandriana District'
+      ],
+    'Analamanga': [
+        '1er Arrondissement',
+        '2e Arrondissement',
+        '3e Arrondissement',
+        '4e Arrondissement',
+        '5e Arrondissement',
+        '6e Arrondissement',
+        'Ambohidratrimo District',
+        'Andramasina District',
+        'Anjozorobe',
+        'Ankazobe District',
+        'Antananarivo-Atsimondrano',
+        'Antananarivo Avaradrano',
+        'Manjakandriana'
+      ],
+    'Analanjirofo': [
+        'Fenerive Est',
+        'Mananara Nord District',
+        'Maroantsetra District',
+        'Nosy Boraha',
+        'Soanierana Ivongo',
+        'Vavatenina District'
+      ],
+    'Androy': [
+        'Ambovombe District',
+        'Bekily District',
+        'Beloha District',
+        'Tsihombe'
+      ],
+    'Anosy': [
+        'Amboasary District',
+        'Betroka District',
+        'Taolagnaro'
+      ],
+    'Atsimo-Andrefana': [
+        'Ampanihy District',
+        'Ankazoabo District',
+        'Benenitra',
+        'Beroroha District',
+        'Betioky District',
+        'Morombe District',
+        'Sakaraha District',
+        'Toliara I District',
+        'Toliara II District'
+      ],
+    'Atsimo-Atsinanana': [
+        'Befotaka',
+        'Farafangana District',
+        'Midongy-Atsimo',
+        'Vangaindrano District',
+        'Vondrozo'
+      ],
+    'Atsinanana': [
+        'Antanambao Manampontsy',
+        'Brickaville',
+        'Mahanoro',
+        'Marolambo',
+        'Toamasina I',
+        'Toamasina II',
+        'Vatomandry'
+      ],
+    'Betsiboka': [
+        'Kandreho',
+        'Maevatanana',
+        'Tsaratanana'
+      ],
+    'Boeny': [
+        'Ambato Boeni',
+        'Mahajanga I',
+        'Mahajanga II',
+        'Marovoay District',
+        'Mitsinjo',
+        'Soalala'
+      ],
+    'Bongolava': [
+        'Fenoarivobe',
+        'Tsiroanomandidy'
+      ],
+    'Diana': [
+        'Ambanja',
+        'Ambilobe',
+        'Antsiranana I',
+        'Antsiranana II',
+        'Nosy Be'
+      ],
+    'Fitovinany Region': [
+        'Ikongo',
+        'Manakara',
+        'Vohipeno'
+      ],
+    'Ihorombe': [
+        'Iakora',
+        'Ihosy',
+        'Ivohibe'
+      ],
+    'Itasy': [
+        'Arivonimamo',
+        'Miarinarivo',
+        'Soavinandriana'
+      ],
+    'Melaky': [
+        'Ambatomainty',
+        'Antsalova',
+        'Besalampy',
+        'Maintirano',
+        'Morafenobe'
+      ],
+    'Menabe': [
+        'Belo Sur Tsiribihina',
+        'Mahabo District',
+        'Manja District',
+        'Miandrivazo District',
+        'Morondava District'
+      ],
+    'Sava': [
+        'Andapa District',
+        'Antalaha',
+        'Sambava',
+        'Vohemar'
+      ],
+    'Sofia': [
+        'Analalava',
+        'Antsohihy',
+        'Bealanana District',
+        'Befandriana Nord',
+        'Mampikony',
+        'Mandritsara',
+        'Port-Berge (Boriziny-Vaovao)'
+      ],
+    'Upper Matsiatra': [
+        'Ambalavao',
+        'Ambohimahasoa',
+        'Fianarantsoa I',
+        'Ikalamavony',
+        'Isandra',
+        'Lalangina',
+        'Vohibato'
+      ],
+    'Vakinankaratra': [
+        'Ambatolampy',
+        'Antanifotsy',
+        'Antsirabe I District',
+        'Antsirabe II',
+        'Betafo District',
+        'Faratsiho',
+        'Mandoto'
+      ],
+    'Vatovavy Region': [
+        'Ifanadiana',
+        'Mananjary',
+        'Nosy-Varika'
+      ],
+  },
+  ML: {
+    'Bamako': [
+        'Bamako Cercle'
+      ],
+    'Gao': [
+        'Ansongo Cercle',
+        'Cercle de Bourem',
+        'Gao Cercle'
+      ],
+    'Kayes': [
+        'Bafoulabe Cercle',
+        'Cercle de Yélimané',
+        'Diema Cercle',
+        'Kayes Cercle',
+        'Kenieba Cercle',
+        'Kita Cercle',
+        'Nioro Cercle'
+      ],
+    'Kidal': [
+        'Cercle d’ Abeïbara',
+        'Cercle de Tessalit',
+        'Kidal',
+        'Ti-n-Essako'
+      ],
+    'Koulikoro': [
+        'Banamba Cercle',
+        'Cercle de Kangaba',
+        'Dioila',
+        'Kati Cercle',
+        'Kolokani Cercle',
+        'Koulikoro',
+        'Nara Cercle'
+      ],
+    'Ménaka': [
+        'Cercle de Ménaka'
+      ],
+    'Mopti': [
+        'Bandiagara Cercle',
+        'Bankass Cercle',
+        'Djenne Cercle',
+        'Douentza Cercle',
+        'Koro Cercle',
+        'Mopti Cercle',
+        'Tenenkou Cercle',
+        'Youwarou Cercle'
+      ],
+    'Ségou': [
+        'Baroueli',
+        'Bla',
+        'Cercle de Macina',
+        'Cercle de Niono',
+        'Cercle de San',
+        'Segou',
+        'Tominian'
+      ],
+    'Sikasso': [
+        'Bougouni Cercle',
+        'Cercle de Kadiolo',
+        'Cercle de Yanfolila',
+        'Cercle de Yorosso',
+        'Kolondieba Cercle',
+        'Koutiala Cercle',
+        'Sikasso Cercle'
+      ],
+    'Taoudénit': [
+        
+      ],
+    'Tombouctou': [
+        'Cercle de Goundam',
+        'Dire',
+        'Gourma-Rharous Cercle',
+        'Niafunke Cercle',
+        'Tombouctou'
+      ],
+  },
+  MR: {
+    'Adrar': [
+        'Aoujeft',
+        'Atar',
+        'Chinguetti',
+        'Ouadane'
+      ],
+    'Assaba': [
+        'Barkeol',
+        'Boumdeid',
+        'Guerou',
+        'Kankossa',
+        'Kiffa'
+      ],
+    'Brakna': [
+        'Aleg',
+        'Bababe',
+        'Bogué Department',
+        'Magta-Lahjar',
+        'M\'Bagne'
+      ],
+    'Dakhlet Nouadhibou': [
+        'Chami',
+        'Nouadhibou'
+      ],
+    'Gorgol': [
+        'Kaedi',
+        'Maghama',
+        'M\'Bout',
+        'Monguel'
+      ],
+    'Guidimaka': [
+        'Ould Yenge',
+        'Selibaby'
+      ],
+    'Hodh Ech Chargi': [
+        'Amourj',
+        'Bassiknou',
+        'D\'har',
+        'Djigueni',
+        'Nema',
+        'Oualata',
+        'Timbedra'
+      ],
+    'Hodh El Gharbi': [
+        'Aioun',
+        'Kobenni',
+        'Tamchekett',
+        'Tintane'
+      ],
+    'Inchiri': [
+        'Akjoujt'
+      ],
+    'Nouakchott Nord': [
+        'Dar Naim',
+        'Teyarett',
+        'Toujounine'
+      ],
+    'Nouakchott Ouest': [
+        'Ksar',
+        'Sebkha',
+        'Tevragh Zeina'
+      ],
+    'Nouakchott Sud': [
+        'Arafat',
+        'El Mina',
+        'Riad'
+      ],
+    'Tagant': [
+        'Moudjeria',
+        'Tichitt',
+        'Tidjikja'
+      ],
+    'Tiris Zemmour': [
+        'Bir Moghreïn',
+        'F\'Derik',
+        'Zouerate'
+      ],
+    'Trarza': [
+        'Boutilimit',
+        'Keur-Macene',
+        'Mederdra',
+        'Ouad Naga',
+        'R\'Kiz',
+        'Rosso Department'
+      ],
+  },
+  MU: {
+    'Agalega Islands': [
+        
+      ],
+    'Black River': [
+        
+      ],
+    'Cargados Carajos': [
+        
+      ],
+    'Flacq': [
+        
+      ],
+    'Grand Port': [
+        
+      ],
+    'Moka': [
+        
+      ],
+    'Pamplemousses': [
+        
+      ],
+    'Plaines Wilhems': [
+        
+      ],
+    'Port Louis': [
+        
+      ],
+    'Rivière du Rempart': [
+        
+      ],
+    'Rodrigues': [
+        
+      ],
+    'Savanne': [
+        
+      ],
+  },
+  MW: {
+    'Central Region': [
+        'Dedza District',
+        'Dowa District',
+        'Kasungu District',
+        'Lilongwe District',
+        'Mchinji District',
+        'Nkhotakota District',
+        'Ntcheu District',
+        'Ntchisi District',
+        'Salima District'
+      ],
+    'Northern Region': [
+        'Chitipa District',
+        'Karonga District',
+        'Likoma District',
+        'Mzimba District',
+        'Nkhata Bay District',
+        'Rumphi District'
+      ],
+    'Southern Region': [
+        'Balaka District',
+        'Blantyre District',
+        'Chikwawa District',
+        'Chiradzulu District',
+        'Machinga District',
+        'Mangochi District',
+        'Mulanje District',
+        'Mwanza District',
+        'Neno District',
+        'Nsanje District',
+        'Phalombe District',
+        'Thyolo District',
+        'Zomba District'
+      ],
+  },
+  MZ: {
+    'Cabo Delgado Province': [
+        'Ancuabe District',
+        'Balama District',
+        'Chiure',
+        'Cidade de Pemba',
+        'Circunscrição da Quissanga',
+        'Circunscrição de Macomia',
+        'Circunscrição de Palma',
+        'Concelho do Ibo',
+        'Mecufi',
+        'Meluco',
+        'Metuge District',
+        'Mocimboa da Praia',
+        'Montepuez District',
+        'Mueda District',
+        'Muidumbe',
+        'Namuno District',
+        'Nangade'
+      ],
+    'Gaza Province': [
+        'Bilene Macia District',
+        'Chicualacuala',
+        'Chigubo',
+        'Chokwe District',
+        'Cidade de Xai-Xai',
+        'Distrito de Chibuto',
+        'Guija',
+        'Mabalane',
+        'Mandlakaze',
+        'Massangena',
+        'Massingir',
+        'Xai-Xai District'
+      ],
+    'Inhambane Province': [
+        'Cidade de Inhambane',
+        'Circunscrição do Govuro',
+        'Funhalouro District',
+        'Homoine District',
+        'Inharrime District',
+        'Inhassoro District',
+        'Jangamo District',
+        'Mabote',
+        'Massinga District',
+        'Maxixe',
+        'Morrumbene District',
+        'Panda',
+        'Vilankulos District',
+        'Zavala District'
+      ],
+    'Manica': [
+        'Barue District',
+        'Circunscrição de Mossurize',
+        'Concelho de Manica',
+        'Concelho do Chimoio',
+        'Distrito de Macate',
+        'Distrito de Vanduzi',
+        'Gondola District',
+        'Guro',
+        'Guro District',
+        'Machaze District',
+        'Macossa District',
+        'Sussundenga District',
+        'Tambara District'
+      ],
+    'Maputo City': [
+        'KaMavota',
+        'KaMaxakeni',
+        'KaMpfumo',
+        'KaMubukwana',
+        'KaNyaka',
+        'KaTembe',
+        'Nhlamankulo'
+      ],
+    'Maputo Province': [
+        'Aeroporto',
+        'Boane District',
+        'Cidade de Manhiça',
+        'Concelho de Matola',
+        'Magude District',
+        'Manhica',
+        'Marracuene District',
+        'Matutiune District',
+        'Moamba District',
+        'Namaacha District'
+      ],
+    'Nampula': [
+        'Angoche District',
+        'Cidade de Nampula',
+        'Circunscrìção de Mogovolas',
+        'Circunscrição de Murrupula',
+        'Circunscrição do Eráti',
+        'Circunscrìção do Mogincual',
+        'Concelho de Monapo',
+        'Distrito de Larde',
+        'Distrito de Liúpo',
+        'Distrito de Moma',
+        'Distrito de Rapale',
+        'Ilha de Mocambique',
+        'Lalaua District',
+        'Malema',
+        'Meconta',
+        'Mecuburi',
+        'Memba',
+        'Mossuril',
+        'Muecate District',
+        'Nacala-a-Velha',
+        'Nacala-Porto',
+        'Nacaroa District',
+        'Nampula',
+        'Ribaue'
+      ],
+    'Niassa Province': [
+        'Cidade de Lichinga',
+        'Circunscrição de Mandimba',
+        'Circunscrição de Sanga',
+        'Cuamba',
+        'Lago District',
+        'Lichinga District',
+        'Majune District',
+        'Marrupa District',
+        'Maúa District',
+        'Mavago',
+        'Mecanhelas District',
+        'Mecula',
+        'Metarica District',
+        'Muembe District',
+        'Ngauma District',
+        'Nipepe District'
+      ],
+    'Sofala': [
+        'Caia District',
+        'Chemba District',
+        'Cheringoma District',
+        'Chibabava District',
+        'Circunscrição de Marromeu',
+        'Concelho da Beira',
+        'Concelho do Búzi',
+        'Dondo District',
+        'Gorongosa District',
+        'Machanga District',
+        'Maringué District',
+        'Muanza District',
+        'Nhamatanda District'
+      ],
+    'Tete': [
+        'Angónia District',
+        'Cahora Bassa District',
+        'Changara District',
+        'Chifunde District',
+        'Chiuta District',
+        'Cidade de Tete',
+        'Circunscrição da Macanga',
+        'Circunscrição da Mutarara',
+        'Circunscrição de Màgoé',
+        'Circunscrição de Marávia',
+        'Distrito de Dôa',
+        'Distrito de Marara',
+        'Luenha',
+        'Moatize',
+        'Tsangano District',
+        'Zumbu'
+      ],
+    'Zambezia Province': [
+        'Alto Molócuè',
+        'Circunscrição do Ile',
+        'Concelho de Quelimane',
+        'Concelho do Chinde',
+        'Distrito de Derre',
+        'Distrito de Luabo',
+        'Distrito de Mocubela',
+        'Distrito de Molumbo',
+        'Distrito de Mulevala',
+        'Gilé District',
+        'Gurue District',
+        'Inhassunge District',
+        'Lugela District',
+        'Maganja da Costa District',
+        'Milange District',
+        'Mocuba District',
+        'Mopeia District',
+        'Morrumbala District',
+        'Namacurra District',
+        'Namarroi District',
+        'Nicodala District',
+        'Pebane District'
+      ],
+  },
+  NA: {
+    'Erongo Region': [
+        'Arandis Constituency',
+        'Daures Constituency',
+        'Swakopmund Constituency',
+        'Walvis Bay Rural Constituency',
+        'Walvis Bay Urban Constituency'
+      ],
+    'Hardap Region': [
+        'Gibeon Constituency',
+        'Mariental Rural',
+        'Rehoboth Rural'
+      ],
+    'Karas Region': [
+        'Karasburg Constituency',
+        'Luderitz Constituency',
+        'Oranjemund Constituency'
+      ],
+    'Kavango East': [
+        'Mashare',
+        'Rundu Rural West',
+        'Rundu Urban'
+      ],
+    'Kavango West': [
+        'Kapako Constituency',
+        'Mpungu'
+      ],
+    'Khomas Region': [
+        'Moses Garoeb',
+        'Samora Machel',
+        'Windhoek East',
+        'Windhoek Rural'
+      ],
+    'Kunene Region': [
+        'Epupa Constituency',
+        'Khorixas Constituency',
+        'Opuwo Constituency',
+        'Sesfontein Constituency'
+      ],
+    'Ohangwena Region': [
+        'Endola',
+        'Epembe Constituency',
+        'Omuthiyagwiipundi',
+        'Oshikango'
+      ],
+    'Omaheke Region': [
+        'Otjombinde'
+      ],
+    'Omusati Region': [
+        'Anamulenge Constituency',
+        'Etayi',
+        'Okahao',
+        'Oshikuku',
+        'Tsandi'
+      ],
+    'Oshana Region': [
+        'Okaku Constituency',
+        'Ongwediva',
+        'Oshakati East',
+        'Oshakati West',
+        'Uukwiyu'
+      ],
+    'Oshikoto Region': [
+        'Eengodi',
+        'Olukonda Constituency',
+        'Omuntele Constituency',
+        'Onayena'
+      ],
+    'Otjozondjupa Region': [
+        'Okahandja Constituency',
+        'Omatako Constituency',
+        'Otavi'
+      ],
+    'Zambezi Region': [
+        'Linyanti'
+      ],
+  },
+  NE: {
+    'Agadez': [
+        'Aderbissinat',
+        'Arlit',
+        'Département de Bilma',
+        'Département de Tchirozérine',
+        'Iferouane',
+        'Ingall'
+      ],
+    'Diffa': [
+        'Bosso',
+        'Département de Diffa',
+        'Département de Maïné-Soroa',
+        'Département de Nguigmi',
+        'Goudoumaria',
+        'N\'Gourti'
+      ],
+    'Dosso Region': [
+        'Boboye Department',
+        'Département de Dogondoutchi',
+        'Département de Dosso',
+        'Département de Gaya',
+        'Département de Loga',
+        'Dioundiou',
+        'Falmey',
+        'Tibiri'
+      ],
+    'Maradi Region': [
+        'Bermo',
+        'Département d’ Aguié',
+        'Département de Dakoro',
+        'Département de Mayahi',
+        'Département de Tessaoua',
+        'Gazaoua',
+        'Guidan Roumdji Department',
+        'Madarounfa',
+        'Ville de Maradi'
+      ],
+    'Niamey': [
+        'Ville de Niamey'
+      ],
+    'Tahoua Region': [
+        'Abalak',
+        'Bagaroua',
+        'Département d\' Illéla',
+        'Département de Birni Nkonni',
+        'Département de Bouza',
+        'Département de Keïta',
+        'Département de Madaoua',
+        'Département de Tahoua',
+        'Département de Tchin-Tabaraden',
+        'Malbaza',
+        'Tassara',
+        'Tillia',
+        'Ville de Tahoua'
+      ],
+    'Tillabéri Region': [
+        'Abala',
+        'Ayerou',
+        'Balleyara',
+        'Banibangou',
+        'Bankilaré',
+        'Département de Filingué',
+        'Département de Ouallam',
+        'Département de Say',
+        'Gothèye',
+        'Kollo Department',
+        'Tera Department',
+        'Tillaberi Department',
+        'Torodi'
+      ],
+    'Zinder Region': [
+        'Belbedji',
+        'Damagaram Takaya',
+        'Département de Gouré',
+        'Département de Kantché',
+        'Département de Tânout',
+        'Dungass',
+        'Magaria Department',
+        'Mirriah Department',
+        'Takeita',
+        'Tesker',
+        'Ville de Zinder'
+      ],
+  },
+  NG: {
+    'Abia State': [
+        'Aba North',
+        'Aba South',
+        'Arochukwu',
+        'Bende',
+        'Ikwuano',
+        'Isiala-Ngwa North',
+        'Isiala Ngwa North Local Government Area',
+        'Isiala-Ngwa South',
+        'Isiala Ngwa South Local Government Area',
+        'Isuikwuato',
+        'Obi Nwga',
+        'Ohafia',
+        'Osisioma Ngwa',
+        'Ugwunagbo',
+        'Ukwa East',
+        'Ukwa West',
+        'Umu-Nneochi',
+        'Umuahia North',
+        'Umuahia South'
+      ],
+    'Adamawa': [
+        'Demsa',
+        'Fufore',
+        'Ganye',
+        'Girei',
+        'Gombi',
+        'Guyuk',
+        'Hong',
+        'Jada',
+        'Larmurde',
+        'Madagali',
+        'Maiha',
+        'Mayo-Belwa',
+        'Michika',
+        'Mubi North',
+        'Mubi South',
+        'Numan',
+        'Shelleng',
+        'Song',
+        'Teungo',
+        'Yola North',
+        'Yola South'
+      ],
+    'Akwa Ibom State': [
+        'Abak',
+        'Eastern Obolo',
+        'Eket',
+        'Esit Eket',
+        'Essien Udim',
+        'Etim Ekpo',
+        'Etinan',
+        'Ibeno',
+        'Ibesikpo Asutan',
+        'Ibiono Ibom',
+        'Ika',
+        'Ikono',
+        'Ikot Abasi',
+        'Ikot Ekpene',
+        'Ini',
+        'Itu',
+        'Mbo',
+        'Mkpat Enin',
+        'Nsit Atai',
+        'Nsit Ibom',
+        'Nsit Ubium',
+        'Obot Akara',
+        'Okobo',
+        'Onna',
+        'Oron',
+        'Oruk Anam',
+        'Udung Uko',
+        'Ukanafun',
+        'Uruan',
+        'Urue Offong/Oruko',
+        'Uyo'
+      ],
+    'Anambra': [
+        'Aguata',
+        'Anambra East',
+        'Anambra West',
+        'Anaocha',
+        'Awka North',
+        'Awka South',
+        'Ayamelum',
+        'Dunukofia',
+        'Ekwusigo',
+        'Idemili North',
+        'Idemili South',
+        'Ihiala',
+        'Njikoka',
+        'Nnewi North',
+        'Nnewi South',
+        'Ogbaru',
+        'Onitsha North',
+        'Onitsha South',
+        'Orumba North',
+        'Orumba South',
+        'Oyi'
+      ],
+    'Bauchi': [
+        'Alkaleri',
+        'Bauchi',
+        'Bogoro',
+        'Damban',
+        'Darazo',
+        'Dass',
+        'Gamawa',
+        'Ganjuwa',
+        'Giade',
+        'Itas/Gadau',
+        'Jama\'Are',
+        'Katagum',
+        'Kirfi',
+        'Misau',
+        'Ningi',
+        'Shira',
+        'Tafawa-Balewa',
+        'Toro',
+        'Warji',
+        'Zaki'
+      ],
+    'Bayelsa State': [
+        'Brass',
+        'Ekeremor',
+        'Kolokuma/Opokuma',
+        'Nembe',
+        'Ogbia',
+        'Sagbama',
+        'Southern Ijaw',
+        'Yenegoa'
+      ],
+    'Benue State': [
+        'Ado',
+        'Agatu',
+        'Apa',
+        'Bukuru',
+        'Buruku Local Government Area',
+        'Gboko',
+        'Guma',
+        'Gwer East',
+        'Gwer West',
+        'Katsina-Ala',
+        'Konshisha',
+        'Kwande',
+        'Logo',
+        'Makurdi Local Government Area',
+        'Markurdi',
+        'Obi',
+        'Ogbadibo',
+        'Ohimini',
+        'Oju',
+        'Okpokwu',
+        'Oturkpo',
+        'Tarka',
+        'Ukum',
+        'Ushongo',
+        'Vandeikya'
+      ],
+    'Borno State': [
+        'Abadam',
+        'Askira-Uba',
+        'Bama',
+        'Bayo',
+        'Biu',
+        'Chibok',
+        'Damboa',
+        'Dikwa',
+        'Gubio',
+        'Guzamala',
+        'Gwoza',
+        'Hawul',
+        'Jere',
+        'Kaga',
+        'Kala-Balge',
+        'Konduga',
+        'Kukawa',
+        'Kwaya Kusar',
+        'Mafa',
+        'Magumeri',
+        'Maiduguri',
+        'Marte',
+        'Mobbar',
+        'Monguno',
+        'Ngala',
+        'Nganzai',
+        'Shani'
+      ],
+    'Cross River State': [
+        'Abi',
+        'Akamkpa',
+        'Akpabuyo',
+        'Bakassi',
+        'Bekwarra',
+        'Biase',
+        'Boki',
+        'Calabar Municipal',
+        'Calabar South',
+        'Etung',
+        'Ikom',
+        'Obanliku',
+        'Obubra',
+        'Obudu',
+        'Odukpani',
+        'Ogoja',
+        'Yakurr',
+        'Yala'
+      ],
+    'Delta': [
+        'Aniocha North',
+        'Aniocha South',
+        'Bomadi',
+        'Burutu',
+        'Ethiope East',
+        'Ethiope West',
+        'Ika North East',
+        'Ika South',
+        'Isoko North',
+        'Isoko South',
+        'Ndokwa East',
+        'Ndokwa West',
+        'Okpe',
+        'Oshimili North',
+        'Oshimili South',
+        'Patani',
+        'Sapele',
+        'Udu',
+        'Ughelli North',
+        'Ughelli South',
+        'Ukwuani',
+        'Uvwie',
+        'Warri North',
+        'Warri South',
+        'Warri South-West'
+      ],
+    'Ebonyi State': [
+        'Abakaliki',
+        'Afikpo North',
+        'Afikpo South',
+        'Ebonyi',
+        'Ezza North',
+        'Ezza South',
+        'Ikwo',
+        'Ishielu',
+        'Ivo',
+        'Izzi',
+        'Ohaozara',
+        'Ohaukwu',
+        'Onicha'
+      ],
+    'Edo State': [
+        'Akoko-Edo',
+        'Egor',
+        'Esan Central',
+        'Esan North-East',
+        'Esan South-East',
+        'Esan West',
+        'Etsako Central',
+        'Etsako East',
+        'Etsako West',
+        'Iguegben',
+        'Ikpoba-Okha',
+        'Oredo',
+        'Orhionmwon',
+        'Ovia North-East',
+        'Ovia South-West',
+        'Owan East',
+        'Owan West',
+        'Uhunmwonde'
+      ],
+    'Ekiti State': [
+        'Ado-Ekiti',
+        'Efon',
+        'Ekiti East',
+        'Ekiti South-West',
+        'Ekiti West',
+        'Emure',
+        'Gbonyin',
+        'Ido-Osi',
+        'Ijero',
+        'Ikere',
+        'Ikole',
+        'Ilejemeje',
+        'Irepodun/Ifelodun',
+        'Ise/Orun',
+        'Moba',
+        'Oye'
+      ],
+    'Enugu State': [
+        'Aninri',
+        'Awgu',
+        'Enugu East',
+        'Enugu North',
+        'Enugu South',
+        'Ezeagu',
+        'Igbo-Etiti',
+        'Igbo-Eze-North',
+        'Igbo-Eze-South',
+        'Isi-Uzo',
+        'Nkanu East',
+        'Nkanu West',
+        'Nsukka',
+        'Oji-River',
+        'Udenu',
+        'Udi',
+        'Uzo-Uwani'
+      ],
+    'FCT': [
+        'Abaji',
+        'Bwari',
+        'Gwagwalada',
+        'Kuje',
+        'Kwali',
+        'Municipal Area Council'
+      ],
+    'Gombe State': [
+        'Akko',
+        'Balanga',
+        'Billiri',
+        'Dukku',
+        'Funakaye',
+        'Gombe',
+        'Kaltungo',
+        'Kwami',
+        'Nafada',
+        'Shomgom',
+        'Yamaltu/Deba'
+      ],
+    'Imo State': [
+        'Aboh-Mbaise',
+        'Ahiazu-Mbaise',
+        'Ehime -Mbano',
+        'Ezinihitte',
+        'Ideato North',
+        'Ideato South',
+        'Ihitte/Uboma',
+        'Ikeduru',
+        'Isiala Mbano',
+        'Isu',
+        'Mbaitoli Local Government Area',
+        'Mbatoli',
+        'Ngor-Okpala',
+        'Njaba',
+        'Nkwerre',
+        'Nwangele',
+        'Obowo',
+        'Oguta',
+        'Ohaji/Egbema',
+        'Okigwe',
+        'Orlu',
+        'Orsu',
+        'Oru East',
+        'Oru West',
+        'Owerri Municipal',
+        'Owerri North',
+        'Owerri West',
+        'Unuimo'
+      ],
+    'Jigawa State': [
+        'Auyo',
+        'Babura',
+        'Biriniwa',
+        'Birnin Kudu',
+        'Buji',
+        'Dutse',
+        'Gagarawa',
+        'Garki',
+        'Gumel',
+        'Guri',
+        'Gwaram',
+        'Gwiwa',
+        'Hadejia',
+        'Jahun',
+        'Kafin Hausa',
+        'Kaugama',
+        'Kazaure',
+        'Kiri Kasama',
+        'Kiyawa',
+        'Maigatari',
+        'Malam Maduri',
+        'Miga',
+        'Ringim',
+        'Roni',
+        'Sule Tankakar',
+        'Taura',
+        'Yankwashi'
+      ],
+    'Kaduna State': [
+        'Birnin Gwari',
+        'Chikun',
+        'Giwa',
+        'Igabi',
+        'Ikara',
+        'Jaba',
+        'Jema\'A',
+        'Kachia',
+        'Kaduna North',
+        'Kaduna South',
+        'Kagarko',
+        'Kajuru',
+        'Kaura',
+        'Kauru',
+        'Kuban',
+        'Kudan',
+        'Lere',
+        'Makarfi',
+        'Sabon Gari',
+        'Sanga',
+        'Soba',
+        'Zangon Kataf',
+        'Zaria'
+      ],
+    'Kano State': [
+        'Ajingi',
+        'Albasu',
+        'Bagwai',
+        'Bebeji',
+        'Bichi',
+        'Bunkure',
+        'Dala',
+        'Dambatta',
+        'Dawakin Kudu',
+        'Dawakin Tofa',
+        'Doguwa',
+        'Fagge',
+        'Gabasawa',
+        'Garko',
+        'Garum Mallam',
+        'Gaya',
+        'Gezawa',
+        'Gwale',
+        'Gwarzo',
+        'Kabo',
+        'Kano Municipal',
+        'Karaye',
+        'Kibiya',
+        'Kiru',
+        'Kumbotso',
+        'Kunchi',
+        'Kura',
+        'Madobi',
+        'Makoda',
+        'Minjibir',
+        'Nassarawa',
+        'Rano',
+        'Rimin Gado',
+        'Rogo',
+        'Shanono',
+        'Sumaila',
+        'Takai',
+        'Tarauni',
+        'Tofa',
+        'Tsanyawa',
+        'Tudun Wada',
+        'Ungogo',
+        'Warawa',
+        'Wudil'
+      ],
+    'Katsina State': [
+        'Bakori',
+        'Batagarawa',
+        'Batsari',
+        'Baure',
+        'Bindawa',
+        'Charanchi',
+        'Dan Musa',
+        'Dandume',
+        'Danja',
+        'Daura',
+        'Dutsi',
+        'Dutsin Ma',
+        'Faskari',
+        'Funtua',
+        'Ingawa',
+        'Jibia',
+        'Kafur',
+        'Kaita',
+        'Kankara',
+        'Kankia',
+        'Katsina',
+        'Kurfi',
+        'Kusada',
+        'Mai\'Adua',
+        'Malumfashi',
+        'Mani',
+        'Mashi',
+        'Matazu',
+        'Musawa',
+        'Rimi',
+        'Sabuwa',
+        'Safana',
+        'Sandamu',
+        'Zango'
+      ],
+    'Kebbi': [
+        'Aleiro',
+        'Arewa Dandi',
+        'Argungu',
+        'Augie',
+        'Bagudo',
+        'Birnin Kebbi',
+        'Bunza',
+        'Dandi',
+        'Fakai',
+        'Gwandu',
+        'Jega',
+        'Kalgo',
+        'Koko-Besse',
+        'Koko/Besse Local Government Area',
+        'Maiyama',
+        'Ngaski',
+        'Sakaba',
+        'Shanga',
+        'Suru',
+        'Wasagu-Danko',
+        'Yauri',
+        'Yauri Local Government Area',
+        'Zuru'
+      ],
+    'Kogi State': [
+        'Adavi',
+        'Ajaokuta',
+        'Ankpa',
+        'Bassa',
+        'Dekina',
+        'Ibaji',
+        'Idah',
+        'Igalamela-Odolu',
+        'Ijumu',
+        'Kabba/Bunu',
+        'Kogi',
+        'Lokoja',
+        'Mopa-Muro',
+        'Ofu',
+        'Ogori/Magongo',
+        'Okehi',
+        'Okene',
+        'Olamaboro',
+        'Omala',
+        'Yagba East',
+        'Yagba West'
+      ],
+    'Kwara State': [
+        'Asa',
+        'Baruten',
+        'Edu',
+        'Ekiti',
+        'Ifelodun',
+        'Ilorin East',
+        'Ilorin South',
+        'Ilorin West',
+        'Irepodun',
+        'Isin',
+        'Kaiama',
+        'Moro',
+        'Offa',
+        'Oke Ero',
+        'Oyun',
+        'Pategi'
+      ],
+    'Lagos': [
+        'Agege',
+        'Ajeromi/Ifelodun',
+        'Alimosho',
+        'Amuwo Odofin',
+        'Apapa',
+        'Badagry',
+        'Epe',
+        'Eti Osa',
+        'Ibeju Lekki',
+        'Ifako-Ijaiye Local Government Area',
+        'Ifako/Ijaye',
+        'Ikeja',
+        'Ikorodu',
+        'Kosofe',
+        'Lagos Island Local Government Area',
+        'Lagos Mainland Local Government Area',
+        'Mushin',
+        'Ojo',
+        'Oshodi/Isolo',
+        'Oshodi-Isolo Local Government Area',
+        'Shomolu',
+        'Surulere'
+      ],
+    'Nasarawa State': [
+        'Akwanga',
+        'Awe',
+        'Doma',
+        'Karu',
+        'Keana',
+        'Keffi',
+        'Kokona',
+        'Lafia',
+        'Nasarawa',
+        'Nasarawa Egon',
+        'Obi',
+        'Toto',
+        'Wamba'
+      ],
+    'Niger State': [
+        'Agaie',
+        'Agwara',
+        'Bida',
+        'Borgu',
+        'Bosso',
+        'Chanchaga',
+        'Edati',
+        'Gbako',
+        'Gurara',
+        'Katcha',
+        'Kontagora',
+        'Lapai',
+        'Lavun',
+        'Magama',
+        'Mariga',
+        'Mashegu',
+        'Mokwa',
+        'Muya',
+        'Paikoro',
+        'Rafi',
+        'Rijau',
+        'Shiroro',
+        'Suleja',
+        'Tafa',
+        'Wushishi'
+      ],
+    'Ogun State': [
+        'Abeokuta North',
+        'Abeokuta South',
+        'Ado Odo/Ota',
+        'Egbado North',
+        'Egbado South',
+        'Ewekoro',
+        'Ifo',
+        'Ijebu East',
+        'Ijebu North',
+        'Ijebu North East',
+        'Ijebu Ode',
+        'Ikenne',
+        'Imeko Afon',
+        'Ipokia',
+        'Obafemi Owode',
+        'Odeda',
+        'Odogbolu',
+        'Ogun Waterside',
+        'Remo North',
+        'Shagamu'
+      ],
+    'Ondo State': [
+        'Akoko North East',
+        'Akoko North West',
+        'Akoko South East',
+        'Akoko South West',
+        'Akure North',
+        'Akure South',
+        'Ese Odo',
+        'Idanre',
+        'Ifedore',
+        'Ilaje',
+        'Ile Oluji/Okeigbo',
+        'Irele',
+        'Odigbo',
+        'Okitipupa',
+        'Ondo East',
+        'Ondo West',
+        'Ose',
+        'Owo'
+      ],
+    'Osun State': [
+        'Aiyedade',
+        'Aiyedire',
+        'Atakunmosa East',
+        'Atakunmosa West',
+        'Boluwaduro',
+        'Boripe',
+        'Ede North',
+        'Ede South',
+        'Egbedore',
+        'Ejigbo',
+        'Ife Central',
+        'Ife East',
+        'Ife North',
+        'Ife South',
+        'Ifedayo',
+        'Ifelodun',
+        'Ila',
+        'Ilesha East',
+        'Ilesha West',
+        'Irepodun',
+        'Irewole',
+        'Isokan',
+        'Iwo',
+        'Obokun',
+        'Odo Otin',
+        'Ola Oluwa',
+        'Olorunda',
+        'Oriade',
+        'Orolu',
+        'Osogbo'
+      ],
+    'Oyo State': [
+        'Afijio',
+        'Akinyele',
+        'Atiba',
+        'Atisbo',
+        'Egbeda',
+        'Ibadan North',
+        'Ibadan North East',
+        'Ibadan North West',
+        'Ibadan South East',
+        'Ibadan South West',
+        'Ibarapa Central',
+        'Ibarapa East',
+        'Ibarapa North',
+        'Ido',
+        'Irepo',
+        'Iseyin',
+        'Itesiwaju',
+        'Iwajowa',
+        'Kajola',
+        'Lagelu',
+        'Ogbomosho North',
+        'Ogbomosho South',
+        'Ogo Oluwa',
+        'Olorunsogo',
+        'Oluyole',
+        'Ona Ara',
+        'Orelope',
+        'Ori Ire',
+        'Oyo East',
+        'Oyo West',
+        'Saki East',
+        'Saki West',
+        'Surulere'
+      ],
+    'Plateau State': [
+        'Barkin Ladi',
+        'Bassa',
+        'Bokkos',
+        'Jos East',
+        'Jos North',
+        'Jos South',
+        'Kanam',
+        'Kanke',
+        'Langtang North',
+        'Langtang South',
+        'Mangu',
+        'Mikang',
+        'Pankshin',
+        'Qua\'An Pan',
+        'Riyom',
+        'Shendam',
+        'Wase'
+      ],
+    'Rivers State': [
+        'Abua/Odual',
+        'Ahoada East',
+        'Ahoada West',
+        'Akuku Toru',
+        'Andoni',
+        'Asari-Toru',
+        'Bonny',
+        'Degema',
+        'Eleme',
+        'Emuoha',
+        'Etche',
+        'Gokana',
+        'Ikwerre',
+        'Khana',
+        'Obio/Akpor',
+        'Ogba/Egbema/Ndoni',
+        'Ogu Bolo',
+        'Ogu/Bolo Local Government Area',
+        'Okrika',
+        'Omumma',
+        'Opobo/Nkoro',
+        'Oyigbo',
+        'Port-Harcourt',
+        'Tai'
+      ],
+    'Sokoto': [
+        'Binji',
+        'Bodinga',
+        'Dange-Shuni',
+        'Gada',
+        'Goronyo',
+        'Gudu',
+        'Gwadabawa',
+        'Illela',
+        'Isa',
+        'Kebbe',
+        'Kware',
+        'Rabah',
+        'Sabon Birni',
+        'Shagari',
+        'Silame',
+        'Sokoto North',
+        'Sokoto South',
+        'Tambuwal',
+        'Tangaza',
+        'Tureta',
+        'Wamako',
+        'Wurno',
+        'Yabo'
+      ],
+    'Taraba State': [
+        'Ardo-Kola',
+        'Bali',
+        'Donga',
+        'Gashaka',
+        'Gassol',
+        'Ibi',
+        'Jalingo',
+        'Karim Lamido',
+        'Kurmi',
+        'Lau',
+        'Sardauna',
+        'Takum',
+        'Ussa',
+        'Wukari',
+        'Yorro',
+        'Zing'
+      ],
+    'Yobe State': [
+        'Barde',
+        'Borsari',
+        'Bursari Local Government Area',
+        'Damaturu',
+        'Fika',
+        'Fune',
+        'Geidam',
+        'Gujba',
+        'Gulani',
+        'Jakusko',
+        'Karasuwa',
+        'Machina',
+        'Nangere',
+        'Nguru',
+        'Potiskum',
+        'Tarmua',
+        'Yunusari',
+        'Yusufari'
+      ],
+    'Zamfara State': [
+        'Anka',
+        'Bakura',
+        'Birnin Magaji-Kiyaw',
+        'Bukkuyum',
+        'Bungudu',
+        'Gummi',
+        'Gusau',
+        'Kaura Namoda',
+        'Maradun',
+        'Maru',
+        'Shinkafi',
+        'Talata Mafara',
+        'Tsafe',
+        'Zurmi'
+      ],
+  },
+  RW: {
+    'Eastern Province': [
+        'Bugesera District',
+        'Gatsibo District',
+        'Kayonza District',
+        'Kirehe District',
+        'Ngoma District',
+        'Nyagatare District',
+        'Rwamagana District'
+      ],
+    'Kigali': [
+        'Gasabo District',
+        'Kicukiro District',
+        'Nyarugenge District'
+      ],
+    'Northern Province': [
+        'Burera District',
+        'Gakenke District',
+        'Gicumbi District',
+        'Musanze District',
+        'Rulindo District'
+      ],
+    'Southern Province': [
+        'Gisagara District',
+        'Huye District',
+        'Kamonyi District',
+        'Muhanga District',
+        'Nyamagabe District',
+        'Nyanza District',
+        'Nyaruguru District',
+        'Ruhango District'
+      ],
+    'Western Province': [
+        'Karongi District',
+        'Ngororero District',
+        'Nyabihu District',
+        'Nyamasheke District',
+        'Rubavu District',
+        'Rusizi District',
+        'Rutsiro District'
+      ],
+  },
+  SC: {
+    'Anse Boileau': [
+        
+      ],
+    'Anse Etoile': [
+        
+      ],
+    'Anse Royale': [
+        
+      ],
+    'Anse-aux-Pins': [
+        
+      ],
+    'Au Cap': [
+        
+      ],
+    'Baie Lazare': [
+        
+      ],
+    'Baie Sainte Anne': [
+        
+      ],
+    'Beau Vallon': [
+        
+      ],
+    'Bel Air': [
+        
+      ],
+    'Bel Ombre': [
+        
+      ],
+    'Cascade': [
+        
+      ],
+    'Glacis': [
+        
+      ],
+    'Grand Anse Mahe': [
+        
+      ],
+    'Grand Anse Praslin': [
+        
+      ],
+    'Ile Perseverance I': [
+        
+      ],
+    'Ile Perseverance II': [
+        
+      ],
+    'La Digue and Inner Islands': [
+        
+      ],
+    'La Rivière Anglaise': [
+        
+      ],
+    'Les Mamelles': [
+        
+      ],
+    'Mont Buxton': [
+        
+      ],
+    'Mont Fleuri': [
+        
+      ],
+    'Outer Islands': [
+        
+      ],
+    'Plaisance': [
+        
+      ],
+    'Pointe La Rue': [
+        
+      ],
+    'Port Glaud': [
+        
+      ],
+    'Roche Caiman': [
+        
+      ],
+    'Saint Louis': [
+        
+      ],
+    'Takamaka': [
+        
+      ],
+  },
+  SD: {
+    'Al Jazirah': [
+        'El Meilig Rural Council',
+        'Mudīrīyat al Jazīrah',
+        'Um Al Gura'
+      ],
+    'Al Qaḑārif': [
+        'Al Fushqa',
+        'Gedaref North Rural Council',
+        'Seteet'
+      ],
+    'Blue Nile': [
+        'Baw'
+      ],
+    'Central Darfur': [
+        
+      ],
+    'Eastern Darfur': [
+        
+      ],
+    'Kassala': [
+        'Mudīrīyat Kassalā'
+      ],
+    'Khartoum': [
+        'Karary',
+        'Khartoum',
+        'Khartoum North',
+        'Omdurman',
+        'Sharg En Nile'
+      ],
+    'North Kordofan': [
+        'Bara',
+        'En Nuhud',
+        'Ghebeish',
+        'Mudīrīyat Kurdufān ash Shamālīyah',
+        'Sheikan',
+        'Um Rawaba'
+      ],
+    'Northern Darfur': [
+        'Kutum District',
+        'Mudīrīyat Dārfūr ash Shamālīyah'
+      ],
+    'Northern State': [
+        'Al Mudīrīyah ash Shamālīyah',
+        'Merawi'
+      ],
+    'Red Sea': [
+        'Port Sudan',
+        'Sinkat'
+      ],
+    'River Nile': [
+        'Ad Damer',
+        'Atbara',
+        'Shendi'
+      ],
+    'Sennar': [
+        'Abu Hujar Locality',
+        'Blue Nile Province',
+        'East Sennar Locality',
+        'Ed Dinder Locality',
+        'El Dali Locality',
+        'Es Suki Locality',
+        'Sennar Locality',
+        'Singa Locality'
+      ],
+    'Southern Darfur': [
+        'Kas District',
+        'Mudīrīyat Dārfūr al Janūbīyah',
+        'Nyala District'
+      ],
+    'Southern Kordofan': [
+        
+      ],
+    'West Kordofan': [
+        
+      ],
+    'Western Darfur': [
+        
+      ],
+    'White Nile': [
+        'Al Jabalian',
+        'Kosti',
+        'Mudīrīyat al Baḩr al Abyaḑ'
+      ],
+  },
+  SL: {
+    'Eastern Province': [
+        'Kailahun District',
+        'Kenema District',
+        'Kono District'
+      ],
+    'North West': [
+        'Kambia District',
+        'Karene District',
+        'Port Loko District'
+      ],
+    'Northern Province': [
+        'Bombali District',
+        'Falaba District',
+        'Koinadugu District',
+        'Tonkolili District'
+      ],
+    'Southern Province': [
+        'Bo District',
+        'Bonthe District',
+        'Moyamba District',
+        'Pujehun District'
+      ],
+    'Western Area': [
+        'Western Area Rural',
+        'Western Area Urban'
+      ],
+  },
+  SN: {
+    'Dakar': [
+        'Dakar Department',
+        'Guédiawaye Department',
+        'Pikine Department',
+        'Rufisque Department'
+      ],
+    'Diourbel Region': [
+        'Bambey',
+        'Diourbel',
+        'Mbacké'
+      ],
+    'Fatick': [
+        'Fatick Department',
+        'Foundiougne',
+        'Gossas'
+      ],
+    'Kaffrine': [
+        'Birkelane',
+        'Département de Malèm Hodar',
+        'Kaffrine Department',
+        'Koungheul'
+      ],
+    'Kaolack': [
+        'Département de Guinguinéo',
+        'Kaolack',
+        'Nioro du Rip'
+      ],
+    'Kédougou': [
+        'Département de Salémata',
+        'Kédougou Department',
+        'Saraya'
+      ],
+    'Kolda': [
+        'Département de Médina-Yorofoula',
+        'Kolda Department',
+        'Velingara Department'
+      ],
+    'Louga': [
+        'Kebemer Department',
+        'Linguere Department',
+        'Louga Department'
+      ],
+    'Matam': [
+        'Département de Ranérou',
+        'Kanel Department',
+        'Matam Department'
+      ],
+    'Saint-Louis': [
+        'Dagana Department',
+        'Podor',
+        'Saint-Louis Department'
+      ],
+    'Sédhiou': [
+        'Bounkiling',
+        'Goudomp Department',
+        'Sédhiou'
+      ],
+    'Tambacounda': [
+        'Bakel',
+        'Goudiry',
+        'Koumpentoum',
+        'Tambacounda Department'
+      ],
+    'Thiès': [
+        'Mbour',
+        'Thiès',
+        'Tivaouane'
+      ],
+    'Ziguinchor': [
+        'Bignona',
+        'Oussouye',
+        'Ziguinchor'
+      ],
+  },
+  SO: {
+    'Awdal': [
+        'Baki',
+        'Borama District',
+        'Diila District',
+        'Lughaya District',
+        'Zeila District'
+      ],
+    'Bakool': [
+        'Ceel Barde',
+        'Hudur',
+        'Rab Dhuure',
+        'Tayeeglow',
+        'Waajid',
+        'Xudur'
+      ],
+    'Banaadir': [
+        'Banadir',
+        'Hodan'
+      ],
+    'Bari': [
+        'Armo',
+        'Bandarbeyla',
+        'Bossaso',
+        'Caluula',
+        'Iskushuban',
+        'Qandala',
+        'Qardho'
+      ],
+    'Bay': [
+        'Baidoa',
+        'Baydhaba',
+        'Burdhubo',
+        'Buur Hakaba',
+        'Diinsoor',
+        'Qansax Dheere'
+      ],
+    'Galguduud': [
+        'Adado',
+        'Cabudwaaq',
+        'Ceel Buur',
+        'Ceel Dheer',
+        'Ceelbuur',
+        'Dhuusamarreeb'
+      ],
+    'Gedo': [
+        'Belet Xaawo',
+        'Doolow',
+        'El Wak District',
+        'Garbahaarey',
+        'Luuq'
+      ],
+    'Hiiraan': [
+        'Belet Weyne',
+        'Bulo Burto',
+        'Jalalaqsi'
+      ],
+    'Lower Juba': [
+        'Afmadow',
+        'Degmada Badhaadhe',
+        'Jamaame',
+        'Jamame',
+        'Kismaayo'
+      ],
+    'Lower Shabeelle': [
+        'Afgooye',
+        'Baraawe',
+        'Darkenley',
+        'Kurtunwaarey',
+        'Marka',
+        'Qoryooley',
+        'Sablaale',
+        'Wanla Weyn'
+      ],
+    'Middle Juba': [
+        'Baardheere',
+        'Bu\'aale',
+        'Jilib',
+        'Saakow'
+      ],
+    'Middle Shabele': [
+        'Adan Yabaal',
+        'Balcad',
+        'Cadale',
+        'Jowhar'
+      ],
+    'Mudug': [
+        'Cadaado',
+        'Gaalkacyo',
+        'Galdogob',
+        'Hobyo',
+        'Jariiban',
+        'Xarardheere',
+        'Xarfo District'
+      ],
+    'Nugaal': [
+        'Burtinle',
+        'Eyl',
+        'Garoowe'
+      ],
+    'Sanaag': [
+        'Badhan District',
+        'Ceel Afweyn',
+        'Ceerigaabo',
+        'Elafweyn',
+        'Laasqoray'
+      ],
+    'Sool': [
+        'Caynabo',
+        'Laas Caanood',
+        'Taleh District',
+        'Xudun District'
+      ],
+    'Togdheer': [
+        'Burao',
+        'Buuhoodle',
+        'Owdweyne',
+        'Sheikh'
+      ],
+    'Woqooyi Galbeed': [
+        'Berbera',
+        'Gebiley',
+        'Hargeysa'
+      ],
+  },
+  SS: {
+    'Central Equatoria': [
+        'Juba County',
+        'Kajo Keji County',
+        'Lainya County',
+        'Morobo County',
+        'Terkaka',
+        'Yei County'
+      ],
+    'Eastern Equatoria': [
+        'Al Mudīrīyah al Istiwā’īyah ash Sharqīyah',
+        'Budi',
+        'Ikotos',
+        'Lafon County',
+        'Magwi County',
+        'Torit County'
+      ],
+    'Jonglei': [
+        'Junqal',
+        'Pochalla County',
+        'Uror County'
+      ],
+    'Lakes': [
+        'Shobet'
+      ],
+    'Northern Bahr al Ghazal': [
+        'Aweil East',
+        'Mudīrīyat Baḩr al Ghazāl ash Sharqīyah'
+      ],
+    'Unity': [
+        'Guit County',
+        'Rubkona'
+      ],
+    'Upper Nile': [
+        'Maban County',
+        'Malakal County',
+        'Melut County',
+        'Mudīrīyat A‘ālī an Nīl',
+        'Renk County'
+      ],
+    'Warrap': [
+        'Twic County'
+      ],
+    'Western Bahr al Ghazal': [
+        'Jur River County'
+      ],
+    'Western Equatoria': [
+        'Province of West Equatoria'
+      ],
+  },
+  ST: {
+    'Príncipe': [
+        'Pagué'
+      ],
+    'São Tomé Island': [
+        'Água Grande District',
+        'Cantagalo District',
+        'Caué District',
+        'Lemba District',
+        'Lobata District',
+        'Mé-Zóchi District'
+      ],
+  },
+  SZ: {
+    'Hhohho Region': [
+        'Emkhuzweni Mission',
+        'Hhukwini',
+        'Madlangempisi',
+        'Maphalaleni',
+        'Mayiwane',
+        'Mhlangatane',
+        'Motjane',
+        'Nkhaba',
+        'Ntfonjeni'
+      ],
+    'Lubombo Region': [
+        'Dvokodvweni Inkhundla',
+        'Hlane',
+        'Inkhundla Sithobela',
+        'Lomashasha',
+        'Mpholonjeni',
+        'Siphofaneni'
+      ],
+    'Manzini Region': [
+        'Ekukhanyeni',
+        'Kwaluseni',
+        'Lamgabhi',
+        'Ludzeludze Inkhundla',
+        'Mafutseni',
+        'Mahlangatsha',
+        'Mangcongco',
+        'Manzini North',
+        'Manzini South',
+        'Mkhiweni',
+        'Ngwempisi',
+        'Nhlambeni',
+        'Ntondozi'
+      ],
+    'Shiselweni': [
+        'Hosea',
+        'Maseyisini',
+        'Matsanjeni',
+        'Matsanjeni North',
+        'Mtsambama',
+        'Ngudzeni',
+        'Nkwene',
+        'Shiselweni I',
+        'Sigwe Inkhundla',
+        'Zombodze Ikhundla'
+      ],
+  },
+  TD: {
+    'Barh el Gazel': [
+        'Barh-El-Gazel Nord',
+        'Barh-El-Gazel Ouest',
+        'Barh-El-Gazel Sud',
+        'Kléta'
+      ],
+    'Batha': [
+        'Assinet',
+        'Batha',
+        'Batha-Est',
+        'Batha-Ouest',
+        'Fitri',
+        'Haraze',
+        'Ouadi Rimé'
+      ],
+    'Borkou': [
+        'Borkou',
+        'Borkou-Yala',
+        'Emi-Koussi',
+        'Gouro',
+        'Kouba'
+      ],
+    'Chari-Baguirmi': [
+        'Baguirmi',
+        'Chari',
+        'Dababa',
+        'Dagana District',
+        'Dourbali',
+        'Loug Chari',
+        'Mansaba'
+      ],
+    'Ennedi-Est': [
+        'Amdjarass',
+        'Bao',
+        'Itou',
+        'Mourdi'
+      ],
+    'Ennedi-Ouest': [
+        'Fada',
+        'Lac-Ounianga',
+        'Mourtcha',
+        'Tebi',
+        'Torbol'
+      ],
+    'Guéra': [
+        'Abtouyour',
+        'Barh Signaka',
+        'Barh-Signaka',
+        'Garada',
+        'Guéra',
+        'Mangalmé'
+      ],
+    'Hadjer-Lamis': [
+        'Dababa',
+        'Dagana',
+        'Haraz-Al-Biar',
+        'Ngoura'
+      ],
+    'Kanem': [
+        'Kanem',
+        'Nord-Kanem',
+        'Rig-Rig',
+        'Sud-Kanem'
+      ],
+    'Lac': [
+        'Fouli',
+        'Kaya',
+        'Kouloudia',
+        'Mamdi',
+        'Wayi'
+      ],
+    'Logone Occidental': [
+        'Dodje',
+        'Guéni',
+        'Lac Wey',
+        'Ngourkosso'
+      ],
+    'Logone Oriental': [
+        'Doba',
+        'Kouh-Est',
+        'Kouh-Ouest',
+        'La Nya',
+        'La Nya Pende',
+        'La Pendé',
+        'Lanya',
+        'Mamdi Department',
+        'Monts de Lam',
+        'Nya Pendé',
+        'Pendé'
+      ],
+    'Mandoul': [
+        'Goundi',
+        'La Moula',
+        'Taralnass'
+      ],
+    'Mayo-Kebbi Est': [
+        'Kabia',
+        'Mayo-Boneye',
+        'Mayo-Lemié',
+        'Mont-Illi'
+      ],
+    'Mayo-Kebbi Ouest': [
+        'El Ouaya',
+        'Gagal',
+        'Lac Léré',
+        'Mayo-Binder',
+        'Mayo-Dallah'
+      ],
+    'Moyen-Chari': [
+        'Balimba',
+        'Barh Köh',
+        'Barh-Koh',
+        'Barh Sara',
+        'Bedaya',
+        'Bessada',
+        'Djoli',
+        'Grande Sido',
+        'Korbol',
+        'Koumra',
+        'Lac Iro',
+        'Mandoul Occidental',
+        'Mandoul Oriental',
+        'Sarh'
+      ],
+    'N’Djaména': [
+        'Cinquième Arrondissement',
+        'Deuxième Arrondissement',
+        'Dixième Arrondissement',
+        'Huitième Arrondissement',
+        'Neuvième Arrondissement',
+        'Premier Arrondissement',
+        'Quatrième Arrondissement',
+        'Septième Arrondissement',
+        'Sixième Arrondissement',
+        'Troisième Arrondissement'
+      ],
+    'Ouadaï': [
+        'Abdi',
+        'Abougoudam',
+        'Assoungha Department',
+        'Ouara'
+      ],
+    'Salamat': [
+        'Aboudeia',
+        'Barh Azoum',
+        'Harazé Mangueigne',
+        'Haraze-Mangueigne'
+      ],
+    'Sila': [
+        'Adé',
+        'Djourf-Al-Ahmar',
+        'Kimiti',
+        'Koukou-Angarana',
+        'Tissi'
+      ],
+    'Tandjilé': [
+        'Manbagué',
+        'Manga',
+        'Tandjilé-Centre',
+        'Tandjilé Est',
+        'Tandjilé-Est',
+        'Tandjile Ouest'
+      ],
+    'Tibesti': [
+        'Aouzou',
+        'Tibesti-Est',
+        'Tibesti-Ouest',
+        'Wour'
+      ],
+    'Wadi Fira': [
+        'Al-Biher',
+        'Biltine',
+        'Dar-Alfawakih',
+        'Dar-Tama',
+        'Iriba',
+        'Kobé',
+        'Mégri',
+        'Wadi-Hawar'
+      ],
+  },
+  TG: {
+    'Centrale': [
+        'Blitta',
+        'Sotouboua',
+        'Tchamba',
+        'Tchaoudjo'
+      ],
+    'Kara': [
+        'Assoli',
+        'Bassar',
+        'Binah',
+        'Dankpen',
+        'Doufelgou',
+        'Kozah',
+        'Préfecture de Kéran'
+      ],
+    'Maritime': [
+        'Ave Prefecture',
+        'Golfe Prefecture',
+        'Lacs Prefecture',
+        'Vo Prefecture',
+        'Yoto',
+        'Zio Prefecture'
+      ],
+    'Plateaux': [
+        'Agou',
+        'Amou',
+        'Danyi',
+        'Est-Mono',
+        'Haho',
+        'Kloto',
+        'Moyen-Mono',
+        'Ogou',
+        'Wawa'
+      ],
+    'Savanes': [
+        'Kpendjal',
+        'Oti',
+        'Préfecture de Tandjouaré',
+        'Tone'
+      ],
+  },
+  TN: {
+    'Ariana Governorate': [
+        'Ariana Ville',
+        'Délégation de Cité Ettadhamen',
+        'El Mnihla',
+        'Kalaat El Andalous',
+        'Raoued',
+        'Sidi Thabet',
+        'Soukra'
+      ],
+    'Béja Governorate': [
+        'Amdoun',
+        'Beja Sud',
+        'Délégation de Béja Nord',
+        'Goubellat',
+        'Medjez El Bab',
+        'Nefza',
+        'Teboursouk',
+        'Testour',
+        'Tibar'
+      ],
+    'Ben Arous Governorate': [
+        'Ben Arous',
+        'Bou Mhel El Bassatine',
+        'Délégation de la Nouvelle Médina',
+        'Délégation de Mégrine',
+        'Délégation de Radès',
+        'El Mourouj',
+        'Ezzahra',
+        'Fouchana',
+        'Hammam Chott',
+        'Hammam Lif',
+        'Mohamedia',
+        'Mornag'
+      ],
+    'Bizerte Governorate': [
+        'Bizerte Nord',
+        'Bizerte Sud',
+        'El Alia',
+        'Ghar El Melh',
+        'Ghazala',
+        'Joumine',
+        'Mateur',
+        'Menzel Jemil',
+        'Mu‘tamadīyat Manzil Bū Ruqaybah',
+        'Mu‘tamadīyat Ra’s al Jabal',
+        'Sejnane',
+        'Tinja',
+        'Utique',
+        'Zarzouna'
+      ],
+    'Gabès Governorate': [
+        'Délégation de Gabès Ouest',
+        'Délégation de Gabès Sud',
+        'Délégation de Gabès Ville',
+        'El Hamma',
+        'Ghannouch',
+        'Mareth',
+        'Matmata',
+        'Menzel Habib',
+        'Metouia',
+        'Nouvelle Matmata'
+      ],
+    'Gafsa': [
+        'Belkhir',
+        'Délégation d’ Om El Araïes',
+        'Délégation de Sidi Aïch',
+        'El Guetar',
+        'El Ksar',
+        'Gafsa Nord',
+        'Gafsa Sud',
+        'Mdhila',
+        'Metlaoui',
+        'Mu‘tamadīyat ar Rudayyif',
+        'Sned'
+      ],
+    'Jendouba Governorate': [
+        'Ain Draham',
+        'Balta Bou Aouane',
+        'Bou Salem',
+        'Fernana',
+        'Ghardimaou',
+        'Jendouba',
+        'Jendouba Nord',
+        'Oued Meliz',
+        'Tabarka'
+      ],
+    'Kairouan': [
+        'Bouhajla',
+        'Chebika',
+        'Cherarda',
+        'El Ala',
+        'Haffouz',
+        'Hajeb El Ayoun',
+        'Kairouan Nord',
+        'Kairouan Sud',
+        'Nasrallah',
+        'Oueslatia',
+        'Sbikha'
+      ],
+    'Kasserine Governorate': [
+        'Ayoun',
+        'Délégation de Mejel Bel Abbès',
+        'Djedliane',
+        'Ezzouhour',
+        'Feriana',
+        'Foussana',
+        'Hassi El Ferid',
+        'Hidra',
+        'Kasserine Nord',
+        'Kasserine Sud',
+        'Sbeitla',
+        'Sbiba',
+        'Thala'
+      ],
+    'Kebili Governorate': [
+        'Délégation de Kébili Nord',
+        'Délégation de Kébili Sud',
+        'Douz Nord',
+        'Douz Sud',
+        'El Faouar',
+        'Souk Lahad'
+      ],
+    'Kef Governorate': [
+        'Dahmani',
+        'El Ksour',
+        'Es Sers',
+        'Jerissa',
+        'Kalaa Khasba',
+        'Kalaat Senan',
+        'Kef Est',
+        'Kef Quest',
+        'Nebeur',
+        'Sakiet Sidi Youssef',
+        'Tajerouine'
+      ],
+    'Mahdia Governorate': [
+        'Chebba',
+        'Chorbane',
+        'Délégation de Bou Merdès',
+        'El Jem',
+        'Hbira',
+        'Ksour Essaf',
+        'Mahdia',
+        'Melloulech',
+        'Ouled Chamekh',
+        'Sidi Alouane',
+        'Souassi'
+      ],
+    'Manouba': [
+        'Borj El Amri',
+        'Délégation de Jedaïda',
+        'Douar Hicher',
+        'El Battane',
+        'Mornaguia',
+        'Mu‘tamadīyat Manūbah',
+        'Oued Ellil',
+        'Tebourba'
+      ],
+    'Medenine Governorate': [
+        'Ben Guerdane',
+        'Beni Khedeche',
+        'Délégation de Médenine Sud',
+        'Jerba Ajim',
+        'Jerba Midoun',
+        'Medenine Nord',
+        'Mu‘tamadīyat Ḩawmat as Sūq',
+        'Sidi Makhlouf',
+        'Zarzis'
+      ],
+    'Monastir Governorate': [
+        'Bekalta',
+        'Bembla',
+        'Beni Hassen',
+        'Délégation de Téboulba',
+        'Jemmal',
+        'Ksar Helal',
+        'Ksibet El Mediouni',
+        'Moknine',
+        'Monastir',
+        'Ouerdanine',
+        'Sahline',
+        'Sayada Lamta Bouhjar',
+        'Zeramdine'
+      ],
+    'Nabeul Governorate': [
+        'Beni Khalled',
+        'Beni Khiar',
+        'Bou Argoub',
+        'Dar Chaabane El Fehri',
+        'El Haouaria',
+        'El Mida',
+        'Grombalia',
+        'Hammam El Guezaz',
+        'Hammamet',
+        'Korba',
+        'Menzel Bouzelfa',
+        'Menzel Temime',
+        'Mu‘tamadīyat Qulaybīyah',
+        'Nabeul',
+        'Soliman',
+        'Takelsa'
+      ],
+    'Sfax Governorate': [
+        'Agareb',
+        'Bir Ali Ben Khalifa',
+        'Djebeniana',
+        'El Amra',
+        'El Hencha',
+        'Ghraiba',
+        'Kerkennah',
+        'Menzel Chaker',
+        'Mu‘tamadīyat al Maḩras',
+        'Sakiet Eddaier',
+        'Sakiet Ezzit',
+        'Sfax Ouest',
+        'Sfax Sud',
+        'Sfax Ville',
+        'Skhira',
+        'Thyna'
+      ],
+    'Sidi Bouzid Governorate': [
+        'Bir El Hafey',
+        'Cebalet Ouled Asker',
+        'Jelma',
+        'Meknassy',
+        'Menzel Bouzaiene',
+        'Mezzouna',
+        'Ouled Haffouz',
+        'Regueb',
+        'Sidi Ali Ben Aoun',
+        'Sidi Bouzid Est',
+        'Sidi Bouzid Ouest',
+        'Souk Jedid'
+      ],
+    'Siliana Governorate': [
+        'Bargou',
+        'Bou Arada',
+        'Bourouis',
+        'El Aroussa',
+        'Elkrib',
+        'Gaafour',
+        'Kesra',
+        'Mu‘tamadīyat Makthar',
+        'Rouhia',
+        'Siliana Nord',
+        'Siliana Sud'
+      ],
+    'Sousse Governorate': [
+        'Akouda',
+        'Bouficha',
+        'Délégation de M’saken',
+        'Hammam Sousse',
+        'Hergla',
+        'Kalaa Kebira',
+        'Kalaa Sghira',
+        'Kondar',
+        'Mu‘tamadīyat an Nafīḑah',
+        'Sidi Bou Ali',
+        'Sidi El Hani',
+        'Sousse Jawhara',
+        'Sousse Médina',
+        'Sousse Riadh',
+        'Sousse Sidi Abdelhamid',
+        'Zaouia-Ksiba-Thrayet'
+      ],
+    'Tataouine': [
+        'Bir Lahmar',
+        'Dhehiba',
+        'Ghomrassen',
+        'Remada',
+        'Smar',
+        'Tataouine Nord',
+        'Tataouine Sud'
+      ],
+    'Tozeur Governorate': [
+        'Degache',
+        'Hazoua',
+        'Nefta',
+        'Tamaghza',
+        'Tozeur'
+      ],
+    'Tunis Governorate': [
+        'Bab El Bhar',
+        'Bab Souika',
+        'Carthage',
+        'Délégation de Cité El Khadra',
+        'Délégation de la Médina',
+        'Délégation de Sidi El Béchir',
+        'Délégation d’El Omrane Supérieur',
+        'El Hrairia',
+        'El Kabaria',
+        'El Menzah',
+        'El Omrane',
+        'El Ouardia',
+        'Ettahrir',
+        'Ezzouhour',
+        'Jebel Jelloud',
+        'La Goulette',
+        'La Marsa',
+        'Le Bardo',
+        'Le Kram',
+        'Sidi Hassine',
+        'Sijoumi'
+      ],
+    'Zaghouan Governorate': [
+        'Bir Mcherga',
+        'El Fahs',
+        'Nadhour',
+        'Saouaf',
+        'Zaghouan',
+        'Zriba'
+      ],
+  },
+  TZ: {
+    'Arusha': [
+        'Arusha City',
+        'Arusha District',
+        'Karatu District',
+        'Longido District',
+        'Meru',
+        'Monduli District',
+        'Ngorongoro'
+      ],
+    'Dar es Salaam Region': [
+        'Ilala',
+        'Kinondoni',
+        'Temeke'
+      ],
+    'Dodoma': [
+        'Bahi District',
+        'Chamwino',
+        'Chemba',
+        'Dodoma Urban District',
+        'Kondoa',
+        'Kongwa',
+        'Mpwapwa'
+      ],
+    'Geita': [
+        'Bukombe District',
+        'Chato District',
+        'Geita',
+        'Mbogwe',
+        'Nyang’hwale'
+      ],
+    'Iringa': [
+        'Iringa Rural District',
+        'Iringa Urban District',
+        'Kilolo District',
+        'Mafinga Town Council',
+        'Mufindi'
+      ],
+    'Kagera': [
+        'Biharamulo District',
+        'Bukoba',
+        'Bukoba Municipal',
+        'Karagwe',
+        'Kyerwa',
+        'Missenyi',
+        'Muleba',
+        'Ngara'
+      ],
+    'Katavi': [
+        'Mlele',
+        'Mpanda',
+        'Mpanda Town'
+      ],
+    'Kigoma': [
+        'Buhigwe',
+        'Kakonko District',
+        'Kasulu',
+        'Kasulu Town',
+        'Kibondo',
+        'Kigoma Rural',
+        'Kigoma Ujiji Municipal',
+        'Uvinza District'
+      ],
+    'Kilimanjaro': [
+        'Hai',
+        'Moshi Rural District',
+        'Moshi Urban District',
+        'Mwanga',
+        'Rombo District',
+        'Same',
+        'Siha'
+      ],
+    'Lindi': [
+        'Kilwa',
+        'Lindi Rural',
+        'Lindi Urban',
+        'Liwale',
+        'Nachingwea',
+        'Ruangwa'
+      ],
+    'Manyara': [
+        'Babati District',
+        'Babati Town',
+        'Hanang District',
+        'Kiteto',
+        'Mbulu',
+        'Simanjiro'
+      ],
+    'Mara': [
+        'Bunda',
+        'Butiama',
+        'Musoma',
+        'Musoma Municipal',
+        'Rorya',
+        'Serengeti',
+        'Tarime'
+      ],
+    'Mbeya': [
+        'Chunya',
+        'Kyela',
+        'Mbarali district',
+        'Mbeya',
+        'Mbeya City',
+        'Rungwe'
+      ],
+    'Morogoro': [
+        'Gairo',
+        'Kilombero',
+        'Kilosa',
+        'Morogoro Rural',
+        'Morogoro Urban',
+        'Mvomero District',
+        'Ulanga'
+      ],
+    'Mtwara': [
+        'Masasi',
+        'Masasi Town',
+        'Mtwara',
+        'Mtwara Urban',
+        'Nanyumbu District',
+        'Newala',
+        'Tandahimba'
+      ],
+    'Mwanza': [
+        'Ilemela District',
+        'Kwimba District',
+        'Magu',
+        'Misungwi district',
+        'Nyamagana District',
+        'Sengerema',
+        'Ukerewe District'
+      ],
+    'Njombe': [
+        'Ludewa',
+        'Makambako Town',
+        'Makete',
+        'Njombe District Council',
+        'Njombe Town',
+        'Wanging’ombe'
+      ],
+    'Pemba North': [
+        'Micheweni',
+        'Wete District'
+      ],
+    'Pemba South': [
+        'Chake Chake District',
+        'Mkoani District'
+      ],
+    'Pwani': [
+        'Bagamoyo',
+        'Kibaha District',
+        'Kibaha Town',
+        'Kisarawe',
+        'Mafia',
+        'Mkuranga',
+        'Rufiji'
+      ],
+    'Rukwa': [
+        'Kalambo',
+        'Nkasi',
+        'Sumbawanga',
+        'Sumbawanga Urban'
+      ],
+    'Ruvuma': [
+        'Mbinga',
+        'Namtumbo',
+        'Nyasa',
+        'Songea',
+        'Songea Municipal',
+        'Tunduru'
+      ],
+    'Shinyanga': [
+        'Kahama Rural District',
+        'Kahama Town',
+        'Kishapu District',
+        'Shinyanga Rural',
+        'Shinyanga Urban'
+      ],
+    'Simiyu': [
+        'Bariadi',
+        'Busega',
+        'Itilima',
+        'Maswa District',
+        'Meatu'
+      ],
+    'Singida': [
+        'Ikungi',
+        'Iramba',
+        'Manyoni',
+        'Mkalama',
+        'Singida Rural District',
+        'Singida Urban District'
+      ],
+    'Songwe': [
+        'Ileje',
+        'Mbozi',
+        'Momba',
+        'Songwe District',
+        'Tunduma'
+      ],
+    'Tabora': [
+        'Igunga',
+        'Kaliua',
+        'Nzega',
+        'Sikonge District',
+        'Tabora Urban',
+        'Urambo',
+        'Uyui District'
+      ],
+    'Tanga': [
+        'Handeni',
+        'Handeni Town',
+        'Kilindi District',
+        'Korogwe District',
+        'Korogwe Town',
+        'Lushoto',
+        'Mkinga',
+        'Muheza District',
+        'Pangani',
+        'Tanga'
+      ],
+    'Zanzibar Central/South': [
+        'Kati',
+        'Kusini'
+      ],
+    'Zanzibar North': [
+        'Kaskazini A',
+        'Kaskazini B'
+      ],
+    'Zanzibar Urban/West': [
+        'Magharibi',
+        'Mjini'
+      ],
+  },
+  UG: {
+    'Central Region': [
+        'Buikwe District',
+        'Bukomansimbi District',
+        'Butambala District',
+        'Buvuma District',
+        'Gomba District',
+        'Kalangala District',
+        'Kalungu District',
+        'Kampala District',
+        'Kayunga District',
+        'Kiboga District',
+        'Kyankwanzi District',
+        'Kyotera District',
+        'Luwero District',
+        'Lwengo District',
+        'Lyantonde District',
+        'Masaka District',
+        'Mityana District',
+        'Mpigi District',
+        'Mubende District',
+        'Mukono District',
+        'Nakaseke District',
+        'Nakasongola District',
+        'Rakai District',
+        'Sembabule District',
+        'Wakiso District'
+      ],
+    'Eastern Region': [
+        'Amuria District',
+        'Budaka District',
+        'Bududa District',
+        'Bugiri District',
+        'Bukedea District',
+        'Bukwo District',
+        'Bulambuli District',
+        'Busia District',
+        'Butaleja District',
+        'Butebo District',
+        'Buyende District',
+        'Iganga District',
+        'Jinja District',
+        'Kaberamaido District',
+        'Kaliro District',
+        'Kamuli District',
+        'Kapchorwa District',
+        'Katakwi District',
+        'Kibuku District',
+        'Kumi District',
+        'Kween District',
+        'Luuka District',
+        'Manafwa District',
+        'Mayuge District',
+        'Mbale District',
+        'Namayingo District',
+        'Namisindwa District',
+        'Namutumba District',
+        'Ngora District',
+        'Pallisa District',
+        'Serere District',
+        'Sironko District',
+        'Soroti District',
+        'Tororo District'
+      ],
+    'Northern Region': [
+        'Abim District',
+        'Adjumani District',
+        'Agago District',
+        'Alebtong District',
+        'Amolatar District',
+        'Amudat District',
+        'Amuru District',
+        'Apac District',
+        'Arua District',
+        'Dokolo District',
+        'Gulu District',
+        'Kaabong District',
+        'Kitgum District',
+        'Koboko District',
+        'Kole District',
+        'Kotido District',
+        'Lamwo District',
+        'Lira District',
+        'Maracha District',
+        'Moroto District',
+        'Moyo District',
+        'Nakapiripirit District',
+        'Napak District',
+        'Nebbi District',
+        'Nwoya District',
+        'Omoro District',
+        'Otuke District',
+        'Oyam District',
+        'Pader District',
+        'Pakwach District',
+        'Yumbe District',
+        'Zombo District'
+      ],
+    'Western Region': [
+        'Buhweju District',
+        'Buliisa District',
+        'Bundibugyo District',
+        'Bunyangabu District',
+        'Bushenyi District',
+        'Hoima District',
+        'Ibanda District',
+        'Isingiro District',
+        'Kabale District',
+        'Kabarole District',
+        'Kagadi District',
+        'Kakumiro District',
+        'Kamwenge District',
+        'Kanungu District',
+        'Kasese District',
+        'Kibale District',
+        'Kiruhura District',
+        'Kiryandongo District',
+        'Kisoro District',
+        'Kyegegwa District',
+        'Kyenjojo District',
+        'Masindi District',
+        'Mbarara District',
+        'Mitoma District',
+        'Ntoroko District',
+        'Ntungamo District',
+        'Rubanda District',
+        'Rubirizi District',
+        'Rukiga District',
+        'Rukungiri District',
+        'Sheema District'
+      ],
+  },
+  ZA: {
+    'Eastern Cape': [
+        'Alfred Nzo District Municipality',
+        'Amathole District Municipality',
+        'Buffalo City Metropolitan Municipality',
+        'Chris Hani District Municipality',
+        'Joe Gqabi District Municipality',
+        'Nelson Mandela Bay Metropolitan Municipality',
+        'OR Tambo District Municipality',
+        'Sarah Baartman District Municipality'
+      ],
+    'Free State': [
+        'Fezile Dabi District Municipality',
+        'Lejweleputswa District Municipality',
+        'Mangaung Metropolitan Municipality',
+        'Thabo Mofutsanyana District Municipality',
+        'Xhariep District Municipality'
+      ],
+    'Gauteng': [
+        'City of Johannesburg Metropolitan Municipality',
+        'City of Tshwane Metropolitan Municipality',
+        'Ekurhuleni Metropolitan Municipality',
+        'Sedibeng District Municipality',
+        'West Rand District Municipality'
+      ],
+    'KwaZulu-Natal': [
+        'Amajuba District Municipality',
+        'eThekwini Metropolitan Municipality',
+        'iLembe District Municipality',
+        'Sisonke District Municipality',
+        'Ugu District Municipality',
+        'uMgungundlovu District Municipality',
+        'uMkhanyakude District Municipality',
+        'uMzinyathi District Municipality',
+        'uThukela District Municipality',
+        'uThungulu District Municipality',
+        'Zululand District Municipality'
+      ],
+    'Limpopo': [
+        'Capricorn District Municipality',
+        'Mopani District Municipality',
+        'Sekhukhune District Municipality',
+        'Vhembe District Municipality',
+        'Waterberg District Municipality'
+      ],
+    'Mpumalanga': [
+        'Ehlanzeni District',
+        'Gert Sibande District Municipality',
+        'Nkangala District Municipality'
+      ],
+    'North West': [
+        'Bojanala Platinum District Municipality',
+        'Dr Kenneth Kaunda District Municipality',
+        'Dr Ruth Segomotsi Mompati District Municipality',
+        'Ngaka Modiri Molema District Municipality'
+      ],
+    'Northern Cape': [
+        'Frances Baard District Municipality',
+        'John Taolo Gaetsewe District Municipality',
+        'Namakwa District Municipality',
+        'Pixley ka Seme District Municipality',
+        'Siyanda District Municipality'
+      ],
+    'Western Cape': [
+        'Cape Winelands District Municipality',
+        'Central Karoo District Municipality',
+        'City of Cape Town',
+        'Eden District Municipality',
+        'Overberg District Municipality',
+        'West Coast District Municipality'
+      ],
+  },
+  ZM: {
+    'Central Province': [
+        'Chibombo',
+        'Chibombo District',
+        'Chisamba District',
+        'Chitambo District',
+        'Kabwe District',
+        'Kapiri Mposhi',
+        'Kapiri-Mposhi District',
+        'Luano District',
+        'Mkushi District',
+        'Mumbwa District',
+        'Ngabwe District',
+        'Serenje District'
+      ],
+    'Copperbelt': [
+        'Chililabombwe District',
+        'Chingola District',
+        'Kalulushi District',
+        'Kitwe District',
+        'Luanshya District',
+        'Lufwanyama',
+        'Masaiti District',
+        'Mpongwe',
+        'Mpongwe District',
+        'Mufulira District',
+        'Ndola District',
+        'Ndola Rural District'
+      ],
+    'Eastern Province': [
+        'Chadiza District',
+        'Chipata District',
+        'Katete District',
+        'Lundazi District',
+        'Mambwe',
+        'Nyimba District',
+        'Petauke District',
+        'Sinda District',
+        'Vubwi District'
+      ],
+    'Luapula Province': [
+        'Chembe District',
+        'Chienge',
+        'Chipili District',
+        'Kawambwa District',
+        'Lunga District',
+        'Mansa District',
+        'Milenge',
+        'Mwansabombwe District',
+        'Mwense District',
+        'Nchelenge District',
+        'Samfya District'
+      ],
+    'Lusaka Province': [
+        'Chilanga District',
+        'Chirundu District',
+        'Chongwe',
+        'Chongwe District',
+        'Kafue district',
+        'Luangwa District',
+        'Lusaka District',
+        'Rufunsa District',
+        'Shibuyunji District'
+      ],
+    'Muchinga': [
+        'Chama District',
+        'Chinsali District',
+        'Isoka District',
+        'Mafinga',
+        'Mpika District',
+        'Nakonde',
+        'Shiwang’andu District'
+      ],
+    'North-Western': [
+        'Chavuma',
+        'Ikelenge',
+        'Kabompo District',
+        'Kasempa District',
+        'Manyinga District',
+        'Mufumbwe',
+        'Mwinilunga District',
+        'Solwezi District',
+        'Zambezi District'
+      ],
+    'Northern Province': [
+        'Chilubi',
+        'Kaputa District',
+        'Kasama District',
+        'Luwingu District',
+        'Mbala District',
+        'Mporokoso District',
+        'Mpulungu District',
+        'Mungwi District',
+        'Nsama District'
+      ],
+    'Southern Province': [
+        'Chikankata District',
+        'Choma District',
+        'Gwembe District',
+        'Itezhi-Tezhi District',
+        'Kalomo District',
+        'Kazungula District',
+        'Livingstone District',
+        'Mazabuka District',
+        'Monze District',
+        'Namwala District',
+        'Pemba District',
+        'Siavonga District',
+        'Sinazongwe District',
+        'Zimba District'
+      ],
+    'Western Province': [
+        'Kalabo District',
+        'Kaoma District',
+        'Limulunga District',
+        'Luampa District',
+        'Lukulu District',
+        'Mitete District',
+        'Mongu District',
+        'Mulobezi District',
+        'Mwandi District',
+        'Nalolo District',
+        'Nkeyema District',
+        'Senanga District',
+        'Sesheke District',
+        'Shangombo',
+        'Sikongo District',
+        'Sioma District'
+      ],
+  },
+  ZW: {
+    'Bulawayo': [
+        'Bulawayo District'
+      ],
+    'Harare': [
+        'Harare District'
+      ],
+    'Manicaland': [
+        'Buhera District',
+        'Chimanimani District',
+        'Chipinge District',
+        'Makoni District',
+        'Mossurize District',
+        'Mutare District',
+        'Mutasa District',
+        'Nyanga District'
+      ],
+    'Mashonaland Central': [
+        'Bindura District',
+        'Centenary District',
+        'Guruve District',
+        'Mazowe District',
+        'Mount Darwin',
+        'Rushinga District',
+        'Shamva District'
+      ],
+    'Mashonaland East Province': [
+        'Chikomba District',
+        'Goromonzi District',
+        'Hwedza District',
+        'Marondera District',
+        'Mudzi District',
+        'Murehwa District',
+        'Mutoko District',
+        'Seke District',
+        'Uzumba-Maramba-Pfungwe District'
+      ],
+    'Mashonaland West': [
+        'Chegutu District',
+        'Hurungwe District',
+        'Kadoma District',
+        'Kariba District',
+        'Makonde District',
+        'Zvimba District'
+      ],
+    'Masvingo Province': [
+        'Bikita District',
+        'Chiredzi District',
+        'Chivi District',
+        'Gutu District',
+        'Masvingo District',
+        'Mwenezi District',
+        'Zaka',
+        'Zaka District'
+      ],
+    'Matabeleland North': [
+        'Binga District',
+        'Bubi District',
+        'Hwange District',
+        'Lupane District',
+        'Nkayi District',
+        'Tsholotsho District',
+        'Umguza District'
+      ],
+    'Matabeleland South Province': [
+        'Beitbridge District',
+        'Bulilima District',
+        'Gwanda District',
+        'Insiza District',
+        'Mangwe District',
+        'Matobo',
+        'Umzingwane District'
+      ],
+    'Midlands Province': [
+        'Chirumanzu District',
+        'Gokwe North District',
+        'Gokwe South District',
+        'Gweru District',
+        'Kwekwe District',
+        'Mberengwa District',
+        'Shurugwi District',
+        'Zvishavane District'
+      ],
+  },

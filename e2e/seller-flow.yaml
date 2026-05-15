@@ -1,0 +1,31 @@
+appId: host.exp.exponent
+---
+# Seller flow template (StoryBrand bytes smoke)
+# Assumes Mode A: already signed in with a pre-verified user.
+- launchApp:
+    clearState: false
+
+- assertVisible:
+    text: "Start Selling at Fair Price"
+
+- tapOn:
+    text: "Start Selling at Fair Price"
+
+# SellScreen header microcopy
+- assertVisible:
+    text: "Sell minerals directly to verified buyers at fair value."
+
+# Category selection (update placeholders to match visible tile text)
+- tapOn:
+    text: "${SELL_CATEGORY_NAME}"
+
+- tapOn:
+    text: "${SELL_SUBCATEGORY_NAME}"
+
+# SellIntro fixed-bottom CTA byte
+- assertVisible:
+    text: "Add Mineral Details"
+
+- tapOn:
+    text: "Add Mineral Details"
+
