@@ -19,6 +19,11 @@ import { pickImageStable, checkPendingImageResult } from '../../lib/stablePicker
 import { colors } from '../../lib/theme';
 import { Icon } from '../../lib/icons';
 import { normalizeRemoteImageUri } from '../../lib/remoteImageUri';
+import {
+  emailFromLoginKey,
+  formatUserPhoneForDisplay,
+  isEmailLoginAccount,
+} from '../../lib/userAccountContact';
 
 const { height: WINDOW_HEIGHT } = Dimensions.get('window');
 const HEADER_EXTRA_TOP = Math.round(WINDOW_HEIGHT * 0.06);
@@ -26,25 +31,6 @@ const SECTION_GAP = Math.round(WINDOW_HEIGHT * 0.01);
 const KYC_TOP_MARGIN = Math.round(WINDOW_HEIGHT * 0.03);
 const DROPDOWN_BLUE = '#51A2FF';
 const ACCENT_BLUE = '#2B7FFF';
-
-function formatPhone(phone, countryCode) {
-  if (!phone) return '';
-  const digits = String(phone).replace(/\D/g, '');
-  const dial = countryCode || '+1';
-  if (digits.length <= 3) return `${dial} ${digits}`;
-  if (digits.length <= 6) return `${dial} ${digits.slice(0, 3)} ${digits.slice(3)}`;
-  return `${dial} ${digits.slice(0, 3)} ${digits.slice(3, 6)} ${digits.slice(6)}`;
-}
-
-function parsePhoneKey(phoneKey) {
-  if (!phoneKey || typeof phoneKey !== 'string') return { countryCode: '', digits: '' };
-  const sep = phoneKey.indexOf('|');
-  if (sep < 0) return { countryCode: '', digits: phoneKey.replace(/\D/g, '') };
-  return {
-    countryCode: phoneKey.slice(0, sep).trim(),
-    digits: phoneKey.slice(sep + 1).replace(/\D/g, ''),
-  };
-}
 
 export default function PersonalInfoScreen({ navigation }) {
   const [user, setUser] = useState(null);
@@ -69,7 +55,11 @@ export default function PersonalInfoScreen({ navigation }) {
         if (!isMounted.current) return;
         setUser(data);
         setName(data?.name || '');
-        setEmail(data?.email || '');
+        const profileEmail =
+          data?.email?.trim() ||
+          emailFromLoginKey(data?.phone) ||
+          '';
+        setEmail(profileEmail);
       })
       .catch(() => { if (isMounted.current) setUser(null); })
       .finally(() => { if (isMounted.current) setLoading(false); });
@@ -160,8 +150,8 @@ export default function PersonalInfoScreen({ navigation }) {
     );
   }
 
-  const { countryCode, digits } = parsePhoneKey(user?.phone);
-  const formattedPhone = formatPhone(digits, countryCode || user?.countryCode);
+  const emailLogin = isEmailLoginAccount(user?.phone);
+  const formattedPhone = formatUserPhoneForDisplay(user);
   const isVerified = user && ['verified', 'approved'].includes(user.kycStatus);
   const isUnderReview = user?.kycStatus === 'under_review';
 
@@ -217,14 +207,19 @@ export default function PersonalInfoScreen({ navigation }) {
         <View style={styles.phoneSectionWrap}>
           <Text style={styles.sectionLabel}>PHONE NUMBER</Text>
           <View style={styles.fieldRow}>
-          <Icon name="phone" size={20} color={colors.textMuted} style={styles.fieldIcon} />
-          <Text style={styles.fieldValue}>{formattedPhone || '—'}</Text>
-          {formattedPhone ? (
-            <View style={styles.verifiedBadge}>
-              <Text style={styles.verifiedBadgeText}>Verified</Text>
-            </View>
-          ) : null}
+            <Icon name="phone" size={20} color={colors.textMuted} style={styles.fieldIcon} />
+            <Text style={styles.fieldValue}>
+              {formattedPhone || (emailLogin ? 'Not linked' : '—')}
+            </Text>
+            {formattedPhone ? (
+              <View style={styles.verifiedBadge}>
+                <Text style={styles.verifiedBadgeText}>Verified</Text>
+              </View>
+            ) : null}
           </View>
+          {emailLogin && !formattedPhone ? (
+            <Text style={styles.fieldHint}>You signed in with email. Your login email is shown below.</Text>
+          ) : null}
         </View>
 
         <View style={styles.emailSectionWrap}>

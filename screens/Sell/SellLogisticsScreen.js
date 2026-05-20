@@ -15,7 +15,7 @@ import {
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { pickDocumentStable, bumpPickerFocusGrace } from '../../lib/stablePicker';
 import { fetchWithAuth } from '../../lib/api';
-import { getFormDrafts, saveFormDraft } from '../../lib/services';
+import { getFormDrafts, saveFormDraft, uploadFileToS3 } from '../../lib/services';
 import { useDebouncedFormDraft } from '../../lib/useFormDraft';
 import { colors } from '../../lib/theme';
 import { Icon } from '../../lib/icons';
@@ -48,6 +48,10 @@ export default function SellLogisticsScreen({ route, navigation }) {
     unit,
     type,
     origin,
+    buyer,
+    extractionYear,
+    extractionDateISO,
+    photos,
     addressId: routeAddressId,
     fromArtisanal,
   } = route.params || {};
@@ -268,6 +272,18 @@ export default function SellLogisticsScreen({ route, navigation }) {
     return match ? parseFloat(match[1]) : null;
   }
 
+  /** DD/MM/YYYY from step 1 display label → ISO (fallback when route param ISO is missing). */
+  function parseExtractionYearToIso(extractionYear) {
+    if (!extractionYear || typeof extractionYear !== 'string') return null;
+    const m = extractionYear.trim().match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+    if (!m) return null;
+    const day = parseInt(m[1], 10);
+    const month = parseInt(m[2], 10) - 1;
+    const year = parseInt(m[3], 10);
+    const d = new Date(year, month, day);
+    return Number.isNaN(d.getTime()) ? null : d.toISOString();
+  }
+
   const onConfirm = async () => {
     if (!canConfirm) return;
     saveFormDraft('sellLogistics', {
@@ -348,6 +364,32 @@ export default function SellLogisticsScreen({ route, navigation }) {
 
     setSubmitting(true);
     try {
+      const drafts = await getFormDrafts().catch(() => null);
+      const detailsDraft = drafts?.sellDetails;
+      const resolvedOrigin = String(origin || detailsDraft?.originLocation || '').trim();
+      let extractionIso =
+        extractionDateISO ||
+        detailsDraft?.extractionDateISO ||
+        null;
+      if (!extractionIso && extractionYear) {
+        extractionIso = parseExtractionYearToIso(extractionYear);
+      }
+
+      const photoUrls = [];
+      const photoInputs = Array.isArray(photos) ? photos : [];
+      for (const p of photoInputs) {
+        if (!p) continue;
+        if (typeof p === 'string' && p.trim()) {
+          photoUrls.push(p.trim());
+          continue;
+        }
+        if (p.uri) {
+          const mime = p.type || 'image/jpeg';
+          const uploaded = await uploadFileToS3(p.uri, mime, { module: 'sell', folder: 'photos' });
+          if (uploaded?.url) photoUrls.push(uploaded.url);
+        }
+      }
+      const buyerLabel = buyer ? String(buyer).trim() : '';
       const listRes = await fetchWithAuth('/api/listings', {
         method: 'POST',
         body: JSON.stringify({
@@ -356,8 +398,12 @@ export default function SellLogisticsScreen({ route, navigation }) {
           quantity: Number(quantity) || 1,
           unit: unit || 'kg',
           type: type || 'raw',
-          origin: origin || '',
-          photos: [],
+          origin: resolvedOrigin,
+          photos: photoUrls,
+          extractionDate: extractionIso,
+          originYear: extractionYear || null,
+          targetBuyerType: buyerLabel || null,
+          buyerType: buyerLabel || 'any',
         }),
       });
       if (!listRes.ok) {
@@ -375,11 +421,16 @@ export default function SellLogisticsScreen({ route, navigation }) {
           addressId: resolvedAddressId,
           type: 'sell',
           mineralType: type || 'raw',
+          buyerCategory: buyerLabel || null,
           unit: unit || 'kg',
           listingId: listing.id || null,
           estimatedPayout: estimatedPayoutNum,
           subtotal: estimatedPayoutNum,
           totalDue: estimatedPayoutNum,
+          originLocation: resolvedOrigin,
+          extractionDate: extractionIso,
+          extractionYear: extractionYear || null,
+          sellPhotos: photoUrls,
         }),
       });
       if (!orderRes.ok) {

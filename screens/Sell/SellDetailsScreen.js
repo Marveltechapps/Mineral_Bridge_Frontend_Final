@@ -392,6 +392,7 @@ export default function SellDetailsScreen({ route, navigation }) {
       type: mineralType,
       origin: originLocation,
       extractionYear: extractionDate ? formatExtractionDisplay(extractionDate) : '',
+      extractionDateISO: extractionDate ? extractionDate.toISOString() : undefined,
       buyer: buyer === 'Others' ? otherBuyerSpec.trim() || 'Others' : buyer,
       otherBuyerSpec: buyer === 'Others' ? otherBuyerSpec : undefined,
       photos,

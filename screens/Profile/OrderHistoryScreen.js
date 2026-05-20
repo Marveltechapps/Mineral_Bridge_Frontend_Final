@@ -21,6 +21,7 @@ import {
   showAppOrderPriceBreakdown,
   hasSavedPriceBreakdown,
   getPrimaryTotalDisplayString,
+  shouldShowOrderAmountOnCard,
 } from '../../lib/orderSummaryBreakdown';
 
 const { height: WINDOW_HEIGHT } = Dimensions.get('window');
@@ -220,9 +221,9 @@ export default function OrderHistoryScreen({ navigation }) {
           <Text style={[styles.statusValue, { color: statusColor }]}>{status}</Text>
         </View>
 
-        {hasSavedPriceBreakdown(item) && (
+        {shouldShowOrderAmountOnCard(item) && (
           <View style={styles.priceSection}>
-            {showAppOrderPriceBreakdown() ? (
+            {showAppOrderPriceBreakdown() && hasSavedPriceBreakdown(item) ? (
               <OrderPriceBreakdown orderSummary={item.orderSummary} compact />
             ) : (
               <View style={styles.priceFallbackRow}>

@@ -2,6 +2,7 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { ArtisanalAccessProvider } from '../lib/ArtisanalAccessContext';
 import MainTabs from './MainTabs';
+import AppAccessGuard from '../lib/AppAccessGuard';
 import ArtisanalDashboardScreen from '../screens/Artisanal/ArtisanalDashboardScreen';
 import SafetyTrainingScreen from '../screens/Artisanal/SafetyTrainingScreen';
 import SafetyVideoPlayerScreen from '../screens/Artisanal/SafetyVideoPlayerScreen';
@@ -18,7 +19,11 @@ export default function RootStack({ onLogout }) {
     <ArtisanalAccessProvider>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Main">
-          {(props) => <MainTabs {...props} onLogout={onLogout} />}
+          {(props) => (
+            <AppAccessGuard navigation={props.navigation} onLogout={onLogout}>
+              <MainTabs {...props} onLogout={onLogout} />
+            </AppAccessGuard>
+          )}
         </Stack.Screen>
       <Stack.Screen
         name="ArtisanalDashboard"

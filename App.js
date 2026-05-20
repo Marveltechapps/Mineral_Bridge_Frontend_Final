@@ -24,6 +24,7 @@ import { SPLASH_SCREEN_IMAGE } from './lib/splashScreenImage';
 import { useNotificationTapHandler } from './lib/NotificationTapHandler';
 import AuthStack from './navigation/AuthStack';
 import RootStack from './navigation/RootStack';
+import { getAppAccessBlock } from './lib/accountAccess';
 
 const NAV_STATE_KEY = '@mineral_bridge_nav_state';
 
@@ -146,11 +147,6 @@ export default function App() {
           if (!cancelled) { setIsLoggedIn(false); setNeedsOnboarding(false); }
           return;
         }
-        // Optimistic startup: unlock app shell immediately for known sessions.
-        if (!cancelled) {
-          setIsLoggedIn(true);
-          setNeedsOnboarding(false);
-        }
         try {
           const res = await withTimeout(
             fetchWithAuth('/api/users/me'),
@@ -159,14 +155,23 @@ export default function App() {
           );
           if (cancelled) return;
           if (!res.ok) {
-            // Only force logout for auth failures. Keep optimistic session on transient server/network issues.
-            if (res.status === 401 || res.status === 403) {
+            if (res.status === 401) {
               setIsLoggedIn(false);
+              setNeedsOnboarding(false);
+            } else if (res.status === 403) {
+              // Restricted / suspended — stay logged in so AppAccessGuard can show block screen
+              setIsLoggedIn(true);
               setNeedsOnboarding(false);
             }
             return;
           }
           const me = await res.json();
+          const accessBlock = getAppAccessBlock(me);
+          if (accessBlock.block) {
+            setIsLoggedIn(true);
+            setNeedsOnboarding(false);
+            return;
+          }
           if (isOnboardingComplete(me)) {
             setIsLoggedIn(true);
             setNeedsOnboarding(false);
@@ -175,7 +180,10 @@ export default function App() {
             setNeedsOnboarding(true);
           }
         } catch (_) {
-          // Keep optimistic login state on transient bootstrap failures/timeouts.
+          if (!cancelled) {
+            setIsLoggedIn(false);
+            setNeedsOnboarding(false);
+          }
         }
       })
       .catch(() => { if (!cancelled) setIsLoggedIn(false); setNeedsOnboarding(false); })

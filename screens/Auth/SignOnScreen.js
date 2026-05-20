@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Alert, InteractionManager } from 'react-native';
 import * as Location from 'expo-location';
-import { setToken, fetchWithAuth, fetchMultipart, fetchPublic } from '../../lib/api';
+import { setToken, fetchWithAuth, fetchMultipart, fetchPublic, readApiJsonBody, probeApiHealth, getApiBase } from '../../lib/api';
 import { pickImageStable } from '../../lib/stablePicker';
 import { uploadAvatar, uploadKycDocuments } from '../../lib/services';
 import { getCountryByDial } from '../../lib/countries';
@@ -37,7 +37,6 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
   const [otpChannel, setOtpChannel] = useState(null);
   const [policyModal, setPolicyModal] = useState(null);
   const [countryPickerOpen, setCountryPickerOpen] = useState(false);
-  const [lastOtpFromServer, setLastOtpFromServer] = useState(null);
   const [phoneFocused, setPhoneFocused] = useState(false);
   const [otpFocusedIndex, setOtpFocusedIndex] = useState(null);
   const [otpTarget, setOtpTarget] = useState('phone'); // 'phone' | 'email'
@@ -139,6 +138,12 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
     setOtpTarget(usingEmail ? 'email' : 'phone');
     setLoading(true);
     try {
+      const health = await probeApiHealth();
+      if (!health.ok) {
+        throw new Error(
+          `${health.error || 'Cannot reach API'}. API: ${health.base || getApiBase()}. Start backend (npm run dev) and use npm run start:lan on the app.`
+        );
+      }
       const res = await fetchPublic('/api/auth/send-otp', {
         method: 'POST',
         body: JSON.stringify(
@@ -147,9 +152,8 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
             : { countryCode: country.dial, phone: digitsOnly, preferredChannel: channel }
         ),
       });
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(data.error || data.message || 'Failed to send OTP');
-      setLastOtpFromServer(data.otp || null);
+      const { data } = await readApiJsonBody(res);
+      if (!res.ok) throw new Error(data.message || data.error || `Request failed (${res.status})`);
       setOtpChannel(data.channel || channel);
       if (channel === 'sms' || channel === 'whatsapp') setPreferredChannel(channel);
       setStep('otp');
@@ -177,7 +181,7 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
           otp: code,
         }),
       });
-      const data = await res.json().catch(() => ({}));
+      const { data } = await readApiJsonBody(res);
       if (!res.ok) throw new Error(data.error || data.message || 'Invalid OTP');
 
       if (data.token) {
@@ -200,7 +204,8 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
           email: '',
         }),
       });
-      const data2 = await res2.json().catch(() => ({}));
+      const body2 = await readApiJsonBody(res2);
+      const data2 = body2.data;
       if (!res2.ok) throw new Error(data2.error || 'Login failed');
       await setToken(data2.token);
       setStep('location');
@@ -237,11 +242,18 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
     try {
       const res = await fetchPublic('/api/auth/resend-otp', {
         method: 'POST',
-        body: JSON.stringify(otpTarget === 'email' ? { email: trimmedLoginEmail } : { countryCode: country.dial, phone: digitsOnly }),
+        body: JSON.stringify(
+          otpTarget === 'email'
+            ? { email: trimmedLoginEmail }
+            : {
+                countryCode: country.dial,
+                phone: digitsOnly,
+                preferredChannel: loginMode === 'mobile' ? 'sms' : 'whatsapp',
+              }
+        ),
       });
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(data.error || data.message || 'Failed to resend');
-      setLastOtpFromServer(data.otp || null);
+      const { data } = await readApiJsonBody(res);
+      if (!res.ok) throw new Error(data.message || data.error || `Request failed (${res.status})`);
       setOtpChannel(data.channel || null);
       setTimer(30);
       setOtp(['', '', '', '']);
@@ -479,7 +491,6 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
         onChangeNumber={() => {
           setPhoneError('');
           setEmailError('');
-          setLastOtpFromServer(null);
           setOtpChannel(null);
           setOtp(['', '', '', '']);
           setStep('phone');
