@@ -4,8 +4,8 @@ const fromEnv = process.env.EXPO_PUBLIC_API_BASE_URL && String(process.env.EXPO_
 const isEasBuild = process.env.EAS_BUILD === 'true';
 // EAS cloud builds do not ship your machine's .env; avoid baking a LAN IP into release APKs.
 const apiUrl = fromEnv || (isEasBuild ? '' : 'http://localhost:5000');
-// Store / HTTPS API: cleartext off. Local http:// or LAN dev: cleartext on.
-const usesCleartextTraffic = !/^https:\/\//i.test(apiUrl);
+// HTTP API (EC2) needs cleartext in release APKs; HTTPS turns it off.
+const usesCleartextTraffic = !/^https:\/\//i.test(apiUrl || 'http://');
 
 module.exports = {
   expo: {
@@ -16,6 +16,15 @@ module.exports = {
     userInterfaceStyle: 'light',
     scheme: 'mineralbridge',
     plugins: [
+      [
+        'expo-build-properties',
+        {
+          android: {
+            usesCleartextTraffic: true,
+          },
+        },
+      ],
+      './plugins/withAndroidCleartext.js',
       'expo-splash-screen',
       'expo-font',
       '@react-native-community/datetimepicker',

@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Alert, InteractionManager } from 'react-native';
 import * as Location from 'expo-location';
-import { setToken, fetchWithAuth, fetchMultipart, fetchPublic, readApiJsonBody, probeApiHealth, getApiBase } from '../../lib/api';
+import { setToken, fetchWithAuth, fetchMultipart, fetchPublic, readApiJsonBody, probeApiHealth, getApiBase, getApiReachabilityHint } from '../../lib/api';
 import { pickImageStable } from '../../lib/stablePicker';
 import { uploadAvatar, uploadKycDocuments } from '../../lib/services';
 import { getCountryByDial } from '../../lib/countries';
@@ -141,7 +141,7 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
       const health = await probeApiHealth();
       if (!health.ok) {
         throw new Error(
-          `${health.error || 'Cannot reach API'}. API: ${health.base || getApiBase()}. Start backend (npm run dev) and use npm run start:lan on the app.`
+          `${health.error || 'Cannot reach API'}. API: ${health.base || getApiBase()}. ${getApiReachabilityHint()}`
         );
       }
       const res = await fetchPublic('/api/auth/send-otp', {
