@@ -425,6 +425,14 @@ export const authStyles = StyleSheet.create({
     textAlign: 'center',
     color: '#6A7282',
   },
+  otpDeliveryHint: {
+    fontFamily: fonts.regular || 'Arial',
+    fontSize: 13,
+    lineHeight: 19,
+    textAlign: 'center',
+    color: '#99A1AF',
+    marginTop: 12,
+  },
   otpInputsBlock: { gap: 28, marginBottom: 14 },
   otpErrorText: { color: colors.error, fontSize: 14, textAlign: 'center', marginBottom: 12 },
   otpButton: {

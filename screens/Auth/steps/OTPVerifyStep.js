@@ -21,6 +21,7 @@ export default function OTPVerifyStep({
   country,
   digitsOnly,
   channel,
+  deliveryWarning = '',
   otp,
   otpRefs,
   otpFocusedIndex,
@@ -38,13 +39,16 @@ export default function OTPVerifyStep({
   const channelHint =
     channel === 'whatsapp'
       ? 'WhatsApp'
-      : channel === 'sms'
+      : channel === 'sms' || channel === 'sms_gateway'
         ? 'SMS'
         : channel === 'email'
           ? 'Email'
-        : channel
-          ? 'SMS'
-          : null;
+          : channel === 'dev_local'
+            ? 'local testing'
+            : channel
+              ? 'SMS'
+              : null;
+  const showSmsDeliveryHint = channel === 'sms_gateway' || channel === 'dev_local' || !!deliveryWarning;
 
   return (
     <KeyboardAvoidingView style={styles.otpContainer} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
@@ -65,6 +69,12 @@ export default function OTPVerifyStep({
               {otpTarget === 'email' ? email : `${country.dial} ${digitsOnly}`}
               {channelHint ? ` via ${channelHint}` : ''}
             </Text>
+            {showSmsDeliveryHint ? (
+              <Text style={styles.otpDeliveryHint}>
+                {deliveryWarning ||
+                  'SMS can take up to a minute. If you do not receive it, go back and try WhatsApp or Email login.'}
+              </Text>
+            ) : null}
           </View>
           <View style={styles.otpInputsBlock}>
             <View style={styles.otpRow}>

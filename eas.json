@@ -16,7 +16,7 @@
         "buildType": "apk"
       },
       "env": {
-        "EXPO_PUBLIC_API_BASE_URL": "http://15.207.119.50:5000"
+        "EXPO_PUBLIC_API_BASE_URL": "https://api.mineralbridge.com"
       }
     },
     "production": {
@@ -28,7 +28,7 @@
         "buildConfiguration": "Release"
       },
       "env": {
-        "EXPO_PUBLIC_API_BASE_URL": "http://15.207.119.50:5000"
+        "EXPO_PUBLIC_API_BASE_URL": "https://api.mineralbridge.com"
       }
     }
   },

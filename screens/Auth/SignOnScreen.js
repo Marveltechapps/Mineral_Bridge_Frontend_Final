@@ -35,6 +35,7 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
   const [emailError, setEmailError] = useState('');
   const error = phoneError || emailError;
   const [otpChannel, setOtpChannel] = useState(null);
+  const [otpDeliveryWarning, setOtpDeliveryWarning] = useState('');
   const [policyModal, setPolicyModal] = useState(null);
   const [countryPickerOpen, setCountryPickerOpen] = useState(false);
   const [phoneFocused, setPhoneFocused] = useState(false);
@@ -155,6 +156,8 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
       const { data } = await readApiJsonBody(res);
       if (!res.ok) throw new Error(data.message || data.error || `Request failed (${res.status})`);
       setOtpChannel(data.channel || channel);
+      setOtpDeliveryWarning(data.deliveryWarning || '');
+      setOtp(['', '', '', '']);
       if (channel === 'sms' || channel === 'whatsapp') setPreferredChannel(channel);
       setStep('otp');
       setTimer(30);
@@ -255,8 +258,9 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
       const { data } = await readApiJsonBody(res);
       if (!res.ok) throw new Error(data.message || data.error || `Request failed (${res.status})`);
       setOtpChannel(data.channel || null);
-      setTimer(30);
+      setOtpDeliveryWarning(data.deliveryWarning || '');
       setOtp(['', '', '', '']);
+      setTimer(30);
     } catch (e) {
       const msg = e.message || 'Failed to resend OTP';
       if (otpTarget === 'email') setEmailError(msg);
@@ -479,6 +483,7 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
         country={country}
         digitsOnly={digitsOnly}
         channel={otpChannel || (otpTarget === 'email' ? 'email' : preferredChannel)}
+        deliveryWarning={otpDeliveryWarning}
         otp={otp}
         otpRefs={otpRefs}
         otpFocusedIndex={otpFocusedIndex}
@@ -492,6 +497,7 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
           setPhoneError('');
           setEmailError('');
           setOtpChannel(null);
+          setOtpDeliveryWarning('');
           setOtp(['', '', '', '']);
           setStep('phone');
         }}
