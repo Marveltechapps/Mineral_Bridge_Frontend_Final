@@ -5,7 +5,7 @@ import { setToken, fetchWithAuth, fetchMultipart, fetchPublic, readApiJsonBody, 
 import { pickImageStable } from '../../lib/stablePicker';
 import { uploadAvatar, uploadKycDocuments } from '../../lib/services';
 import { getCountryByDial } from '../../lib/countries';
-import { validatePhone } from '../../lib/phoneValidation';
+import { validatePhone, getOtpNationalDigits } from '../../lib/phoneValidation';
 import ImageReviewCropModal from '../../components/ImageReviewCropModal';
 
 import LoginStep from './steps/LoginStep';
@@ -60,7 +60,7 @@ export default function SignOnScreen({ onComplete, onboardingResume }) {
     EMAIL_REGEX.test(trimmedIdentityEmail) &&
     !!identityAvatarUri;
 
-  const digitsOnly = phone.replace(/\D/g, '');
+  const digitsOnly = getOtpNationalDigits(country, phone);
   const validation = validatePhone(country, digitsOnly);
   const minLen = (country.lengths && country.lengths[0]) || 10;
   const showInvalid = digitsOnly.length >= minLen && !validation.valid;

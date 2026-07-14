@@ -10,6 +10,7 @@
     "setup:tunnel": "node scripts/setup-tunnel-env.js",
     "start:phone": "node scripts/write-lan-env.js && expo start --go --lan --port 8082",
     "start:tunnel": "node scripts/setup-tunnel-env.js && expo start --go --tunnel -c --port 8082",
+    "start:ios": "expo start --go --ios --localhost --port 8081",
     "start:emu": "node scripts/switch-env.js emu && expo start --go",
     "android": "expo run:android",
     "ios": "expo run:ios",
