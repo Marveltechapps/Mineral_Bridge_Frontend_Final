@@ -29,8 +29,9 @@ export default function RootStack({ onLogout }) {
         name="ArtisanalDashboard"
         component={ArtisanalDashboardScreen}
         options={{
-          presentation: 'fullScreenModal',
           headerShown: false,
+          animation: 'slide_from_right',
+          gestureDirection: 'horizontal',
         }}
       />
       <Stack.Screen

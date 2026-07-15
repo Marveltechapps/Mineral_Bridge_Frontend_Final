@@ -27,7 +27,7 @@ export default function EligibilityScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Artisanal mining program</Text>
-      <Text style={styles.subtitle}>Without verified eligibility, miners face low trust and poor pricing.</Text>
+      <Text style={styles.subtitle}>Complete verification to unlock trusted trade access and fair pricing.</Text>
       <Text style={styles.regionList}>{countries.join(', ')}</Text>
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('ArtisanalStep1')}>
         <Text style={styles.buttonText}>Start Mining Verification Flow</Text>

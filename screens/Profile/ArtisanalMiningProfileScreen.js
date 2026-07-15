@@ -14,7 +14,6 @@ import {
 import { Icon } from '../../lib/icons';
 import { colors } from '../../lib/theme';
 import { fetchWithAuth, getApiBase, getToken } from '../../lib/api';
-import { getArtisanalCanAccess } from '../../lib/services';
 
 const { height: WINDOW_HEIGHT } = Dimensions.get('window');
 const HEADER_EXTRA_TOP = Math.round(WINDOW_HEIGHT * 0.06);
@@ -54,49 +53,16 @@ function FieldRow({ label, value, isLast }) {
 export default function ArtisanalMiningProfileScreen({ navigation }) {
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [canAccess, setCanAccess] = useState(null);
 
   useEffect(() => {
-    getArtisanalCanAccess()
-      .then((r) => setCanAccess(!!(r && r.canAccess)))
-      .catch(() => setCanAccess(false));
-  }, []);
-
-  useEffect(() => {
-    if (canAccess === false) return;
     fetchWithAuth('/api/artisanal/profile')
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => setProfile(data))
       .catch(() => setProfile(null))
       .finally(() => setLoading(false));
-  }, [canAccess]);
+  }, []);
 
   const onBack = () => navigation.goBack();
-
-  if (canAccess === false) {
-    return (
-      <View style={styles.wrapper}>
-        <View style={styles.header}>
-          <View style={styles.headerRow}>
-            <Pressable style={({ pressed }) => [styles.backBtn, pressed && styles.backBtnHover]} onPress={onBack}>
-              <Icon name="chevronLeft" size={24} color={DROPDOWN_BLUE} />
-            </Pressable>
-            <View style={styles.headerTitleBlock}>
-              <Text style={styles.headerTitle}>Artisanal Mining Profile</Text>
-            </View>
-            <View style={styles.headerRight} />
-          </View>
-        </View>
-        <View style={styles.centered}>
-          <Icon name="alertCircle" size={48} color={RED} />
-          <Text style={[styles.emptyText, { marginTop: 16 }]}>Not Available</Text>
-          <Text style={styles.emptySubtext}>
-            Artisanal Mining is only available for users who signed in with an eligible African country number.
-          </Text>
-        </View>
-      </View>
-    );
-  }
 
   if (loading) {
     return (

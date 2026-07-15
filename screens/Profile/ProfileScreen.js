@@ -18,7 +18,6 @@ import { uploadAvatar } from '../../lib/services';
 import { pickImageStable, checkPendingImageResult } from '../../lib/stablePicker';
 import { colors } from '../../lib/theme';
 import { Icon } from '../../lib/icons';
-import { useArtisanalCanAccess } from '../../lib/ArtisanalAccessContext';
 import { useHeaderPaddingTop } from '../../lib/headerInsets';
 import { normalizeRemoteImageUri } from '../../lib/remoteImageUri';
 
@@ -43,7 +42,6 @@ export default function ProfileScreen({ navigation, onLogout }) {
   const { width } = useWindowDimensions();
   const profileHeaderPaddingTop = useHeaderPaddingTop(PROFILE_HEADER_TOP);
   const contentWidth = Math.min(width, 420);
-  const { isAfrican } = useArtisanalCanAccess();
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showLogoutConfirm, setShowLogoutConfirm] = useState(false);
@@ -170,7 +168,7 @@ export default function ProfileScreen({ navigation, onLogout }) {
       </View>
 
       <View style={[styles.card, { width: contentWidth - 40, alignSelf: 'center' }]}>
-        {MENU_ITEMS_BASE.filter((item) => item.id !== 'artisanal' || isAfrican).map((item) => (
+        {MENU_ITEMS_BASE.map((item) => (
           <TouchableOpacity
             key={item.id}
             style={styles.menuRow}

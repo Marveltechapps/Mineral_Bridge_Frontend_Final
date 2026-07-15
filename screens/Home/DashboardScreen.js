@@ -11,18 +11,17 @@ import {
   Linking,
   RefreshControl,
   useWindowDimensions,
-  Alert,
 } from 'react-native';
 import { Image as ExpoImage } from 'expo-image';
 import { useFocusEffect } from '@react-navigation/native';
-import { getMe, getMarketInsights, getBanners, getUnreadNotificationCount, getBannerImageLayout } from '../../lib/services';
+import { getMe, getMarketInsights, getBanners, getUnreadNotificationCount, getBannerImageLayout, getArtisanalProfile } from '../../lib/services';
 import { colors, fonts } from '../../lib/theme';
 import { Icon } from '../../lib/icons';
-import { useArtisanalCanAccess } from '../../lib/ArtisanalAccessContext';
 import { useHeaderPaddingTop } from '../../lib/headerInsets';
 import { normalizeRemoteImageUri } from '../../lib/remoteImageUri';
+import { navigationRef } from '../../navigation/navigationRef';
+import { hasCompletedArtisanalOnboarding } from '../../lib/artisanalEligibility';
 
-const ACCESS_BUTTON_GREEN = '#16A34A';
 const { height: WINDOW_HEIGHT } = Dimensions.get('window');
 const HEADER_TOP = Math.round(WINDOW_HEIGHT * 0.02); // 2% of screen height
 const HEADER_BOTTOM = Math.round(WINDOW_HEIGHT * 0.02); // 2% of screen height
@@ -35,27 +34,18 @@ export default function DashboardScreen({ navigation }) {
   // Buy/Sell row, Home banner 2, and Artisanal card share the same top offset
   const stackedSectionMarginTop = Math.max(0, ctaRowGapBelowBanner - ctaRowMarginUp);
   const sectionMarginDown1Pct = Math.round(windowHeight * 0.01);
-  const { isAfrican } = useArtisanalCanAccess();
   const headerPaddingTop = useHeaderPaddingTop(HEADER_TOP);
   const [user, setUser] = useState(null);
   const [insights, setInsights] = useState([]);
   const [homeBanners, setHomeBanners] = useState([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
-  const [showAccessRestrictedToast, setShowAccessRestrictedToast] = useState(false);
   const [unreadNotificationCount, setUnreadNotificationCount] = useState(0);
+  const [artisanalEnterBusy, setArtisanalEnterBusy] = useState(false);
   const homeBanner1Height = Math.round(((windowWidth - 32) * 195) / 358);
   const homeBanner2Height = Math.round(((windowWidth - 32) * 160) / 358);
 
   const onBuyPress = () => {
-    if (isAfrican) {
-      Alert.alert(
-        'Buying not available',
-        'Artisanal users are not allowed to buy minerals. You can sell minerals from the Sell tab.',
-        [{ text: 'OK', onPress: () => navigation.getParent()?.navigate('Sell') }]
-      );
-      return;
-    }
     navigation.getParent()?.navigate('Buy');
   };
 
@@ -100,19 +90,24 @@ export default function DashboardScreen({ navigation }) {
     loadDashboardData(false);
   }, [loadDashboardData]);
 
-  const onArtisanalAccessPress = () => {
-    if (isAfrican) {
+  const onArtisanalAccessPress = async () => {
+    if (artisanalEnterBusy) return;
+    setArtisanalEnterBusy(true);
+    try {
+      const profile = await getArtisanalProfile().catch(() => null);
+      if (hasCompletedArtisanalOnboarding(profile)) {
+        if (navigationRef.isReady()) {
+          navigationRef.navigate('ArtisanalDashboard');
+        } else {
+          navigation.getParent()?.getParent?.()?.navigate('ArtisanalDashboard');
+        }
+        return;
+      }
       navigation.navigate('RegionEligible');
-    } else {
-      setShowAccessRestrictedToast(true);
+    } finally {
+      setArtisanalEnterBusy(false);
     }
   };
-
-  useEffect(() => {
-    if (!showAccessRestrictedToast) return;
-    const t = setTimeout(() => setShowAccessRestrictedToast(false), 4000);
-    return () => clearTimeout(t);
-  }, [showAccessRestrictedToast]);
 
   const hasMarketInsights = Array.isArray(insights) && insights.length > 0;
   const sortedHomeBanners = [...homeBanners].sort((a, b) => {
@@ -299,13 +294,15 @@ export default function DashboardScreen({ navigation }) {
           </View>
         </TouchableOpacity>
 
-        {/* Artisanal Mining – only African (by phone) can access; non-African gets toast */}
+        {/* Artisanal Mining – open to all logged-in users */}
         <TouchableOpacity
           style={[
             styles.artisanalCard,
             { marginTop: stackedSectionMarginTop, marginBottom: 16 + sectionMarginDown1Pct },
+            artisanalEnterBusy && { opacity: 0.7 },
           ]}
           onPress={onArtisanalAccessPress}
+          disabled={artisanalEnterBusy}
         >
           <View style={styles.artisanalContent}>
             <View style={styles.artisanalIconWrap}>
@@ -342,14 +339,6 @@ export default function DashboardScreen({ navigation }) {
 
       </View>
     </ScrollView>
-    {/* Non-African toast: green bar at bottom (tab bar area), same color as Access button */}
-    {showAccessRestrictedToast && (
-      <View style={styles.accessRestrictedToast}>
-        <Text style={styles.accessRestrictedToastText}>
-          Artisanal Profile Allowed only for African Users.
-        </Text>
-      </View>
-    )}
     </View>
   );
 }
@@ -358,24 +347,6 @@ const styles = StyleSheet.create({
   screenWrap: { flex: 1 },
   container: { flex: 1, backgroundColor: '#F9FAFB' },
   content: { paddingBottom: 48 },
-  accessRestrictedToast: {
-    position: 'absolute',
-    bottom: 0,
-    left: 0,
-    right: 0,
-    backgroundColor: ACCESS_BUTTON_GREEN,
-    paddingVertical: 14,
-    paddingHorizontal: 20,
-    paddingBottom: Math.max(14, 34),
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  accessRestrictedToastText: {
-    fontSize: 14,
-    fontWeight: '600',
-    color: '#FFFFFF',
-    textAlign: 'center',
-  },
   centered: { flex: 1, justifyContent: 'center', alignItems: 'center' },
   header: {
     width: '100%',

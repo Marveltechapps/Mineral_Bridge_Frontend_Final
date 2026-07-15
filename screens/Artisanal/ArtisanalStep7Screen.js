@@ -72,12 +72,13 @@ export default function ArtisanalStep7Screen({ route, navigation }) {
         const data = await res.json().catch(() => ({}));
         throw new Error(data.error || 'Failed to save profile');
       }
+      const dashParams = { profileJustActivated: true };
       if (navigationRef.isReady()) {
-        navigationRef.navigate('ArtisanalDashboard');
+        navigationRef.navigate('ArtisanalDashboard', dashParams);
       } else {
         const rootNav = navigation.getParent()?.getParent?.();
-        if (rootNav) rootNav.navigate('ArtisanalDashboard');
-        else navigation.reset({ index: 0, routes: [{ name: 'ArtisanalDashboard' }] });
+        if (rootNav) rootNav.navigate('ArtisanalDashboard', dashParams);
+        else navigation.reset({ index: 0, routes: [{ name: 'ArtisanalDashboard', params: dashParams }] });
       }
     } catch (e) {
       Alert.alert('Error', e.message || 'Failed to save profile');

@@ -11,6 +11,9 @@ import {
 } from 'react-native';
 import { colors } from '../../lib/theme';
 import { Icon } from '../../lib/icons';
+import { getArtisanalProfile } from '../../lib/services';
+import { navigationRef } from '../../navigation/navigationRef';
+import { hasCompletedArtisanalOnboarding } from '../../lib/artisanalEligibility';
 
 const { height: WINDOW_HEIGHT } = Dimensions.get('window');
 const CANCEL_TOP = Math.round(WINDOW_HEIGHT * 0.03);
@@ -28,7 +31,20 @@ export default function RegionEligibleScreen({ navigation }) {
   }, []);
 
   const onClose = () => navigation.goBack();
-  const onContinue = () => {
+
+  const onContinue = async () => {
+    try {
+      const profile = await getArtisanalProfile().catch(() => null);
+      if (hasCompletedArtisanalOnboarding(profile)) {
+        navigation.goBack();
+        if (navigationRef.isReady()) {
+          navigationRef.navigate('ArtisanalDashboard');
+        } else {
+          navigation.getParent()?.getParent?.()?.navigate('ArtisanalDashboard');
+        }
+        return;
+      }
+    } catch (_) {}
     navigation.goBack();
     navigation.getParent()?.navigate('Mining', { screen: 'ArtisanalStep1' });
   };

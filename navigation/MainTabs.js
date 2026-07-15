@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image, Dimensions, useWindowDimensions, Alert } from 'react-native';
+import { View, Text, StyleSheet, Image, Dimensions, useWindowDimensions } from 'react-native';
 import { useArtisanalCanAccess } from '../lib/ArtisanalAccessContext';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { getFocusedRouteNameFromRoute } from '@react-navigation/native';
@@ -39,7 +39,7 @@ function TabBarIconWithLabel({ label, iconName, focused, imageSource }) {
 }
 
 export default function MainTabs({ onLogout }) {
-  const { canAccess: artisanalCanAccess, isAfrican } = useArtisanalCanAccess();
+  const { canAccess: artisanalCanAccess } = useArtisanalCanAccess();
   const { width: screenWidth } = useWindowDimensions();
   const safeMaxWidth = Math.min(screenWidth, 420);
 
@@ -66,30 +66,28 @@ export default function MainTabs({ onLogout }) {
           };
         }}
       />
-      {!isAfrican && (
-        <Tab.Screen
-          name="Buy"
-          component={BuyStack}
-          options={({ route }) => {
-            const routeName = getFocusedRouteNameFromRoute(route) ?? 'BuyList';
-            const hideTabBar =
-              routeName === 'BuySubCategory' ||
-              routeName === 'MineralDetail' ||
-              routeName === 'Quantity' ||
-              routeName === 'Delivery' ||
-              routeName === 'Payment' ||
-              routeName === 'OrderConfirmed';
-            return {
-              tabBarStyle: hideTabBar
-                ? { display: 'none' }
-                : [styles.tabBar, { width: safeMaxWidth, maxWidth: safeMaxWidth }],
-              tabBarIcon: ({ focused }) => (
-                <TabBarIconWithLabel label="Buy" iconName="cart" focused={focused} />
-              ),
-            };
-          }}
-        />
-      )}
+      <Tab.Screen
+        name="Buy"
+        component={BuyStack}
+        options={({ route }) => {
+          const routeName = getFocusedRouteNameFromRoute(route) ?? 'BuyList';
+          const hideTabBar =
+            routeName === 'BuySubCategory' ||
+            routeName === 'MineralDetail' ||
+            routeName === 'Quantity' ||
+            routeName === 'Delivery' ||
+            routeName === 'Payment' ||
+            routeName === 'OrderConfirmed';
+          return {
+            tabBarStyle: hideTabBar
+              ? { display: 'none' }
+              : [styles.tabBar, { width: safeMaxWidth, maxWidth: safeMaxWidth }],
+            tabBarIcon: ({ focused }) => (
+              <TabBarIconWithLabel label="Buy" iconName="cart" focused={focused} />
+            ),
+          };
+        }}
+      />
       <Tab.Screen
         name="Sell"
         component={SellStack}

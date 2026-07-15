@@ -6,7 +6,16 @@ jest.mock('../../lib/services', () => ({
   getMarketInsights: jest.fn(() => Promise.resolve([])),
   getBanners: jest.fn(() => Promise.resolve([])),
   getUnreadNotificationCount: jest.fn(() => Promise.resolve(0)),
-  getArtisanalCanAccess: jest.fn(() => Promise.resolve({ canAccess: true, country: true })),
+  getArtisanalCanAccess: jest.fn(() => Promise.resolve({ canAccess: true, isEligible: true, country: null })),
+  getArtisanalProfile: jest.fn(() => Promise.resolve(null)),
+  getBannerImageLayout: jest.fn(() => ({ uri: null, contentFit: 'cover' })),
+}));
+
+jest.mock('../../navigation/navigationRef', () => ({
+  navigationRef: {
+    isReady: jest.fn(() => false),
+    navigate: jest.fn(),
+  },
 }));
 
 jest.mock('@react-navigation/native', () => ({
@@ -14,7 +23,11 @@ jest.mock('@react-navigation/native', () => ({
 }));
 
 jest.mock('../../lib/ArtisanalAccessContext', () => ({
-  useArtisanalCanAccess: () => ({ isAfrican: true }),
+  useArtisanalCanAccess: () => ({ canAccess: true, isEligible: true, isAfrican: false }),
+}));
+
+jest.mock('../../lib/headerInsets', () => ({
+  useHeaderPaddingTop: (n) => n || 0,
 }));
 
 jest.mock('../../lib/icons', () => ({
@@ -28,7 +41,7 @@ jest.mock('expo-image', () => ({
 const DashboardScreen = require('../../screens/Home/DashboardScreen').default;
 
 describe('DashboardScreen StoryBrand microcopy', () => {
-  it('renders the 2 primary CTAs after loading', async () => {
+  it('renders Buy, Sell, and Artisanal CTAs after loading', async () => {
     const navigation = {
       navigate: jest.fn(),
       getParent: () => ({ navigate: jest.fn() }),
@@ -37,10 +50,9 @@ describe('DashboardScreen StoryBrand microcopy', () => {
     const { getByText } = render(<DashboardScreen navigation={navigation} />);
 
     await waitFor(() => {
-      expect(getByText('Start Buying Verified Minerals')).toBeTruthy();
-      expect(getByText('Start Selling at Fair Price')).toBeTruthy();
-      expect(getByText('You are trading in a verified global mineral market.')).toBeTruthy();
+      expect(getByText('Buy Minerals')).toBeTruthy();
+      expect(getByText('Sell Minerals')).toBeTruthy();
+      expect(getByText('For Artisanal Miners')).toBeTruthy();
     });
   });
 });
-
